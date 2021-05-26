@@ -1,0 +1,37 @@
+.header {
+    height: 120px;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+}
+.header__container {
+    margin: 10px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header__button {
+    border: none;
+    height: 100px;
+    width: 130px;
+    cursor: pointer;
+    background: none;
+    font-family: "Raleway";
+    margin: 3px;
+}
+.header__buttonText {
+    color: whitesmoke;
+    font-size: large;
+}
+.header__icon {
+    object-fit: contain;
+}
+.header__links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
