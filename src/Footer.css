@@ -2,6 +2,7 @@
     font-family: "Open Sans";
     position: fixed;
     bottom: 0;
+    display: flex;
     height: 60px;
     width: 100vw;
     display: flex;
@@ -9,4 +10,33 @@
     color: whitesmoke;
     align-items: center;
     justify-content: center;
+  }
+  .footer__copyright {
+    font-size: 20px;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  .footer__button {
+    height: 35px;
+    width: 12%;
+    color: whitesmoke;
+    background: none;
+    border-color: whitesmoke;
+    border-radius: 5px;
+    align-content: center;
+    justify-content: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .footer__buttonText {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+  .footer__email {
+    font-size: 20px;
+    margin-left: 3%;
+    margin-right: 3%;
   }

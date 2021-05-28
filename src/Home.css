@@ -1,21 +1,41 @@
 body > #root > div {
     height: 100vh;
     width: 100vw;
+    background-color: black;
 }
 .home__page {
-    background-image: url("https://i.imgur.com/qVW5jRL.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100%;
-}
-.home__title {
-    margin-top: 30px;
-    font-family: "Raleway";
-    font-size: 70px;
-    font-weight: 300;
-    color: whitesmoke;
-}
-.home__icon {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    max-height: 100vh;
     object-fit: contain;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+}
+.home__containerTop {
+    margin-top: 3%;
+    display: flex;
+    flex: 1;
+    width: 90vw;
+    align-items: center;
+    justify-content: center;
+}
+.home__containerBottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    width: 80vw;
+}
+.home__logo {
+    display: flex;
+    object-fit: contain;
+    height: auto;
+    padding: 2%;
+    max-height: 250px;
+    overflow-y: hidden;
+}
+.home__demoVideo {
+    display: flex;
 }
