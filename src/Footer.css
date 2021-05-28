@@ -1,5 +1,6 @@
 .footer {
-    font-family: "Open Sans";
+    z-index: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: fixed;
     bottom: 0;
     display: flex;
@@ -15,10 +16,11 @@
     font-size: 20px;
     margin-left: 3%;
     margin-right: 3%;
+    text-align: center;
   }
   .footer__button {
     height: 35px;
-    width: 12%;
+    width: 20%;
     color: whitesmoke;
     background: none;
     border-color: whitesmoke;
@@ -40,3 +42,48 @@
     margin-left: 3%;
     margin-right: 3%;
   }
+  @media only screen and (max-width: 720px) {
+    .footer {
+      display: flex;
+      height: 95px;
+      flex-direction: column-reverse;
+      padding-bottom: 10px;
+    }
+    .footer__button {
+      width: 50%;
+      margin: 3px;
+    }
+    .footer__copyright {
+      font-size: 12px;
+    }
+  }
+  @media only screen and (max-width: 450px) {
+    .footer {
+      height: 120px;
+    }
+    .footer__button {
+      height: 60px;
+      width: 85%;
+      margin-top: 7px;
+      margin-bottom: 7px;
+    }
+    .footer__copyright {
+      font-size: 10px;
+    }
+  }
+  @media only screen and (max-height: 400px) {
+    .footer {
+      padding-bottom: 15px;
+      height: 70px;
+    }
+    .footer__button {
+      width: 30%;
+      margin-left: 0%;
+      margin-right: 0%;
+      height: 55px;
+    }
+    .footer__copyright {
+      font-size: 9px;
+    }
+  }
+  

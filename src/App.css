@@ -1,10 +1,11 @@
+* {
+  background-color: black;
+}
 .app {
   display: flex;
   flex-direction: column;
 }
-.app__main {
-  margin-top: 85px;
-}
+
 
 /* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
