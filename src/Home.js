@@ -4,6 +4,12 @@ import "./Home.css";
 function Home() {
     return (
         <div className='home__page'>
+            <div className='home__containerBottom'>
+                <img 
+                    className='home__logo' 
+                    src='/weekend_logo1.png' 
+                    alt='The Weekend Society Music Logo' />
+            </div>
             <div className='home__containerTop'>
                 <iframe 
                     className='home__demoVideo'
@@ -13,12 +19,6 @@ function Home() {
                     height="400" 
                     frameborder="0" 
                     allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div className='home__containerBottom'>
-                <img 
-                    className='home__logo' 
-                    src='/weekend_logo1.png' 
-                    alt='The Weekend Society Music Logo' />
             </div>
         </div>
     );
