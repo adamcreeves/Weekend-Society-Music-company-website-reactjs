@@ -112,3 +112,12 @@ body > #root > div {
         padding-top: 3%;
     }
 }
+@media only screen and (max-height: 750px) and (min-width: 1000px), (min-width: 1200px) {
+    .home__logo {
+        height: 200px;
+        margin-top: -60px;
+    }
+    .home__demoVideo { 
+        padding-top: 15px;
+    }
+}
