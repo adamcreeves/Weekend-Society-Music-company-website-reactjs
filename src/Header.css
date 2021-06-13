@@ -1,27 +1,31 @@
 .header {
-    height: 50px;
-    position: fixed;
-    top: 0;
-    width: 100vw;
-    z-index: 100;
+    height: 120px;
+    width: 98.5vw;
     display: flex;
     align-items: center;
 }
 .header__container {
     margin: 10px;
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.header__button {
+.header__buttonHome {
     border: none;
-    height: 100px;
-    width: 130px;
+    height: 100%;
+    width: 200px;
     cursor: pointer;
     background: none;
-    font-family: "Raleway";
     margin: 3px;
+}
+.header__button {
+    border: none;
+    height: 100%;
+    width: 150px;
+    cursor: pointer;
+    background: none;
+    margin: 3%;
 }
 .header__buttonText {
     color: whitesmoke;
@@ -29,6 +33,8 @@
 }
 .header__icon {
     object-fit: contain;
+    width: 100%;
+    height: auto;
 }
 .header__links {
     display: flex;

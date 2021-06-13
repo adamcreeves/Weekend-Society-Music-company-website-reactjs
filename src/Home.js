@@ -1,16 +1,25 @@
 import React from "react";
+import Footer from "./Footer";
+import Header from "./Header";
 import "./Home.css";
 
 function Home() {
     return (
         <div className='home__page'>
-            <div className='home__containerBottom'>
-                <img 
-                    className='home__logo' 
-                    src='/weekend_logo1.png' 
-                    alt='The Weekend Society Music Logo' />
+            <div className='home__header'>
+                <Header />
             </div>
             <div className='home__containerTop'>
+                <img 
+                    className='home__imageTop' 
+                    src='/weekendsocietybg.jpg' 
+                    alt='The Weekend Society Music Group' />
+            </div>
+            <div className='home__containerCenter'>
+                <div className='home__welcomeText'>Welcome</div>
+                <div className='home__tagline'>You dance, you party, we'll play</div>
+            </div>
+            <div className='home__containerBottom'>
                 <iframe 
                     className='home__demoVideo'
                     title='Second video'
@@ -19,6 +28,9 @@ function Home() {
                     height="400" 
                     frameborder="0" 
                     allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div className='home__footer'>
+                <Footer />
             </div>
         </div>
     );

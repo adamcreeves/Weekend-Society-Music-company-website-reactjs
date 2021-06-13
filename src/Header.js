@@ -7,29 +7,38 @@ function Header() {
         <div className='header'>
             <div className='header__container'>
                 <Link to='/' className='header__link'>
-                    <button className='header__button'>
+                    <button className='header__buttonHome'>
                         <img 
                             className='header__icon' 
                             src='/weekend_icon.png' 
                             alt='Weekend Society Icon' 
-                            width='120' height='100' 
                         />
                     </button>
                 </Link>
                 <div className='header__links'>
+                    <Link to='/' className='header__link'>
+                        <button className='header__button'>
+                            <h3 className='header__buttonText'>HOME</h3>
+                        </button>
+                    </Link>
+                    <Link to='/services' className='header__link'>
+                        <button className='header__button'>
+                            <h3 className='header__buttonText'>SERVICES</h3>
+                        </button>
+                    </Link>
+                    <Link to='/videos' className='header__link'>
+                        <button className='header__button'>
+                            <h3 className='header__buttonText'>VIDEOS</h3>
+                        </button>
+                    </Link>
                     <Link to='/about' className='header__link'>
                         <button className='header__button'>
                             <h3 className='header__buttonText'>ABOUT</h3>
                         </button>
                     </Link>
-                    <Link to='/gallery' className='header__link'>
+                    <Link to='/contact' className='header__link'>
                         <button className='header__button'>
-                            <h3 className='header__buttonText'>GALLERY</h3>
-                        </button>
-                    </Link>
-                    <Link to='/book' className='header__link'>
-                        <button className='header__button'>
-                            <h3 className='header__buttonText'>BOOK US</h3>
+                            <h3 className='header__buttonText'>CONTACT</h3>
                         </button>
                     </Link>
                 </div>
