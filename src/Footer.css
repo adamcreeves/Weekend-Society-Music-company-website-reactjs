@@ -1,12 +1,13 @@
 .footer {
     display: flex;
     height: auto;
-    width: 98.5vw;
+    width: 98vw;
     display: flex;
     font-size: 12px;
     color: whitesmoke;
     align-items: center;
     justify-content: center;
+    z-index: 100;
   }
   .footer__leftContainer {
     margin-left: 3%;
@@ -51,6 +52,7 @@
     margin-right: 3%;
     align-items: center;
     display: flex;
+    text-align: center;
     flex-direction: column;
   }
   .footer__info {

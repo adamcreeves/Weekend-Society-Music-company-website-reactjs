@@ -17,7 +17,7 @@ function Home() {
             </div>
             <div className='home__containerCenter'>
                 <div className='home__welcomeText'>Welcome</div>
-                <div className='home__tagline'>You dance, you party, we'll play</div>
+                <div className='home__tagline'>You Dance, You Party, We'll Play</div>
             </div>
             <div className='home__containerBottom'>
                 <iframe 
@@ -27,7 +27,8 @@ function Home() {
                     width="753" 
                     height="400" 
                     frameborder="0" 
-                    allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                    allow="autoplay; fullscreen; picture-in-picture" 
+                    allowfullscreen />
             </div>
             <div className='home__footer'>
                 <Footer />

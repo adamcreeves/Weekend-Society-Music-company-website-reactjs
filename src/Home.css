@@ -8,14 +8,19 @@ body > #root > div {
     align-items: center;
 }
 .home__header {
-    height: 100%;
+    height: auto;
+    z-index: 99;
+    margin-top: -30px;
+    margin-bottom: -40px;
 }
 .home__containerTop {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 2%;
     width: 100%;
     height: auto;
+    z-index: 100;
 }
 .home__containerCenter {
     width: 100%;
@@ -48,6 +53,9 @@ body > #root > div {
 .home__demoVideo {
     display: flex;
     object-fit: contain;
+}
+.home__footer {
+    z-index: 100;
 }
 @media only screen and (min-width: 1000px) {
     /* .home__logo {
