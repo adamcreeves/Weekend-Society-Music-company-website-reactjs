@@ -9,7 +9,6 @@ body > #root > div {
 }
 .home__header {
     height: auto;
-    z-index: 99;
     margin-top: -30px;
     margin-bottom: -40px;
 }
@@ -20,7 +19,6 @@ body > #root > div {
     margin-top: 2%;
     width: 100%;
     height: auto;
-    z-index: 100;
 }
 .home__containerCenter {
     width: 100%;
@@ -32,7 +30,7 @@ body > #root > div {
 .home__welcomeText {
     font-size: 70px;
     margin: 2%;
-    font-weight: 900;
+    font-weight: 1000;
 }
 .home__tagline {
     font-size: 25px;
@@ -53,6 +51,7 @@ body > #root > div {
 .home__demoVideo {
     display: flex;
     object-fit: contain;
+    max-width: 95%;
 }
 .home__footer {
     z-index: 100;
@@ -91,45 +90,48 @@ body > #root > div {
         align-items: center;
     } */
 }
-@media only screen and (max-width: 450px) {
-    /* body > #root > div {
-        height: auto;
-        width: 100vw;
+@media only screen and (max-width: 500px) {
+    .home__welcomeText {
+        font-size: 40px;
     }
-    .home__page {
-        height: auto;
+    .home__header {
+        margin-top: -10px;
+        margin-bottom: 1px;
     }
-    .home__containerBottom {
-        height: auto;
-        margin-top: -10%;
-        margin-bottom: -30px;
-    }
-    .home__containerTop {
-        margin-top: 10%;
-        margin-bottom: -10%;
-        height: auto;
-        align-content: unset;
-    }
-    .home__logo {
-        object-fit: cover;
-        max-width: 90%;
-        max-height: 90%;
+    .home__tagline {
+        font-size: 18px;
     }
     .home__demoVideo {
         max-width: 95%;
-    } */
+    }
+    .home__containerBottom {
+        margin-top: -72px;
+        margin-bottom: 40px;
+        z-index: 0
+    }
+    .home__containerCenter {
+        margin-top: 20px;
+        margin-bottom: -72px;
+        z-index: 10;
+    }
+    .home__footer {
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
 }
 @media only screen and (max-height: 400px) {
-    /* .home__page {
-        padding-top: 14%;
+    .home__containerCenter {
+        margin-top: 20px;
+        margin-bottom: 5px;
     }
-    .home__demoVideo {
-        max-width: 70%;
-        min-width: 300px;
+    .home__header {
+        margin-bottom: 1px;
     }
-    .home__containerTop {
-        padding-top: 3%;
-    } */
+    .home__footer {
+        margin-top: 25px;
+        margin-bottom: 7px;
+    }
+    
 }
 @media only screen and (max-height: 750px) and (min-width: 1000px), (min-width: 1200px) {
     /* .home__logo {

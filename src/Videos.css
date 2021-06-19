@@ -40,3 +40,50 @@ body > #root > div {
 .videos__footer {
     z-index: 100;
 }
+@media only screen and (max-width: 500px) {
+    .videos__row {
+        flex-direction: column;
+        /* margin-top: -20px;
+        margin-bottom: -20px; */
+    }
+    .videos__video {
+        align-items: center;
+        justify-content: center;
+        width: 99%;
+    }
+    .videos__video iframe {
+        max-width: 100%; 
+        max-height: 100%;
+        margin-top: -45px;
+        margin-bottom: -20px;
+    }
+    .videos__title {
+        margin-top: 50px;
+    }
+    .videos__footer {
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-height: 400px) {
+    .videos__row {
+        flex-direction: column;
+    }
+    .videos__video {
+        align-items: center;
+        justify-content: center;
+        width: 99%;
+    }
+    .videos__video iframe {
+        max-width: 100%; 
+        max-height: 100%;
+        margin-top: -45px;
+        margin-bottom: -20px;
+    }
+    .videos__title {
+        margin-top: 35px;
+        margin-bottom: 40px;
+    }
+    .videos__footer {
+        margin-bottom: 20px;
+    }
+}

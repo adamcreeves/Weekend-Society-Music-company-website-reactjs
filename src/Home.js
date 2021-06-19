@@ -4,11 +4,18 @@ import Header from "./Header";
 import "./Home.css";
 
 function Home() {
-    return (
-        <div className='home__page'>
-            <div className='home__header'>
+
+    const renderHeader = () => {
+        return (
+            <div id='webHeader' className='home__header'>
                 <Header />
             </div>
+        );
+    }
+
+    return (
+        <div className='home__page'>
+            {renderHeader()}
             <div className='home__containerTop'>
                 <img 
                     className='home__imageTop' 
@@ -35,6 +42,6 @@ function Home() {
             </div>
         </div>
     );
-};
+}
 
 export default Home;
