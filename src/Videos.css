@@ -47,6 +47,7 @@ body > #root > div {
         margin-bottom: -20px; */
     }
     .videos__video {
+        flex: 1;
         align-items: center;
         justify-content: center;
         width: 99%;
@@ -76,8 +77,8 @@ body > #root > div {
     .videos__video iframe {
         max-width: 100%; 
         max-height: 100%;
-        margin-top: -45px;
-        margin-bottom: -20px;
+        /* margin-top: -15px;
+        margin-bottom: -10px; */
     }
     .videos__title {
         margin-top: 35px;

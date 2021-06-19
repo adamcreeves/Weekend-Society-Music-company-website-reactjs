@@ -102,21 +102,28 @@ body > #root > div {
         font-size: 18px;
     }
     .home__demoVideo {
-        max-width: 95%;
+        width: 100%;
+        height: auto;
     }
     .home__containerBottom {
-        margin-top: -72px;
-        margin-bottom: 40px;
-        z-index: 0
+        margin-top: 20px;
+        margin-bottom: 15px;
+        margin-left: -45px;
+        width: 100%;
+        flex: 1;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .home__containerCenter {
         margin-top: 20px;
-        margin-bottom: -72px;
-        z-index: 10;
+        flex: 1;
     }
     .home__footer {
         margin-top: 25px;
         margin-bottom: 20px;
+        flex: 1;
     }
 }
 @media only screen and (max-height: 400px) {
@@ -131,7 +138,9 @@ body > #root > div {
         margin-top: 25px;
         margin-bottom: 7px;
     }
-    
+    .home__containerBottom {
+        margin-bottom: 30px;
+    }
 }
 @media only screen and (max-height: 750px) and (min-width: 1000px), (min-width: 1200px) {
     /* .home__logo {
