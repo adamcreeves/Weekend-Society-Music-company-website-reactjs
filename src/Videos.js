@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "./Footer";
 import Header from "./Header";
 import './Videos.css';
+import ReactPlayer from "react-player";
 
 function Videos() {
     return (
@@ -13,103 +14,39 @@ function Videos() {
             <div className='videos__container'>
                 <div className='videos__row'>
                     <div className='videos__video'>
-                        <iframe  
-                            title='video1'
-                            src="https://player.vimeo.com/video/560991462" 
-                            width="640" 
-                            height="564" 
-                            frameborder="0" 
-                            allow="autoplay; fullscreen" 
-                            allowfullscreen />
+                        <ReactPlayer className='video' url='https://vimeo.com/560991462' />
                     </div>
                     <div className='videos__video'>
-                        <iframe 
-                            title='video2' 
-                            src="https://player.vimeo.com/video/557864630" 
-                            width="640" 
-                            height="564" 
-                            frameborder="0" 
-                            llow="autoplay; fullscreen" 
-                            allowfullscreen />
+                        <ReactPlayer className='video' url='https://vimeo.com/557864630' />
                     </div>
                 </div>
                 <div className='videos__row'>
                     <div className='videos__video'>
-                        <iframe 
-                            title='video3' 
-                            src="https://player.vimeo.com/video/560094415" 
-                            width="640" 
-                            height="564" 
-                            frameborder="0" 
-                            allow="autoplay; fullscreen" 
-                            allowfullscreen />
+                        <ReactPlayer className='video' url='https://vimeo.com/560094415' />
                     </div>
                     <div className='videos__video'>
-                        <iframe 
-                            title='video4' 
-                            src="https://player.vimeo.com/video/555427896" 
-                            width="640" 
-                            height="564" 
-                            frameborder="0" 
-                            allow="autoplay; fullscreen" 
-                            allowfullscreen />
+                        <ReactPlayer className='video' url='https://vimeo.com/555427896' />
                     </div>
                 </div>
                 <div className='videos__row'>
                     <div className='videos__video'>
-                        <iframe 
-                            title='video5' 
-                            src="https://player.vimeo.com/video/561555897" 
-                            width="640" 
-                            height="564"
-                            frameborder="0" 
-                            allow="autoplay; fullscreen" 
-                            allowfullscreen />
+                        <ReactPlayer className='video' url='https://vimeo.com/561555897' />
                     </div>
                     <div className='videos__video'>
-                        <iframe 
-                            title='video6' 
-                            src="https://player.vimeo.com/video/561558104" 
-                            width="640" 
-                            height="564" 
-                            frameborder="0" 
-                            allow="autoplay; fullscreen" 
-                            allowfullscreen />
+                        <ReactPlayer className='video' url='https://vimeo.com/561558104' />
                     </div>
                 </div>
                 <div className='videos__row'>
                     <div className='videos__video'>
-                        <iframe
-                            title='video7' 
-                            src="https://player.vimeo.com/video/563801264" 
-                            width="640" 
-                            height="564" 
-                            frameborder="0" 
-                            allow="autoplay; fullscreen" 
-                            allowfullscreen />
+                        <ReactPlayer className='video' url='https://vimeo.com/563801264' />
                     </div>
                     <div className='videos__video'>
-                        <iframe 
-                            className='videos_videoSecond'
-                            title='video8' 
-                            src="https://player.vimeo.com/video/563801725" 
-                            width="640" 
-                            height="564" 
-                            frameborder="0" 
-                            allow="autoplay; fullscreen" 
-                            allowfullscreen />
+                        <ReactPlayer className='video' url='https://vimeo.com/563801725' />
                     </div>
                 </div>
                 <div className='videos__row'>
                     <div className='videos__video'>
-                        <iframe  
-                            title='video9' 
-                            src="https://player.vimeo.com/video/563807130" 
-                            width="640" 
-                            height="564" 
-                            frameborder="0" 
-                            allow="autoplay; fullscreen" 
-                            allowfullscreen />
+                        <ReactPlayer className='video' url='https://vimeo.com/563807130' />
                     </div>
                 </div>
             </div>

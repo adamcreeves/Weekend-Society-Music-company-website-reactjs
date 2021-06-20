@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "./Footer";
 import Header from "./Header";
 import "./Home.css";
+import ReactPlayer from "react-player";
 
 function Home() {
 
@@ -27,7 +28,10 @@ function Home() {
                 <div className='home__tagline'>You Dance, You Party, We'll Play</div>
             </div>
             <div className='home__containerBottom'>
-                <iframe 
+                <div className='home__video'>
+                    <ReactPlayer className='video' url='https://vimeo.com/555427896' />
+                </div>
+                {/* <iframe 
                     className='home__demoVideo'
                     title='Second video'
                     src="https://player.vimeo.com/video/555427896" 
@@ -35,7 +39,7 @@ function Home() {
                     height="400" 
                     frameborder="0" 
                     allow="autoplay; fullscreen; picture-in-picture" 
-                    allowfullscreen />
+                    allowfullscreen /> */}
             </div>
             <div className='home__footer'>
                 <Footer />
