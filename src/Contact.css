@@ -1,0 +1,15 @@
+.contact__page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.contact__container {
+    width: 100%;
+}
+.contact__header {
+    height: auto;
+}
+.contact__footer {
+    height: auto;
+}

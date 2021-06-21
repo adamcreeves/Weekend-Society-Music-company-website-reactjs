@@ -54,7 +54,11 @@
 }
 @media only screen and (max-width: 500px) {
     .videos__container {
-        margin-bottom: 50px;
+        margin-bottom: 0px;
+    }
+    .videos__header {
+        margin-top: -10px;
+        margin-bottom: 1px;
     }
     .videos__video {
         width: 100%;

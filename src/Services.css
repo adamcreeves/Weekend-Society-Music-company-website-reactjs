@@ -1,0 +1,15 @@
+.services__page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.services__container {
+    width: 100%;
+}
+.services__header {
+    height: auto;
+}
+.services__footer {
+    height: auto;
+}

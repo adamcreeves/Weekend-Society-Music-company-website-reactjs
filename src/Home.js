@@ -1,6 +1,6 @@
 import React from "react";
-import Footer from "./Footer";
 import Header from "./Header";
+import Footer from "./Footer";
 import "./Home.css";
 import ReactPlayer from "react-player";
 
@@ -8,7 +8,7 @@ function Home() {
 
     const renderHeader = () => {
         return (
-            <div id='webHeader' className='home__header'>
+            <div className='home__header'>
                 <Header />
             </div>
         );
