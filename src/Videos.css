@@ -7,14 +7,6 @@
 .videos__header {
     height: auto;
 }
-.videos__title {
-    color: white;
-    align-self: flex-start !important;
-    margin-left: 30%;
-    font-size: 40px;
-    font-weight: 1000;
-    margin-top: 15px;
-}
 .videos__container {
     width: 100%;
 }
@@ -34,7 +26,7 @@
     color: white;
     width: 100%;
     text-align: center;
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
 .video {
     max-width: 100%;
@@ -62,21 +54,21 @@
     }
 }
 @media only screen and (max-width: 500px) {
-    .videos__title {
-        margin-bottom: 45px;
+    .videos__container {
+        margin-bottom: 50px;
     }
 }
 @media only screen and (max-height: 400px) {
     .videos__row {
         flex-direction: column;
     }
+    .videos__title {
+        margin-bottom: 20px;
+    }
     .videos__video {
         align-items: center;
         justify-content: center;
         max-width: 99%;
-        margin-bottom: 15px;
-    }
-    .videos__title {
         margin-bottom: 15px;
     }
     .videos__footer {
