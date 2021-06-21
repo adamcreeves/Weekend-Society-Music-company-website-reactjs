@@ -40,8 +40,12 @@ function Footer() {
             </div>
             <div className='footer__centerContainer'>
                 <div className='footer__info'>The Weekend Society is located in Los Angeles</div>
-                <div className='footer__infoContact'>(323) 880-2005</div>
-                <div className='footer__infoContact'>hello@weekendsocietymusic.com</div>
+                <div className='footer__infoContact'>
+                    <a href='tel:+13238802005' className='infoContact__click'>(323) 880-2005</a>
+                </div>
+                <div className='footer__infoContact'>
+                    <a href="mailto:hello@weekendsocietymusic.com" className='infoContact__click'>hello@weekendsocietymusic.com</a>
+                </div>
             </div>
             <button className='footer__button'><a href="mailto:hello@weekendsocietymusic.com" className='footer__buttonText'>BOOK NOW!</a></button>     
         </div>

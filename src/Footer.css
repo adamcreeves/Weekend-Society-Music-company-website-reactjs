@@ -67,7 +67,7 @@
     margin: 5px;
   }
   .footer__infoContact {
-    margin: 5px;
+    margin: 7px;
   }
   .footer__socialMedia {
     text-decoration: none;
@@ -85,6 +85,10 @@
   .footer__socialMediaIcon {
     color: white;
     z-index: 100;
+  }
+  .infoContact__click {
+    color: white;
+    text-decoration: none;
   }
   @media only screen and (max-width: 720px) {
     /* .footer {
