@@ -3,13 +3,76 @@
     flex-direction: column;
     width: 100%;
     align-items: center;
+    justify-content: center;
 }
 .services__container {
     width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 .services__header {
     height: auto;
 }
 .services__footer {
     height: auto;
+}
+.services__imageContainer {
+    width: 100%;
+}
+.services__mainImage {
+    width: 100%;
+}
+.services__tabsContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.services__sectionContainer {
+    width: 100%;
+    display: flex;
+    padding-top: 20px; 
+    flex-direction: column;
+    align-items: center;
+}
+.services__sectionTitle { 
+    height: 35px;
+    margin: 8px;
+}
+.services__sectionTitleText {
+    height: 100%;
+    width: 100%;
+    font-size: 30px;
+    color: white;
+    background: none;
+    text-decoration-line: underline;
+}
+.services__section {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.services__sectionDetails {
+    color: white;
+    margin: 4px;
+    font-size: 22px;
+}
+.infoForAllContainer {
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.infoForAllTitle {
+    font-size: 30px;
+    color: white;
+    /* text-align: center; */
+    text-decoration-line: underline;
+}
+.infoForAllDetails {
+    color: white;
+    margin: 4px;
+    font-size: 22px;
 }

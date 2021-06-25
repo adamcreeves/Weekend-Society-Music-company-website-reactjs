@@ -6,10 +6,10 @@ import ReorderIcon from '@material-ui/icons/Reorder';
 
 function Header() {
     const [count, setCount] = useState(0);
+    
     const alertMessage = () => {
         alert('Coming Soon!\nThis page is currently under construction');
     }
-
     const toggleMenu = () => {
         if(count === 0) {
             document.getElementById('mobileMenu').style = style__mobileMenuOn;
@@ -26,7 +26,6 @@ function Header() {
         alignItems: 'center',
         justifyContent: 'center',
     };
-
     const style__mobileMenuOff = {
         display: 'none',
     }

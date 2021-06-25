@@ -56,6 +56,20 @@ function Videos() {
                         <div className='videoTitle'>September</div>
                         <ReactPlayer className='video' url='https://vimeo.com/563807130' />
                     </div>
+                    <div className='videos__video'>
+                        <div className='videoTitle'>I Want You Back</div>
+                        <ReactPlayer className='video' url='https://vimeo.com/567150898' />
+                    </div>
+                </div>
+                <div className='videos__row'>
+                    <div className='videos__video'>
+                        <div className='videoTitle'>Signed, Sealed, Delivered</div>
+                        <ReactPlayer className='video' url='https://vimeo.com/567151670' />
+                    </div>
+                    <div className='videos__video'>
+                        <div className='videoTitle'>Raise Your Glass</div>
+                        <ReactPlayer className='video' url='https://vimeo.com/567151151' />
+                    </div>
                 </div>
             </div>
             <div className='videos__footer'>
