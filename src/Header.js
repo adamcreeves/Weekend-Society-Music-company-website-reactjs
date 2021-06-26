@@ -38,7 +38,7 @@ function Header() {
                         <div className='header__buttonText'>HOME</div>
                     </button>
                 </Link>
-                <Link /*to='/services'*/ className='header__mobileLink' onClick={alertMessage}>
+                <Link to='/services' className='header__mobileLink'>
                     <button className='mobileMenu__button'>
                         <div className='header__buttonText'>SERVICES</div>
                     </button>
@@ -80,7 +80,7 @@ function Header() {
                         <h3 className='header__buttonText'>HOME</h3>
                     </button>
                 </Link>
-                <Link /*to='/services'*/ className='header__link' onClick={alertMessage}>
+                <Link to='/services' className='header__link'>
                     <button className='header__button'>
                         <h3 className='header__buttonText'>SERVICES</h3>
                     </button>

@@ -4,6 +4,7 @@ import Footer from "./Footer";
 import './Services.css'
 
 function Services() {
+    
     const RenderHeader = () => {
         return (
             <div className='services__header'>
@@ -20,16 +21,16 @@ function Services() {
         );
     }
 
-    const RenderMainImage = ({image, description}) => {
-        return (
-            <div className='services__imageContainer'>
-                <img 
-                    className='services__mainImage'
-                    src={image}
-                    alt={description} />
-            </div>
-        );
-    }
+    // const RenderMainImage = ({image, description}) => {
+    //     return (
+    //         <div className='services__imageContainer'>
+    //             <img 
+    //                 className='services__mainImage'
+    //                 src={image}
+    //                 alt={description} />
+    //         </div>
+    //     );
+    // }
     
     const RenderSectionTitle = ({title}) => {
         return (
@@ -38,7 +39,8 @@ function Services() {
             </div>
         );
     }
-    const RenderSection = ({sectionTitle, detail1, detail2, detail3}) => {
+
+    const RenderReceptionSection = ({sectionTitle, detail1, detail2, detail3}) => {
         return (
             <div className='services__section'>
                 <RenderSectionTitle title={sectionTitle} />
@@ -54,6 +56,33 @@ function Services() {
             </div>
         );
     }
+
+    const RenderCocktailSection = ({sectionTitle, details}) => {
+        return (
+            <div className='services__sectionCocktail'>
+                <div className='services__sectionCocktailTitleContainer'>
+                    <RenderSectionTitle title={sectionTitle} />
+                </div>
+                {details.split('\n').map((i, key) => {
+                    return <div className='services__sectionDetails' key={key}>{i}</div>
+                })}
+            </div>
+        );
+    }
+
+    const RenderCeremonySection = ({sectionTitle, details}) => {
+        return (
+            <div className='services__sectionCeremony'>
+                <div className='services__sectionCeremonyTitleContainer'>
+                    <RenderSectionTitle title={sectionTitle} />
+                </div>
+                {details.split('\n').map((i, key) => {
+                    return <div className='services__sectionDetails' key={key}>{i}</div>
+                })}
+            </div>
+        );
+    }
+
     const RenderInfoForAll = () => {
         return (
             <div className='infoForAllContainer'>
@@ -99,27 +128,73 @@ function Services() {
         <div className='services__page'>
             <RenderHeader />
             <div className='services__container'>
-                <RenderMainImage 
+                {/* <RenderMainImage 
                     image={'/servicesmain.png'}
-                    description={'Bride and Grooms first dance'} />
+                    description={'Bride and Grooms first dance'} /> */}
                 <div className='services__sectionContainer'>
-                    <RenderSection 
-                        sectionTitle={'Signature Premium'} 
-                        detail1={'• 4 premium vocalists'} 
-                        detail2={'• Rhythm section: Keyboard, Guitar, Bass Guitar, & Drums'} 
-                        detail3={'• Full Brass section: Trumpet, Saxophone, & Trombone'} />
-                    <RenderSection 
-                        sectionTitle={'Signature Plus'} 
-                        detail1={'• 3 premium vocalists'} 
-                        detail2={'• Rhythm section: Keyboard, Guitar, Bass Guitar, & Drums'} 
-                        detail3={'• Full Brass section: Trumpet & Saxophone'} />
-                    <RenderSection 
-                        sectionTitle={'Signature'} 
-                        detail1={'• 2 premium vocalists'} 
-                        detail2={'• Rhythm section: Keyboard, Guitar, Bass Guitar, & Drums'} 
-                        detail3={'• 1 Brass player: Saxophone'} />
+                    <div className='services__title'>Reception</div>
+                    <div className='services__mainSection'>
+                        <div className='services__mainSectionColumn'>
+                            <RenderReceptionSection 
+                                sectionTitle={'Signature Premium'} 
+                                detail1={'• 4 premium vocalists'} 
+                                detail2={'• Rhythm section: Keyboard, Guitar, Bass Guitar, & Drums'} 
+                                detail3={'• Full Brass section: Trumpet, Saxophone, & Trombone'} />
+                            <RenderReceptionSection 
+                                sectionTitle={'Signature Plus'} 
+                                detail1={'• 3 premium vocalists'} 
+                                detail2={'• Rhythm section: Keyboard, Guitar, Bass Guitar, & Drums'} 
+                                detail3={'• Full Brass section: Trumpet & Saxophone'} />
+                            <RenderReceptionSection 
+                                sectionTitle={'Signature'} 
+                                detail1={'• 2 premium vocalists'} 
+                                detail2={'• Rhythm section: Keyboard, Guitar, Bass Guitar, & Drums'} 
+                                detail3={'• 1 Brass player: Saxophone'} />
+                        </div>
+                        <div className='services__mainSectionColumn'>
+                            <img className='services__mainSectionImage' src='/servicesReceptionImage2.png' alt='Couples first dance'/>
+                        </div>
+                    </div>
+                    <RenderInfoForAll />
                 </div>
-                <RenderInfoForAll />
+                <div className='services__sectionContainer'>
+                    <div className='services__title'>Cocktail Hour</div>
+                    <div className='services__mainSectionCocktail'>
+                        <div className='services__mainSectionCocktailColumn'>
+                            <RenderCocktailSection 
+                                sectionTitle={'Whiskey (three piece cocktail hour trio)'} 
+                                details={'• Old-Fashioned - Keys, Drums, & Saxophone \n • Penecillin - Saxophone, Drums, & Upright Bass \n • Sazerac - Guitar, Drums, & Saxophone \n • Manhattan - Keys, Guitar, & Drums'} />
+                            <RenderCocktailSection 
+                                sectionTitle={'Gin (four piece cocktail hour quartet)'} 
+                                details={'• Classic Martini - Keys, Upright Bass, Saxophone, & Drums \n • Gimlet - Keys, Upright Bass, Trumpet, & Drums \n • Gin & Tonic - Guitar, Upright Bass, Keys, & Drums \n • Bramble - Guitar, Upright Bass, Saxophone, & Drums'} />
+                            <RenderCocktailSection 
+                                sectionTitle={'Tequila (five piece cocktail hour quintet)'} 
+                                details={'• Margarita - Keys, Upright Bass, Saxophone, Trumpet, & Drums \n • Paloma - Guitar, Keys, Upright Bass, Saxophone, & Drums \n • Infante - Keys, Guitar, Upright Bass, Drums, & Male or Female Vocalist \n • Night Crawler - Guitar, Upright Bass, Trumpet, Saxophone, & Drums'} />
+                        </div>
+                        <div className='services__mainSectionColumn'>
+                            {/* <img className='services__mainSectionImage' src='' alt='' /> */}
+                        </div>
+                    </div>
+                </div>
+                <div className='services__sectionContainer'>
+                    <div className='services__title'>Ceremony Services</div>
+                    <div className='services__mainSectionCeremony'>
+                        <div className='services__mainSectionCeremonyColumn'>
+                            <RenderCeremonySection 
+                                sectionTitle={'Solo'}
+                                details={'• Keys \n • Guitar \n • Saxophone \n • Violin'} />
+                            <RenderCeremonySection 
+                                sectionTitle={'Duo'}
+                                details={'• Keys & Saxophone \n • Keys & Guitar \n • Violin & Cello \n • Violin & Keys'} />
+                            <RenderCeremonySection 
+                                sectionTitle={'Trio'}
+                                details={'• Keys, Saxophone, Guitar \n • Violin, Cello, & Viola'} />
+                            <RenderCeremonySection 
+                                sectionTitle={'String Quartet'}
+                                details={'• 2 Violins, Cello, & Viola'} />
+                        </div>
+                    </div>
+                </div>
             </div>
             <RenderFooter />
         </div>
