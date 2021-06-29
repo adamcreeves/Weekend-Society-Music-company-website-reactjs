@@ -31,15 +31,19 @@ function Home() {
                 <div className='home__video'>
                     <ReactPlayer className='video' url='https://vimeo.com/555427896' />
                 </div>
-                {/* <iframe 
-                    className='home__demoVideo'
-                    title='Second video'
-                    src="https://player.vimeo.com/video/555427896" 
-                    width="753" 
-                    height="400" 
-                    frameborder="0" 
-                    allow="autoplay; fullscreen; picture-in-picture" 
-                    allowfullscreen /> */}
+            </div>
+            <div className='home__containerVeryBottom'>
+                <div className='home__whatsOfferedContainer'>
+                    <div className='home__whatsOfferedTitle'>What We Offer</div>
+                    <div className='home__whatsOfferedDetail'>• Weddings</div>
+                    <div className='home__whatsOfferedDetail'>• Corporate Events</div>
+                    <div className='home__whatsOfferedDetail'>• Private Parties</div>
+                    <div className='home__whatsOfferedDetail'>• Special Events</div>
+                </div>
+                <div className='home__bottomImageContainer'>
+                    <img className='home__bottomImage' src='/homepage1.jpg' alt='Guy getting down'/>
+                    <img className='home__bottomImage' src='/homepage2.jpg' alt='Bride and groom on dance floor'/>
+                </div>
             </div>
             <div className='home__footer'>
                 <Footer />
