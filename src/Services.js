@@ -1,7 +1,8 @@
 import React from 'react';
 import Header from "./Header";
 import Footer from "./Footer";
-import './Services.css'
+import './Services.css';
+import ReactPlayer from "react-player";
 
 function Services() {
     
@@ -162,22 +163,24 @@ function Services() {
                     <div className='services__mainSectionCocktail'>
                         <div className='services__mainSectionCocktailColumn'>
                             <RenderCocktailSection 
-                                sectionTitle={'Whiskey (trio)'} 
+                                sectionTitle={'Trio - (Whiskey)'} 
                                 details={'• Old-Fashioned - Keys, Drums, & Saxophone \n • Penecillin - Saxophone, Drums, & Upright Bass \n • Sazerac - Guitar, Drums, & Saxophone \n • Manhattan - Keys, Guitar, & Drums'} />
                             <RenderCocktailSection 
-                                sectionTitle={'Gin (quartet)'} 
+                                sectionTitle={'Quartet - (Gin)'} 
                                 details={'• Classic Martini - Keys, Upright Bass, Saxophone, & Drums \n • Gimlet - Keys, Upright Bass, Trumpet, & Drums \n • Gin & Tonic - Guitar, Upright Bass, Keys, & Drums \n • Bramble - Guitar, Upright Bass, Saxophone, & Drums'} />
                             <RenderCocktailSection 
-                                sectionTitle={'Tequila (quintet)'} 
+                                sectionTitle={'Quintet - (Tequila)'} 
                                 details={'• Margarita - Keys, Upright Bass, Saxophone, Trumpet, & Drums \n • Paloma - Guitar, Keys, Upright Bass, Saxophone, & Drums \n • Infante - Keys, Guitar, Upright Bass, Drums, & Male or Female Vocalist \n • Night Crawler - Guitar, Upright Bass, Trumpet, Saxophone, & Drums'} />
                         </div>
-                        <div className='services__mainSectionColumn'>
-                            {/* <img className='services__mainSectionImage' src='' alt='' /> */}
+                        <div className='services__mainSectionCocktailColumn'>
+                            <div classname='services__videoCocktail'>
+                                <ReactPlayer className='video' url='https://vimeo.com/569581619' />
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div className='services__sectionContainer'>
-                    <div className='services__title'>Ceremony Services</div>
+                    <div className='services__title'>Ceremony</div>
                     <div className='services__mainSectionCeremony'>
                         <div className='services__mainSectionCeremonyRow'>
                             <div className='services__mainSectionCeremonyColumn'>

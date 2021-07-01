@@ -39,7 +39,7 @@ function Footer() {
                 </div>
             </div>
             <div className='footer__centerContainer'>
-                <div className='footer__info'>The Weekend Society is located in Los Angeles</div>
+                <div className='footer__info'>The Weekend Society is located in Los Angeles and loves to travel</div>
                 <div className='footer__infoContact'>
                     <a href='tel:+13238802005' className='infoContact__click'>(323) 880-2005</a>
                 </div>

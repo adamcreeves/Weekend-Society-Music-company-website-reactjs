@@ -60,6 +60,7 @@
     margin-right: 3%;
     align-items: center;
     display: flex;
+    width: 50%;
     text-align: center;
     flex-direction: column;
   }
@@ -134,8 +135,9 @@
       margin-bottom: -10px;
     }
     .footer__centerContainer {
-      font-size: 14px;
+      font-size: 18px;
       z-index: 200;
+      width: 65%;
       margin-top: 10px;
     }
     .footer__infoContact {

@@ -25,7 +25,7 @@ function Home() {
             </div>
             <div className='home__containerCenter'>
                 <div className='home__welcomeText'>Welcome</div>
-                <div className='home__tagline'>You Dance, You Party, We'll Play</div>
+                <div className='home__tagline'><div>You Dance, You Party, </div><div className='home__taglinePlay'>We'll Play</div></div>
             </div>
             <div className='home__containerBottom'>
                 <div className='home__video'>
