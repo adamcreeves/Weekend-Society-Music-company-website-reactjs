@@ -3,7 +3,6 @@
     flex-direction: column;
     width: 100%;
     align-items: center;
-    justify-content: center;
 }
 .services__container {
     width: 100%;
@@ -149,9 +148,6 @@
     flex-direction: row;
     align-items: center;
 }
-.services__videoCocktail {
-
-}
 @media only screen and (max-width: 1100px) {
     .services__mainSectionCeremonyColumn {
         flex-direction: column;
@@ -169,15 +165,26 @@
         justify-content: space-evenly;
         width: 100%;
     }
-}
-@media only screen and (max-width: 900px) {
-    
     .services__mainSectionCocktail {
         width: 95%;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
+    .services__mainSectionCocktailColumn {
+        width: 90%;
+    }
+    /* #cocktailVideoColumn {
+        align-items: center;
+        display: flex;
+        width: 100%;
+    } */
+    .services__videoCocktail {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+@media only screen and (max-width: 900px) {
     .services__mainSectionColumn {
         width: 95%;
     }
@@ -190,6 +197,10 @@
     }
 }
 @media only screen and (max-width: 500px) {
+    .services__header {
+        margin-top: -10px;
+        margin-bottom: 1px;
+    }
     .services__mainSectionCeremonyRow {
         display: flex;
         width: 100%;

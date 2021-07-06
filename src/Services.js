@@ -172,7 +172,7 @@ function Services() {
                                 sectionTitle={'Quintet - (Tequila)'} 
                                 details={'• Margarita - Keys, Upright Bass, Saxophone, Trumpet, & Drums \n • Paloma - Guitar, Keys, Upright Bass, Saxophone, & Drums \n • Infante - Keys, Guitar, Upright Bass, Drums, & Male or Female Vocalist \n • Night Crawler - Guitar, Upright Bass, Trumpet, Saxophone, & Drums'} />
                         </div>
-                        <div className='services__mainSectionCocktailColumn'>
+                        <div id='cocktailVideoColumn' className='services__mainSectionCocktailColumn'>
                             <div classname='services__videoCocktail'>
                                 <ReactPlayer className='video' url='https://vimeo.com/569581619' />
                             </div>

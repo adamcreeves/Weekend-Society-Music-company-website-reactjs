@@ -7,9 +7,9 @@ import ReorderIcon from '@material-ui/icons/Reorder';
 function Header() {
     const [count, setCount] = useState(0);
     
-    const alertMessage = () => {
-        alert('Coming Soon!\nThis page is currently under construction');
-    }
+    // const alertMessage = () => {
+    //     alert('Coming Soon!\nThis page is currently under construction');
+    // }
     const toggleMenu = () => {
         if(count === 0) {
             document.getElementById('mobileMenu').style = style__mobileMenuOn;
@@ -48,12 +48,12 @@ function Header() {
                         <div className='header__buttonText'>VIDEOS</div>
                     </button>
                 </Link>
-                <Link /*to='/about'*/ className='header__mobileLink' onClick={alertMessage}>
+                <Link to='/about' className='header__mobileLink'>
                     <button className='mobileMenu__button'>
                         <div className='header__buttonText'>ABOUT</div>
                     </button>
                 </Link>
-                <Link /*to='/contact'*/ className='header__mobileLink' onClick={alertMessage}>
+                <Link to='/contact' className='header__mobileLink'>
                     <button className='mobileMenu__button'>
                         <div className='header__buttonText'>CONTACT</div>
                     </button>
@@ -90,12 +90,12 @@ function Header() {
                         <h3 className='header__buttonText'>VIDEOS</h3>
                     </button>
                 </Link>
-                <Link /*to='/about'*/ className='header__link' onClick={alertMessage}>
+                <Link to='/about' className='header__link'>
                     <button className='header__button'>
                         <h3 className='header__buttonText'>ABOUT</h3>
                     </button>
                 </Link>
-                <Link /*to='/contact'*/ className='header__link' onClick={alertMessage}>
+                <Link to='/contact' className='header__link'>
                     <button className='header__button'>
                         <h3 className='header__buttonText'>CONTACT</h3>
                     </button>

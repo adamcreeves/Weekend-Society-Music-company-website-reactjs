@@ -1,0 +1,59 @@
+.about__page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.about__container {
+    width: 100%;
+}
+.about__header {
+    height: auto;
+}
+.about__footer {
+    height: auto;
+}
+.about__imageTop {
+    width: 100%;
+    object-fit: contain;
+}
+.about__bio {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    color: white;
+    font-size: 23px;
+}
+.about__bandBioText {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.about__isaacImage {
+    margin-left: 5%;
+    margin-right: 3%;
+    width: 40%;
+}
+.about__isaacBioText {
+    margin-left: 3%;
+    margin-right: 5%;
+}
+@media only screen and (max-width: 750px) {
+    .about__bio {
+        flex-direction: column;
+    }
+    .about__isaacImage {
+        margin-top: 3%;
+        margin-bottom: 5%;
+    }
+    .about__isaacBioText {
+        margin-bottom: 5%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .about__header {
+        margin-top: -10px;
+        margin-bottom: 1px;
+    }
+}
