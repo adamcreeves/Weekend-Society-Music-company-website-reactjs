@@ -25,7 +25,7 @@ function About() {
             <div className='about__container'>
                 <img 
                     className='about__imageTop' 
-                    src='/weekendsocietybg.jpg' 
+                    src='/aboutMain.png' 
                     alt='The Weekend Society Music Group' />
                 <div className='about__bio'>
                     <div className='about__bandBioText'>
@@ -57,7 +57,7 @@ function About() {
                         Born and raised in Los Angeles with a Bachelors in Music Performance, 
                         Isaac has performed at countless weddings, private events, corporate 
                         and special celebrations. Isaac is an avid lover of cinema, enjoys 
-                        making craft cocktails, and is absolutely in love with his 3 year old 
+                        making craft cocktails, and is absolutely in love with his  3 year old 
                         daughter. 
                     </div>
                 </div>

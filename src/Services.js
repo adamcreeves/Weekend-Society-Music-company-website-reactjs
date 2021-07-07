@@ -153,29 +153,32 @@ function Services() {
                                 detail3={'• 1 Brass player: Saxophone'} />
                         </div>
                         <div className='services__mainSectionColumn'>
-                            <img className='services__mainSectionImage' src='/servicesReceptionImage2.png' alt='Couples first dance'/>
+                            <img 
+                                className='services__mainSectionImage' 
+                                src='/servicesReceptionImage2.png' 
+                                alt='Couples first dance'/>
                         </div>
                     </div>
                     <RenderInfoForAll />
                 </div>
                 <div className='services__sectionContainer'>
                     <div className='services__title'>Cocktail Hour</div>
+                    <div className='services__titleUnderText'>(Named after some of our favorite cocktails)</div>
                     <div className='services__mainSectionCocktail'>
                         <div className='services__mainSectionCocktailColumn'>
                             <RenderCocktailSection 
-                                sectionTitle={'Trio - (Whiskey)'} 
+                                sectionTitle={'Trio'} 
                                 details={'• Old-Fashioned - Keys, Drums, & Saxophone \n • Penecillin - Saxophone, Drums, & Upright Bass \n • Sazerac - Guitar, Drums, & Saxophone \n • Manhattan - Keys, Guitar, & Drums'} />
                             <RenderCocktailSection 
-                                sectionTitle={'Quartet - (Gin)'} 
+                                sectionTitle={'Quartet'} 
                                 details={'• Classic Martini - Keys, Upright Bass, Saxophone, & Drums \n • Gimlet - Keys, Upright Bass, Trumpet, & Drums \n • Gin & Tonic - Guitar, Upright Bass, Keys, & Drums \n • Bramble - Guitar, Upright Bass, Saxophone, & Drums'} />
                             <RenderCocktailSection 
-                                sectionTitle={'Quintet - (Tequila)'} 
+                                sectionTitle={'Quintet'} 
                                 details={'• Margarita - Keys, Upright Bass, Saxophone, Trumpet, & Drums \n • Paloma - Guitar, Keys, Upright Bass, Saxophone, & Drums \n • Infante - Keys, Guitar, Upright Bass, Drums, & Male or Female Vocalist \n • Night Crawler - Guitar, Upright Bass, Trumpet, Saxophone, & Drums'} />
                         </div>
-                        <div id='cocktailVideoColumn' className='services__mainSectionCocktailColumn'>
-                            <div classname='services__videoCocktail'>
-                                <ReactPlayer className='video' url='https://vimeo.com/569581619' />
-                            </div>
+                        <div className='videos__video'>
+                            <div className='videoTitle'>Blue Bossa</div>
+                            <ReactPlayer className='video' url='https://vimeo.com/569581619' />
                         </div>
                     </div>
                 </div>

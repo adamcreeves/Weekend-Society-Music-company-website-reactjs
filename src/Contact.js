@@ -18,6 +18,10 @@ function Contact() {
         <div className='contact__page'>
             {renderHeader()}
             <div className='contact__container'>
+                <img 
+                    className='contact__imageTop' 
+                    src='/contactMain.jpg' 
+                    alt='Guy and girl dancing' />
                 <div className='contact__infoLine'>
                     The Weekend Society is located in Los Angeles and loves to travel
                 </div>

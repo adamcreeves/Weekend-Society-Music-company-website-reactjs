@@ -56,4 +56,17 @@
         margin-top: -10px;
         margin-bottom: 1px;
     }
+    .about__bio {
+        font-size: 20px;
+    }
+    .about__isaacImage {
+        width: 90%;
+        margin-right: 5%;
+    }
+    .about__isaacBioText {
+        margin-left: 5%;
+    }
+    .about__bandBioText {
+        margin-bottom: 17px;
+    }
 }
