@@ -129,23 +129,24 @@
     .home__pledge {
         margin: 7%;
     }
+    .home__taglineText {
+        width: 100%;
+    }
 }
-@media only screen and (min-width: 1200px) {
-    /* .home__page {
-        height: auto;
-        margin-bottom: -25px;
+@media only screen and (max-width: 1000px) {
+    .home__welcomeText {
+        font-size: 70px;
     }
-    .home__containerBottom {
-        height: auto;
-        margin-bottom: -30px;
+    .home__tagline { 
+        width: 35%;
     }
-    .home__containerTop {
-        height: auto;
-        align-content: unset;
+    .home__taglineText {
+        width: 70%;
     }
-    .home__logo {
-        height: 250px;
-    } */
+    .home__tagline { 
+        width: 70%;
+        margin-left: 7%;
+    }
 }
 @media only screen and (min-width: 501px) {
     /* .home__containerBottom {
@@ -161,11 +162,21 @@
     .home__whatsOfferedTitle {
         font-size: 35px;
     }
+    .home__welcomeText {
+        font-size: 45px;
+        width: 48%;
+    }
     .home__whatsOfferedDetail {
         font-size: 20px;
     }
     .home__pledgeTitle {
         font-size: 40px !important;
+    }
+    .home__tagline { 
+        width: 60%;
+    }
+    .home__containerCenter {
+        width: 90%;
     }
 }
 @media only screen and (max-width: 500px) {
@@ -179,7 +190,7 @@
     }
     .home__tagline {
         font-size: 18px;
-        width: 32%;
+        width: 55%;
     }
     .home__demoVideo {
         width: 100%;
@@ -198,6 +209,7 @@
         margin-top: 55px;
         flex: 1;
         width: 100%;
+        margin-left: 5%;
     }
     .home__footer {
         margin-top: 25px;
@@ -229,6 +241,7 @@
     .home__containerCenter {
         margin-top: 20px;
         margin-bottom: 15px;
+        margin-left: 10%;
     }
     .home__header {
         margin-bottom: 1px;
@@ -239,9 +252,6 @@
     }
     .home__containerBottom {
         margin-bottom: 20px;
-    }
-    .home__tagline {
-        text-align: center;
     }
     .home__bottomImageContainer {
         flex-direction: row;

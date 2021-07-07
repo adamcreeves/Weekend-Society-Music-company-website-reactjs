@@ -70,3 +70,15 @@
         margin-bottom: 17px;
     }
 }
+@media only screen and (max-height: 400px) {
+    .about__isaacImage {
+        width: 55%;
+        margin-right: 5%;
+    }
+    .about__bio {
+        flex-direction: row;
+    }
+    .about__isaacBioText {
+        width: 40%;
+    }
+}
