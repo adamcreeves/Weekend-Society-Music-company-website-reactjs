@@ -29,7 +29,7 @@ function Home() {
             </div>
             <div className='home__containerBottom'>
                 <div className='home__video'>
-                    <ReactPlayer className='video' url='https://vimeo.com/570084066' />
+                    <ReactPlayer className='video' url='https://vimeo.com/572268414' />
                 </div>
             </div>
             <div className='home__containerVeryBottom'>

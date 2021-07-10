@@ -288,4 +288,7 @@
         text-align: center;
         font-size: 25px;
     }
+    .services__titleUnderText {
+        font-size: 16px;
+    }
 }
