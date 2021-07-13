@@ -53,12 +53,15 @@ function About() {
                         className='about__isaacImage'
                         src='/isaacpic.png'
                         alt='portrait of isaac' />
-                    <div className='about__isaacBioText'>
-                        Born and raised in Los Angeles with a Bachelors in Music Performance, 
-                        Isaac has performed at countless weddings, private events, corporate 
-                        and special celebrations. Isaac is an avid lover of cinema, enjoys 
-                        making craft cocktails, and is absolutely in love with his  3 year old 
-                        daughter. 
+                    <div className='about__isaacColumn'>
+                        <div className='about__isaacName'>Isaac Johnson, Owner</div>
+                        <div className='about__isaacBioText'>
+                            Born and raised in Los Angeles with a Bachelors in Music Performance, 
+                            Isaac has performed at countless weddings, private events, corporate 
+                            and special celebrations. Isaac is an avid lover of cinema, enjoys 
+                            making craft cocktails, and is absolutely in love with his  3 year old 
+                            daughter. 
+                        </div>
                     </div>
                 </div>
             </div>

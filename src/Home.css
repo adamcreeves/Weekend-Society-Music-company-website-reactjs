@@ -173,7 +173,9 @@
         font-size: 40px !important;
     }
     .home__tagline { 
-        width: 60%;
+        width: 50%;
+        margin-left: 50px;
+        font-size: 27px;
     }
     .home__containerCenter {
         width: 90%;
