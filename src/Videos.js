@@ -71,6 +71,26 @@ function Videos() {
                         <ReactPlayer className='video' url='https://vimeo.com/567151151' />
                     </div>
                 </div>
+                <div className='videos__row'>
+                    <div className='videos__video'>
+                        <div className='videoTitle'>Shake Your Body Down</div>
+                        <ReactPlayer className='video' url='https://vimeo.com/576976080' />
+                    </div>
+                    <div className='videos__video'>
+                        <div className='videoTitle'>Kiss</div>
+                        <ReactPlayer className='video' url='https://vimeo.com/576975855' />
+                    </div>
+                </div>
+                <div className='videos__row'>
+                    <div className='videos__video'>
+                        <div className='videoTitle'>I Wanna Dance With Somebody</div>
+                        <ReactPlayer className='video' url='https://vimeo.com/576975954' />
+                    </div>
+                    <div className='videos__video'>
+                        <div className='videoTitle'>That's What I Like</div>
+                        <ReactPlayer className='video' url='https://vimeo.com/576981766' />
+                    </div>
+                </div>
             </div>
             <div className='videos__footer'>
                 <Footer />
