@@ -1,0 +1,10 @@
+.norcalprices__page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.socalprices__image {
+    width: 100%;
+    display: flex;
+}
