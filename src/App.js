@@ -8,6 +8,7 @@ import Contact from './Contact';
 import About from './About';
 import NorcalPrices from "./NorcalPrices";
 import SocalPrices from "./SocalPrices";
+import CocktailGroups from "./CocktailGroups";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/norcalpricing" component={NorcalPrices} />
           <Route exact path="/socalpricing" component={SocalPrices} />
+          <Route exact path="/cocktailgroups" component={CocktailGroups} />
         </Switch>
     </Router>
   );
