@@ -3,7 +3,7 @@ import './SocalPrices.css';
 
 function SocalPrices() {
     return (
-        <div className='socalprices__page'>
+        <div>
             <img className='socalprices__image' src='/socalprices.png' alt='price sheet for SoCal' />
         </div>
     )

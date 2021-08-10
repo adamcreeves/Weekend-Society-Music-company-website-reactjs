@@ -9,6 +9,7 @@ import About from './About';
 import NorcalPrices from "./NorcalPrices";
 import SocalPrices from "./SocalPrices";
 import CocktailGroups from "./CocktailGroups";
+import TravelPrices from "./TravelPrices";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route exact path="/norcalpricing" component={NorcalPrices} />
           <Route exact path="/socalpricing" component={SocalPrices} />
           <Route exact path="/cocktailgroups" component={CocktailGroups} />
+          <Route exact path='/travelpricing' component={TravelPrices} />
         </Switch>
     </Router>
   );
