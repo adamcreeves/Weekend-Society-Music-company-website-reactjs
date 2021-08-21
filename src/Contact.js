@@ -28,7 +28,7 @@ function Contact() {
 
     const sendEmail = (e) => {
         e.preventDefault();
-        emailjs.sendForm('weekend_society_form', 'weekend_society_email', e.target, 'user_BgakDUbNo9ThPcGN0y1JT')
+        emailjs.sendForm('weekend_inquiries', 'template_dfpxnv1', e.target, 'user_BgakDUbNo9ThPcGN0y1JT')
         .then((result) => {
             console.log(result.text);
             setName('');
@@ -53,10 +53,9 @@ function Contact() {
             <form
                 className='contact__form' 
                 onSubmit={sendEmail}>
-                <div className='contact__formRow'>
                     <input 
                         placeholder='Your Name'
-                        className='contact__formInputA'
+                        className='contact__formInput'
                         name='name'
                         type='text'
                         value={name}
@@ -65,7 +64,7 @@ function Contact() {
                     />
                     <input 
                         placeholder='Phone Number'
-                        className='contact__formInputA'
+                        className='contact__formInput'
                         type='text'
                         name='phone'
                         minLength={10}
@@ -73,20 +72,18 @@ function Contact() {
                         onChange={e => setPhone(e.target.value)} 
                         required
                     />
-                </div>
                 <input
                     placeholder='Email Address'
-                    className='contact__formInputB'
+                    className='contact__formInput'
                     type='email'
                     name='email'
                     value={email}
                     onChange={e => setEmail(e.target.value)} 
                     required
                 />
-                <div className='contact__formRow'>
                     <input 
                         placeholder='Event Type'
-                        className='contact__formInputA'
+                        className='contact__formInput'
                         type='text'
                         name='eventType'
                         value={eventType}
@@ -94,17 +91,15 @@ function Contact() {
                     />
                     <input 
                         placeholder='Event Date'
-                        className='contact__formInputA'
+                        className='contact__formInput'
                         type='text'
                         name='eventDate'
                         value={eventDate}
                         onChange={e => setEventDate(e.target.value)} 
                     />
-                </div>
-                <div className='contact__formRow'>
                     <input 
                         placeholder='Event Location'
-                        className='contact__formInputA'
+                        className='contact__formInput'
                         type='text'
                         name='eventLocation'
                         value={eventLocation}
@@ -112,25 +107,23 @@ function Contact() {
                     />
                     <input 
                         placeholder='Event Length'
-                        className='contact__formInputA'
+                        className='contact__formInput'
                         type='text'
                         name='eventLength'
                         value={eventLength}
                         onChange={e => setEventLength(e.target.value)} 
-                    />
-                </div>    
+                    />   
                 <input 
                     placeholder='Notes or other details'
-                    className='contact__formInputB'
+                    className='contact__formInput'
                     type='text'
                     name='notes'
                     value={notes}
                     onChange={e => setNotes(e.target.value)} 
                 />
-                <div className='contact__formRow'>
                     <input
                         placeholder='Guest Count' 
-                        className='contact__formInputA'
+                        className='contact__formInput'
                         type='text'
                         name='guestCount'
                         value={guestCount}
@@ -138,13 +131,12 @@ function Contact() {
                     />
                     <input 
                         placeholder='How did you hear about us?'
-                        className='contact__formInputA'
+                        className='contact__formInput'
                         type='text'
                         name='heardAbout'
                         value={heardAbout}
                         onChange={e => setHeardAbout(e.target.value)} 
                     />
-                </div>
                 <input className='contact__formSubmit' type='submit' value='Submit' />
             </form>
         );

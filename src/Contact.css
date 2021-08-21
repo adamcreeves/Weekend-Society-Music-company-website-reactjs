@@ -28,21 +28,12 @@
     width: 700px;
     align-items: center;
 }
-.contact__formInputA {
+.contact__formInput {
     color: white;
     padding: 5px;
     font-size: large;
-    width: 300px;
+    width: 500px;
     margin: 5px;
-    padding: 1%;
-}
-.contact__formInputB {
-    color: white;
-    padding: 5px;
-    font-size: large;
-    width: 630px;
-    margin-top: 1%;
-    margin-bottom: 1%;
     padding: 1%;
 }
 .contact__formSubmit {
@@ -100,12 +91,7 @@
     .contact__formRow {
         flex-direction: column;
     }
-    .contact__formInputA {
-        width: 95%;
-        padding: 2%;
-        margin: 2%;
-    }
-    .contact__formInputB {
+    .contact__formInput {
         width: 95%;
         padding: 2%;
         margin: 2%;
