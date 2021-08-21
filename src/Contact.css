@@ -22,6 +22,36 @@
     width: 100%;
     object-fit: contain;
 }
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.contact__formInputA {
+    color: white;
+    padding: 5px;
+    font-size: large;
+    width: 45%;
+    margin: 1%;
+    padding: 1%;
+}
+.contact__formInputB {
+    color: white;
+    padding: 5px;
+    font-size: large;
+    width: 95%;
+    margin: 1%;
+    padding: 1%;
+}
+.contact__formSubmit {
+    color: white;
+    width: 200px;
+    height: 50px;
+    align-self: center;
+    margin-top: 2%;
+    font-size: x-large;
+    font-weight: 700;
+}
 .contact__socialMedia {
     text-decoration: none;
     display: flex;
@@ -31,12 +61,13 @@
   }
   .contact__infoLine {
       margin: 1%;
-      margin-top: 3% !important;
   }
-  .contact__infoPhone {
-      margin: 1%;
+  .contact__infoHeader {
+    margin-top: 3% !important;
+    font-size: 34px !important;
+    margin: 1%;
   }
-  .contact__infoEmail {
+  .contact__info {
       margin: 1%;
   }
 @media only screen and (max-width: 500px) {
@@ -58,5 +89,22 @@
     }
     .contact__container {
         font-size: 20px;
+    }
+    .contact__form {
+        width: 80%;
+        padding: 8px;
+        font-size: 30px;
+    }
+    .contact__formRow {
+        flex-direction: column;
+    }
+    .contact__formInputA {
+        width: 95%;
+        padding: 2%;
+        margin: 2%;
+    }
+    .contact__formInputB {
+        padding: 2%;
+        margin: 2%;
     }
 }
