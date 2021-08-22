@@ -2,9 +2,7 @@ import React, { useState } from 'react';
 import Header from "./Header";
 import './Contact.css'
 import emailjs from 'emailjs-com';
-import InstagramIcon from '@material-ui/icons/Instagram';
-import FacebookIcon from "@material-ui/icons/Facebook";
-import IconButton from "@material-ui/core/IconButton";
+import Footer from './Footer';
 
 function Contact() {
     const [name, setName] = useState('');
@@ -53,25 +51,25 @@ function Contact() {
             <form
                 className='contact__form' 
                 onSubmit={sendEmail}>
-                    <input 
-                        placeholder='Your Name'
-                        className='contact__formInput'
-                        name='name'
-                        type='text'
-                        value={name}
-                        onChange={e => setName(e.target.value)}
-                        required 
-                    />
-                    <input 
-                        placeholder='Phone Number'
-                        className='contact__formInput'
-                        type='text'
-                        name='phone'
-                        minLength={10}
-                        value={phone}
-                        onChange={e => setPhone(e.target.value)} 
-                        required
-                    />
+                <input 
+                    placeholder='Your Name'
+                    className='contact__formInput'
+                    name='name'
+                    type='text'
+                    value={name}
+                    onChange={e => setName(e.target.value)}
+                    required 
+                />
+                <input 
+                    placeholder='Phone Number'
+                    className='contact__formInput'
+                    type='text'
+                    name='phone'
+                    minLength={10}
+                    value={phone}
+                    onChange={e => setPhone(e.target.value)} 
+                    required
+                />
                 <input
                     placeholder='Email Address'
                     className='contact__formInput'
@@ -81,38 +79,38 @@ function Contact() {
                     onChange={e => setEmail(e.target.value)} 
                     required
                 />
-                    <input 
-                        placeholder='Event Type'
-                        className='contact__formInput'
-                        type='text'
-                        name='eventType'
-                        value={eventType}
-                        onChange={e => setEventType(e.target.value)} 
-                    />
-                    <input 
-                        placeholder='Event Date'
-                        className='contact__formInput'
-                        type='text'
-                        name='eventDate'
-                        value={eventDate}
-                        onChange={e => setEventDate(e.target.value)} 
-                    />
-                    <input 
-                        placeholder='Event Location'
-                        className='contact__formInput'
-                        type='text'
-                        name='eventLocation'
-                        value={eventLocation}
-                        onChange={e => setEventLocation(e.target.value)} 
-                    />
-                    <input 
-                        placeholder='Event Length'
-                        className='contact__formInput'
-                        type='text'
-                        name='eventLength'
-                        value={eventLength}
-                        onChange={e => setEventLength(e.target.value)} 
-                    />   
+                <input 
+                    placeholder='Event Type'
+                    className='contact__formInput'
+                    type='text'
+                    name='eventType'
+                    value={eventType}
+                    onChange={e => setEventType(e.target.value)} 
+                />
+                <input 
+                    placeholder='Event Date'
+                    className='contact__formInput'
+                    type='text'
+                    name='eventDate'
+                    value={eventDate}
+                    onChange={e => setEventDate(e.target.value)} 
+                />
+                <input 
+                    placeholder='Event Location'
+                    className='contact__formInput'
+                    type='text'
+                    name='eventLocation'
+                    value={eventLocation}
+                    onChange={e => setEventLocation(e.target.value)} 
+                />
+                <input 
+                    placeholder='Event Length'
+                    className='contact__formInput'
+                    type='text'
+                    name='eventLength'
+                    value={eventLength}
+                    onChange={e => setEventLength(e.target.value)} 
+                />   
                 <input 
                     placeholder='Notes or other details'
                     className='contact__formInput'
@@ -121,23 +119,23 @@ function Contact() {
                     value={notes}
                     onChange={e => setNotes(e.target.value)} 
                 />
-                    <input
-                        placeholder='Guest Count' 
-                        className='contact__formInput'
-                        type='text'
-                        name='guestCount'
-                        value={guestCount}
-                        onChange={e => setGuestCount(e.target.value)} 
-                    />
-                    <input 
-                        placeholder='How did you hear about us?'
-                        className='contact__formInput'
-                        type='text'
-                        name='heardAbout'
-                        value={heardAbout}
-                        onChange={e => setHeardAbout(e.target.value)} 
-                    />
-                <input className='contact__formSubmit' type='submit' value='Submit' />
+                <input
+                    placeholder='Guest Count' 
+                    className='contact__formInput'
+                    type='text'
+                    name='guestCount'
+                    value={guestCount}
+                    onChange={e => setGuestCount(e.target.value)} 
+                />
+                <input 
+                    placeholder='How you found us'
+                    className='contact__formInput'
+                    type='text'
+                    name='heardAbout'
+                    value={heardAbout}
+                    onChange={e => setHeardAbout(e.target.value)} 
+                />
+                <input className='contact__formSubmitBtn' type='submit' value='Submit' />
             </form>
         );
     }
@@ -151,38 +149,18 @@ function Contact() {
                     src='/contactMain.jpg' 
                     alt='Guy and girl dancing' />
                 <div className='contact__infoHeader'>Contact us at:</div>
-                <div className='contact__info'>
+                <div className='contact__infoPhone'>
                     <a href='tel:+13238802005' className='infoContact__click'>(323) 880-2005</a>
                 </div>
                 <div className='contact__info'>
                     <a href="mailto:hello@weekendsocietymusic.com" className='infoContact__click'>hello@weekendsocietymusic.com</a>
                 </div>
-                <div className='contact__info'>
+                <div className='contact__info2'>
                     or fill out the information below:
                 </div>
                 {renderForm()}
-                <div className='contact__socialMedia'>
-                    <a 
-                        href='https://www.instagram.com/weekendsocietymusic/'
-                        className='footer__solicalMediaLink'>
-                        <IconButton>
-                            <InstagramIcon 
-                                fontSize='large' 
-                                className='footer__socialMediaIcon' />
-                        </IconButton>
-                    </a>
-                    <a
-                        href='https://m.facebook.com/weekendsocietymusic'
-                        className='footer__solicalMediaLink'>
-                        <IconButton>
-                            <FacebookIcon 
-                                fontSize='large' 
-                                className='footer__socialMediaIcon' />
-                        </IconButton>
-                    </a>
-                </div>
-                <div className='contact__infoLine'>
-                    The Weekend Society is located in Los Angeles and loves to travel
+                <div className='contact__footer'>
+                    <Footer />
                 </div>
             </div>
         </div>
