@@ -1,5 +1,5 @@
 import React from 'react';
-import './CocktailGroups.css';
+import '../styling/CocktailGroups.css';
 
 function CocktailGroups() {
     return (

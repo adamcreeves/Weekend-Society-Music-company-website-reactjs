@@ -1,7 +1,7 @@
 import React from "react";
-import Footer from "./Footer";
-import Header from "./Header";
-import './Videos.css';
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import '../styling/Videos.css';
 import ReactPlayer from "react-player";
 
 function Videos() {

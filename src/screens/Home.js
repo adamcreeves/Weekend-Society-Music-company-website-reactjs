@@ -1,7 +1,7 @@
 import React from "react";
-import Header from "./Header";
-import Footer from "./Footer";
-import "./Home.css";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import "../styling/Home.css";
 import ReactPlayer from "react-player";
 
 function Home() {

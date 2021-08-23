@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import Header from "./Header";
-import './Contact.css'
+import Header from "../components/Header";
+import '../styling/Contact.css'
 import emailjs from 'emailjs-com';
-import Footer from './Footer';
+import Footer from '../components/Footer';
 
 function Contact() {
     const [name, setName] = useState('');

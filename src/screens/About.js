@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from './Header';
-import Footer from './Footer';
-import './About.css';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import '../styling/About.css';
 
 function About() {
     const renderHeader = () => {

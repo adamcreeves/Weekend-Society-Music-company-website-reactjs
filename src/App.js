@@ -1,15 +1,15 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import './App.css';
-import Home from './Home';
-import Videos from './Videos';
-import Services from './Services';
-import Contact from './Contact';
-import About from './About';
-import NorcalPrices from "./NorcalPrices";
-import SocalPrices from "./SocalPrices";
-import CocktailGroups from "./CocktailGroups";
-import TravelPrices from "./TravelPrices";
+import './styling/App.css';
+import Home from './screens/Home';
+import Videos from './screens/Videos';
+import Services from './screens/Services';
+import Contact from './screens/Contact';
+import About from './screens/About';
+import NorcalPrices from "./screens/NorcalPrices";
+import SocalPrices from "./screens/SocalPrices";
+import CocktailGroups from "./screens/CocktailGroups";
+import TravelPrices from "./screens/TravelPrices";
 
 function App() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import './TravelPrices.css';
+import '../styling/TravelPrices.css';
 
 function TravelPrices() {
     return (
