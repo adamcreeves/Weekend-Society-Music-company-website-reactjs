@@ -2,7 +2,6 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import './styling/App.css';
 import Home from './screens/Home';
-import Videos from './screens/Videos';
 import Services from './screens/Services';
 import Contact from './screens/Contact';
 import About from './screens/About';
@@ -10,6 +9,7 @@ import NorcalPrices from "./screens/NorcalPrices";
 import SocalPrices from "./screens/SocalPrices";
 import CocktailGroups from "./screens/CocktailGroups";
 import TravelPrices from "./screens/TravelPrices";
+import VideosPage from "./screens/VideosPage";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/services" component={Services} />
-          <Route exact path="/videos" component={Videos} />
+          <Route exact path="/videos" component={VideosPage} />
           <Route exact path="/about" component={About} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/norcalpricing" component={NorcalPrices} />

@@ -4,24 +4,9 @@ import Footer from '../components/Footer';
 import '../styling/About.css';
 
 function About() {
-    const renderHeader = () => {
-        return (
-            <div className='contact__header'>
-                <Header />
-            </div>
-        );
-    }
-    const renderFooter = () => {
-        return (
-            <div className='contact__footer'>
-                <Footer />
-            </div>
-        );
-    }
-
     return (
         <div className='about__page'>
-            {renderHeader()}
+            <Header className='contact__header'/>
             <div className='about__container'>
                 <img 
                     className='about__imageTop' 
@@ -65,7 +50,7 @@ function About() {
                     </div>
                 </div>
             </div>
-            {renderFooter()}
+            <Footer className='contact__footer' />
         </div>
     )
 }

@@ -16,14 +16,6 @@ function Contact() {
     const [notes, setNotes] = useState('');
     const [heardAbout, setHeardAbout] = useState('');
 
-    const renderHeader = () => {
-        return (
-            <div className='contact__header'>
-                <Header />
-            </div>
-        );
-    }
-
     const sendEmail = (e) => {
         e.preventDefault();
         emailjs.sendForm('weekend_inquiries', 'template_dfpxnv1', e.target, 'user_BgakDUbNo9ThPcGN0y1JT')
@@ -142,7 +134,7 @@ function Contact() {
 
     return (
         <div className='contact__page'>
-            {renderHeader()}
+            <Header className='contact__header'/>
             <div className='contact__container'>
                 <img 
                     className='contact__imageTop' 
@@ -159,10 +151,8 @@ function Contact() {
                     or fill out the information below:
                 </div>
                 {renderForm()}
-                <div className='contact__footer'>
-                    <Footer />
-                </div>
             </div>
+            <Footer className='contact__footer' />
         </div>
     );
 }

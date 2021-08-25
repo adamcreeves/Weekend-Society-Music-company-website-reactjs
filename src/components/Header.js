@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import ReorderIcon from '@material-ui/icons/Reorder';
 
 
-function Header() {
+function Header({className}) {
     const [count, setCount] = useState(0);
     
     // const alertMessage = () => {
@@ -105,24 +105,26 @@ function Header() {
     }
 
     return (
-        <nav className='header'>
-            <div className='header__container'>
-                <Link to='/' className='header__linkHome'>
-                    <button className='header__buttonHome'>
-                        <img 
-                            className='header__icon' 
-                            src='/weekend_icon.png' 
-                            alt='Weekend Society Icon' 
-                        />
-                    </button>
-                </Link>
-                <div className='header__links'>
-                    {renderWebLinks()}
-                    {renderMobileMenuButton()}
+        <div className={className}>
+            <nav className='header'>
+                <div className='header__container'>
+                    <Link to='/' className='header__linkHome'>
+                        <button className='header__buttonHome'>
+                            <img 
+                                className='header__icon' 
+                                src='/weekend_icon.png' 
+                                alt='Weekend Society Icon' 
+                            />
+                        </button>
+                    </Link>
+                    <div className='header__links'>
+                        {renderWebLinks()}
+                        {renderMobileMenuButton()}
+                    </div>
                 </div>
-            </div>
-            {renderMobileMenu()}
-        </nav>
+                {renderMobileMenu()}
+            </nav>
+        </div>
     );
 }
 

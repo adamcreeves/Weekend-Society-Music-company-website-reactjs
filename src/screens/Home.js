@@ -6,17 +6,9 @@ import ReactPlayer from "react-player";
 
 function Home() {
 
-    const renderHeader = () => {
-        return (
-            <div className='home__header'>
-                <Header />
-            </div>
-        );
-    }
-
     return (
         <div className='home__page'>
-            {renderHeader()}
+            <Header className='home__header' />
             <div className='home__containerTop'>
                 <img 
                     className='home__imageTop' 
@@ -63,9 +55,7 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <div className='home__footer'>
-                <Footer />
-            </div>
+            <Footer className='home__footer' />
         </div>
     );
 }

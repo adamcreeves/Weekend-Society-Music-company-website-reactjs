@@ -5,34 +5,7 @@ import '../styling/Services.css';
 import ReactPlayer from "react-player";
 
 function Services() {
-    
-    const RenderHeader = () => {
-        return (
-            <div className='services__header'>
-                <Header />
-            </div>
-        );
-    }
 
-    const RenderFooter = () => {
-        return (
-            <div className='services__footer'>
-                <Footer />
-            </div>
-        );
-    }
-
-    // const RenderMainImage = ({image, description}) => {
-    //     return (
-    //         <div className='services__imageContainer'>
-    //             <img 
-    //                 className='services__mainImage'
-    //                 src={image}
-    //                 alt={description} />
-    //         </div>
-    //     );
-    // }
-    
     const RenderSectionTitle = ({title}) => {
         return (
             <div className='services__sectionTitle'>
@@ -127,11 +100,8 @@ function Services() {
 
     return (
         <div className='services__page'>
-            <RenderHeader />
+            <Header className='services__header' />
             <div className='services__container'>
-                {/* <RenderMainImage 
-                    image={'/servicesmain.png'}
-                    description={'Bride and Grooms first dance'} /> */}
                 <div className='services__sectionContainer'>
                     <div className='services__title'>Reception</div>
                     <div id='mainSection1' className='services__mainSection'>
@@ -206,55 +176,9 @@ function Services() {
                     </div>
                 </div>
             </div>
-            <RenderFooter />
+            <Footer className='services__footer' />
         </div>
     );
 }
 
 export default Services;
-
-// Logic for custom ViewPager but didn't work
-
-// const [selected, setSelected] = useState(0);
-    // const [notSelected1, setNotSelected1] = useState(1);
-    // const [notSelected2, setNotSelected2] = useState(2);
-    // const toggleTab1Selected = () => {
-    //     document.getElementById('sigPremiumText').style = style__selectedTabBtn
-    //     document.getElementById('sigPlusText').style = style__notSelectedTabBtn
-    //     document.getElementById('sigText').style = style__notSelectedTabBtn
-    //     document.getElementById('subpageSigPremium').style = style__pageSelected
-    //     document.getElementById('subpageSigPlus').style = style__pageNotSelected
-    //     document.getElementById('subpageSig').style = style__pageNotSelected
-    // }
-    // const toggleTab2Selected = () => {
-    //     document.getElementById('sigPremiumText').style = style__notSelectedTabBtn
-    //     document.getElementById('sigPlusText').style = style__selectedTabBtn
-    //     document.getElementById('sigText').style = style__notSelectedTabBtn
-    //     document.getElementById('subpageSigPremium').style = style__pageNotSelected
-    //     document.getElementById('subpageSigPlus').style = style__pageSelected
-    //     document.getElementById('subpageSig').style = style__pageNotSelected
-    // }
-    // const toggleTab3Selected = () => {
-    //     document.getElementById('sigPremiumText').style = style__notSelectedTabBtn
-    //     document.getElementById('sigPlusText').style = style__notSelectedTabBtn
-    //     document.getElementById('sigText').style = style__selectedTabBtn
-    //     document.getElementById('subpageSigPremium').style = style__pageNotSelected
-    //     document.getElementById('subpageSigPlus').style = style__pageNotSelected
-    //     document.getElementById('subpageSig').style = style__pageSelected
-    // } 
-    // const style__selectedTabBtn = {
-    //     color: 'black',
-    //     backgroundColor: 'white'
-    // }
-    // const style__notSelectedTabBtn = {
-    //     color: 'black',
-    //     backgroundColor: 'white'
-    // }
-    // const style__pageSelected = {
-    //     display: 'flex',
-    //     width: '67%',
-    //     flexDirection: 'column'
-    // }
-    // const style__pageNotSelected = {
-    //     display: 'none'
-    // }
