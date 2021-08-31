@@ -3,17 +3,14 @@ import "../styling/Footer.css";
 import InstagramIcon from '@material-ui/icons/Instagram';
 import FacebookIcon from "@material-ui/icons/Facebook";
 import IconButton from "@material-ui/core/IconButton";
+import FooterIcon from './FooterIcon';
 
 function Footer({className}) {
     return (
         <div className={className}>
             <div className='footer'>
                 <div className='footer__leftContainer'>
-                    <img 
-                        className='footer__icon'
-                        src='/weekend_icon.png' 
-                        alt='Weekend Society Icon' 
-                    />
+                    <FooterIcon />
                     <div className='footer__socialMedia'>
                         <a 
                             href='https://www.instagram.com/weekendsocietymusic/'

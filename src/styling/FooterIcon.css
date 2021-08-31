@@ -1,0 +1,18 @@
+.footerIcon__icon {
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+}
+@media only screen and (max-width: 800px) {
+    .footerIcon__icon { 
+        z-index: 100;
+        margin-bottom: -10px;
+    }
+}
+@media only screen and (max-height: 400px) {
+    .footerIcon__icon {
+        width: 75%;
+        z-index: 50;
+        margin-bottom: -20px;
+    }
+}
