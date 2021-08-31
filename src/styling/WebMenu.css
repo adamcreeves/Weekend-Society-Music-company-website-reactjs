@@ -1,0 +1,31 @@
+.header__webLinks {
+    display: flex;
+    flex-direction: row;
+}
+.header__link {
+    width: 120px;
+    height: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.header__button {
+    border: none;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    background: none;
+}
+.header__buttonText {
+    color: whitesmoke;
+    font-size: 20px;
+}
+@media only screen and (max-width: 950px) {
+    .header__webLinks {
+        display: none;
+    }
+}
+@media only screen and (max-height: 400px) {
+    .header__webLinks {
+        display: none;
+    }
+}

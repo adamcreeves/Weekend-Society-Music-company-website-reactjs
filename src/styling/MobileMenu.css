@@ -1,0 +1,28 @@
+.mobileMenu__link {
+    margin: 10px;
+}
+.mobileMenu__button {
+    color: white;
+    padding: 7px;
+    border: none;
+    cursor: pointer;
+}
+.mobileMenu__buttonText {
+    color: whitesmoke;
+    font-size: 20px;
+}
+.mobileMenu__container {
+    display: none;
+}
+@media only screen and (max-width: 950px) {
+    .mobileMenu__buttonText {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .mobileMenu__container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
