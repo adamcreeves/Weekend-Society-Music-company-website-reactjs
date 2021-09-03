@@ -1,6 +1,6 @@
 import React, { useState }from 'react';
 import "../styling/Header.css";
-import WebLinks from './WebMenu';
+import HeaderLinks from './HeaderLinks';
 import HeaderIcon from './HeaderIcon';
 import MobileMenuButton from './MobileMenuButton';
 import MobileMenu from './MobileMenu';
@@ -37,7 +37,7 @@ function Header({className}) {
                 <div className='header__container'>
                     <HeaderIcon />
                     <div className='header__links'>
-                        <WebLinks />
+                        <HeaderLinks />
                         <MobileMenuButton menuFunction={toggleMenu} />
                     </div>
                 </div>

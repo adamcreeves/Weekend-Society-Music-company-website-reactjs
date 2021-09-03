@@ -1,33 +1,34 @@
 import React from 'react';
-import "../styling/MobileMenu.css";
 import { Link } from "react-router-dom";
+import { About, Contact, Home, Services, Videos } from '../resources/Strings';
+import "../styling/MobileMenu.css";
 
 function MobileMenu ({id, count, mobileMenuOff, mobileMenuOn}) {
         return (
             <div id={id} className='mobileMenu__container' style={count === 0 ? mobileMenuOff : mobileMenuOn}>
                 <Link to='/' className='mobileMenu__link'>
                     <button className='mobileMenu__button'>
-                        <div className='mobileMenu__buttonText'>HOME</div>
+                        <div className='mobileMenu__buttonText'>{Home}</div>
                     </button>
                 </Link>
                 <Link to='/services' className='mobileMenu__link'>
                     <button className='mobileMenu__button'>
-                        <div className='header__buttonText'>SERVICES</div>
+                        <div className='header__buttonText'>{Services}</div>
                     </button>
                 </Link>
                 <Link to='/videos' className='mobileMenu__link'>
                     <button className='mobileMenu__button'>
-                        <div className='mobileMenu__buttonText'>VIDEOS</div>
+                        <div className='mobileMenu__buttonText'>{Videos}</div>
                     </button>
                 </Link>
                 <Link to='/about' className='mobileMenu__link'>
                     <button className='mobileMenu__button'>
-                        <div className='mobileMenu__buttonText'>ABOUT</div>
+                        <div className='mobileMenu__buttonText'>{About}</div>
                     </button>
                 </Link>
                 <Link to='/contact' className='mobileMenu__link'>
                     <button className='mobileMenu__button'>
-                        <div className='mobileMenu__buttonText'>CONTACT</div>
+                        <div className='mobileMenu__buttonText'>{Contact}</div>
                     </button>
                 </Link>
             </div>

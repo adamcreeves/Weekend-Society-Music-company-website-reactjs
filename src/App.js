@@ -5,11 +5,11 @@ import Home from './screens/Home';
 import Services from './screens/Services';
 import Contact from './screens/Contact';
 import About from './screens/About';
-import NorcalPrices from "./screens/NorcalPrices";
-import SocalPrices from "./screens/SocalPrices";
-import CocktailGroups from "./screens/CocktailGroups";
-import TravelPrices from "./screens/TravelPrices";
 import VideosPage from "./screens/VideosPage";
+import NorcalPrices from "./screensHidden/NorcalPrices";
+import SocalPrices from "./screensHidden/SocalPrices";
+import CocktailGroups from "./screensHidden/CocktailGroups";
+import TravelPrices from "./screensHidden/TravelPrices";
 
 function App() {
   return (

@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import '../styling/Contact.css'
 import emailjs from 'emailjs-com';
 import Footer from '../components/Footer';
+import { ContactFormHeadline, ContactHeadline, Email, PhoneNumber } from '../resources/Strings';
 
 function Contact() {
     const [name, setName] = useState('');
@@ -140,16 +141,14 @@ function Contact() {
                     className='contact__imageTop' 
                     src='/contactMain.jpg' 
                     alt='Guy and girl dancing' />
-                <div className='contact__infoHeader'>Contact us at:</div>
+                <div className='contact__infoHeader'>{ContactHeadline}</div>
                 <div className='contact__infoPhone'>
-                    <a href='tel:+13238802005' className='infoContact__click'>(323) 880-2005</a>
+                    <a href='tel:+13238802005' className='infoContact__click'>{PhoneNumber}</a>
                 </div>
                 <div className='contact__info'>
-                    <a href="mailto:hello@weekendsocietymusic.com" className='infoContact__click'>hello@weekendsocietymusic.com</a>
+                    <a href="mailto:hello@weekendsocietymusic.com" className='infoContact__click'>{Email}</a>
                 </div>
-                <div className='contact__info2'>
-                    or fill out the information below:
-                </div>
+                <div className='contact__info2'>{ContactFormHeadline}</div>
                 {renderForm()}
             </div>
             <Footer className='contact__footer' />

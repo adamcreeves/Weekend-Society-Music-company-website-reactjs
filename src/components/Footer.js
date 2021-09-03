@@ -4,6 +4,7 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import FacebookIcon from "@material-ui/icons/Facebook";
 import IconButton from "@material-ui/core/IconButton";
 import FooterIcon from './FooterIcon';
+import { Adam, BookNow, Email, FooterTagline, PhoneNumber, Trademark, WebsiteCredit } from '../resources/Strings';
 
 function Footer({className}) {
     return (
@@ -32,20 +33,22 @@ function Footer({className}) {
                         </a>
                     </div>
                     <div className='footer__copyrightAndCredit'>
-                        <div className='footer__copyrightAndCreditText'>© 2021 The Weekend Society</div>
-                        <div className='footer__copyrightAndCreditText'>Webiste developed by<br />Adam Reeves</div>
+                        <div className='footer__copyrightAndCreditText'>{Trademark}</div>
+                        <div className='footer__copyrightAndCreditText'>{WebsiteCredit}<br />{Adam}</div>
                     </div>
                 </div>
                 <div className='footer__centerContainer'>
-                    <div className='footer__info'>The Weekend Society is located in Los Angeles and loves to travel</div>
+                    <div className='footer__info'>{FooterTagline}</div>
                     <div className='footer__infoContact'>
-                        <a href='tel:+13238802005' className='infoContact__click'>(323) 880-2005</a>
+                        <a href='tel:+13238802005' className='infoContact__click'>{PhoneNumber}</a>
                     </div>
                     <div className='footer__infoContact'>
-                        <a href="mailto:hello@weekendsocietymusic.com" className='infoContact__click'>hello@weekendsocietymusic.com</a>
+                        <a href="mailto:hello@weekendsocietymusic.com" className='infoContact__click'>{Email}</a>
                     </div>
                 </div>
-                <button className='footer__button'><a href="mailto:hello@weekendsocietymusic.com" className='footer__buttonText'>BOOK NOW!</a></button>     
+                <button className='footer__button'>
+                    <a href="mailto:hello@weekendsocietymusic.com" className='footer__buttonText'>{BookNow}</a>
+                </button>     
             </div>
         </div>
     );
