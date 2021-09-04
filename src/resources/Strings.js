@@ -1,3 +1,4 @@
+//COMPONENTS
 // Header Links
 export const Home = 'HOME';
 export const Services = 'SERVICES';
@@ -14,7 +15,36 @@ export const PhoneNumber = '(323) 880-2005';
 export const Email = 'hello@weekendsocietymusic.com';
 export const BookNow = 'BOOK NOW!';
 
-// About Screen
+// Pledge
+export const PledgeTitle1 = 'Our';
+export const PledgeTitle2 = 'Pledge';
+export const PledgeLine1 = 'We will play the best music to fit the mood of your guests';
+export const PledgeLine2 = 'We will read the audience and build energy accordingly';
+export const PledgeLine3 = 'We will take you seamlessly from dinner to the dance party';
+export const PledgeLine4 = 'We will make your friends envious';
+export const PledgeLine5 = 'We will make you dance your face off';
+export const PledgeLine6 = 'We will make you "air guitar" solo';
+export const PledgeLine7 = 'We will not be diva artists that only play what "we" want to play';
+export const PledgeLine8 = 'We will not play the chicken dance, macarena, or electric slide, (unless that\'s your thing)';
+export const PledgeLine9 = 'We will not take a break every 15 minutes';
+export const PledgeLine10 = 'We will not tell terrible jokes';
+
+// Tagline
+export const Welcome = 'Welcome';
+export const HomeTagline1 = 'You Dance, You Party, ';
+export const HomeTagline2 = 'We\'ll Play';
+
+// What We Offer
+export const WhatWeOffer = 'What We Offer';
+export const Weddings = 'Weddings';
+export const CorporateEvents = 'Corporate Events';
+export const PrivateParties = 'Private Parties';
+export const SpecialEvents = 'Special Events';
+
+// SCREENS
+// About
+export const AboutBanner = '/aboutMain.png';
+export const AboutBannerText = 'The Weekend Society Music Group';
 export const BandBio1 = `The Weekend Society is a high energy dance band 
                         committed to making the best day of your life, 
                         the actual best day of your life, and will effortlessly 
@@ -41,11 +71,17 @@ export const IsaacBio = `Born and raised in Los Angeles with a Bachelors in
                         making craft cocktails, and is absolutely in love with 
                         his 3 year old daughter.`;
 
-// Contact Screen
+// Contact
+export const ContactBanner = '/contactMain.jpg';
+export const ContactBannerText = 'Guy and girl dancing';
 export const ContactHeadline = 'Contact us at:';
 export const ContactFormHeadline = 'or fill out the information below:';
 
-// Videos Screen
+// Home
+export const HomeBanner = '/weekendsocietybg.jpg';
+export const HomeBannerText = 'The Weekend Society Music Group';
+
+// Videos
 export const CrazyInLove = 'Crazy In Love';
 export const ShutUpAndDance = 'Shut Up And Dance';
 export const DontStopBelievin = 'Don\'t Stop Believin\'';

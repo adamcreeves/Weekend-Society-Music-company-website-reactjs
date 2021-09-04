@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import { About, Contact, Home, Services, Videos } from '../resources/Strings';
-import "../styling/MobileMenu.css";
+import { About, Contact, Home, Services, Videos } from '../../resources/Strings';
+import "../../styling/components/Header/MobileMenu.css";
 
 function MobileMenu ({id, count, mobileMenuOff, mobileMenuOn}) {
         return (

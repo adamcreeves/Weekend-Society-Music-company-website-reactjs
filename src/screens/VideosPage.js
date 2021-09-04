@@ -1,8 +1,8 @@
 import React from "react";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import '../styling/VideosPage.css';
-import Video from "../components/Video";
+import Footer from "../components/Footer/Footer";
+import Header from "../components/Header/Header";
+import '../styling/screens/VideosPage.css';
+import Video from "../components/Videos/Video";
 import { 
     CantStopTheFeelin, 
     CrazyInLove, 

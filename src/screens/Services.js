@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-import '../styling/Services.css';
+import Header from "../components//Header/Header";
+import Footer from "../components/Footer/Footer";
+import '../styling/screens/Services.css';
 import ReactPlayer from "react-player";
 
 function Services() {

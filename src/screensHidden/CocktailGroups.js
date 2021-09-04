@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styling/CocktailGroups.css';
+import '../styling/screensHidden/CocktailGroups.css';
 
 function CocktailGroups() {
     return (

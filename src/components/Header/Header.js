@@ -1,5 +1,5 @@
 import React, { useState }from 'react';
-import "../styling/Header.css";
+import "../../styling/components/Header/Header.css";
 import HeaderLinks from './HeaderLinks';
 import HeaderIcon from './HeaderIcon';
 import MobileMenuButton from './MobileMenuButton';
@@ -54,4 +54,4 @@ function Header({className}) {
     );
 }
 
-export default Header
+export default Header;

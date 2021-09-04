@@ -13,10 +13,6 @@
 .about__footer {
     height: auto;
 }
-.about__imageTop {
-    width: 100%;
-    object-fit: contain;
-}
 .about__bio {
     width: 100%;
     display: flex;

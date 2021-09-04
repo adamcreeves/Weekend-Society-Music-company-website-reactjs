@@ -17,10 +17,6 @@
 .contact__header {
     height: auto;
 }
-.contact__imageTop {
-    width: 100%;
-    object-fit: contain;
-}
 .contact__infoPhone {
     font-size: 30px;
 }

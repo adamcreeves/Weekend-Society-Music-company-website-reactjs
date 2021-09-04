@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactPlayer from "react-player";
-import '../styling/Video.css';
+import '../../styling/components/Videos/Video.css';
 
 function Video({title, url}) {
     return (
         <div className='videos__video'>
-            <div className='video__title'>{title}</div>
+            {title !== '' ? <div className='video__title'>{title}</div> : null}            
             <ReactPlayer className='video' url={url} />
         </div>
     );

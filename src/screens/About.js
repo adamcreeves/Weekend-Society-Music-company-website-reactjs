@@ -1,24 +1,19 @@
 import React from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import { BandBio1, BandBio2, IsaacBio, IsaacBioTitle } from '../resources/Strings';
-import '../styling/About.css';
+import Header from '../components/Header/Header';
+import Footer from '../components/Footer/Footer';
+import { AboutBanner, AboutBannerText, BandBio1, BandBio2, IsaacBio, IsaacBioTitle } from '../resources/Strings';
+import '../styling/screens/About.css';
+import Banner from '../components/Subcomponents/Banner';
 
 function About() {
     return (
         <div className='about__page'>
             <Header className='contact__header'/>
             <div className='about__container'>
-                <img 
-                    className='about__imageTop' 
-                    src='/aboutMain.png' 
-                    alt='The Weekend Society Music Group' />
+                <Banner source={AboutBanner} alternate={AboutBannerText} />
                 <div className='about__bio'>
                     <div className='about__bandBioText'>
-                        {BandBio1}
-                        <br />
-                        <br />
-                        {BandBio2}
+                        {BandBio1}<br /><br />{BandBio2}
                     </div>
                 </div>
                 <div className='about__bio'>

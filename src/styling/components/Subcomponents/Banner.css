@@ -1,0 +1,11 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+.banner__image {
+    display: flex;
+    width: 100%;
+}

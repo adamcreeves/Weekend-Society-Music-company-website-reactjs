@@ -1,7 +1,7 @@
 import React from 'react';
-import "../styling/WebMenu.css";
+import "../../styling/components/Header/HeaderLinks.css";
 import { Link } from "react-router-dom";
-import { About, Contact, Home, Services, Videos } from '../resources/Strings';
+import { About, Contact, Home, Services, Videos } from '../../resources/Strings';
 
 function HeaderLinks () {
     return (

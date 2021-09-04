@@ -1,5 +1,5 @@
 import React from 'react';
-import "../styling/FooterIcon.css";
+import "../../styling/components/Footer/FooterIcon.css";
 
 function FooterIcon() {
     return (

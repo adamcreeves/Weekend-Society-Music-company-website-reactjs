@@ -1,0 +1,83 @@
+.tagline {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+}
+.tagline__title {
+    font-size: 90px;
+    margin: 2%;
+    width: 45%;
+    text-align: end;
+    font-weight: 1000;
+}
+.tagline__subtitle {
+    font-size: 35px;
+    flex-wrap: wrap;
+    width: 45%;
+    margin: 2%;
+    display: flex;
+    flex-direction: row;
+}
+.tagline__subtitleText1 {
+    margin-right: 5px;
+}
+.tagline__subtitleText2 {
+    font-weight: 600;
+    color: gold;
+}
+@media only screen and (max-width: 1000px) {
+    .tagline__title {
+        font-size: 70px;
+    }
+    .tagline__subtitle { 
+        width: 35%;
+    }
+    .tagline__subtitleText1 {
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .tagline__subtitleText1 {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 750px) {
+    .tagline {
+        width: 90%;
+    }
+    .tagline__title {
+        font-size: 45px;
+        width: 48%;
+    }
+    .tagline__subtitle { 
+        width: 50%;
+        margin-left: 50px;
+        font-size: 27px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .tagline {
+        margin-top: 55px;
+        flex: 1;
+        width: 100%;
+        margin-left: 10%;
+    }
+    .tagline__title {
+        font-size: 35px;
+        width: 48%;
+    }
+    .tagline__subtitle {
+        font-size: 18px;
+        margin-left: 15px;
+        width: 60%;
+    }
+}
+@media only screen and (max-height: 400px) {
+    .tagline {
+        margin-top: 20px;
+        margin-bottom: 15px;
+        margin-left: 10%;
+    }
+}

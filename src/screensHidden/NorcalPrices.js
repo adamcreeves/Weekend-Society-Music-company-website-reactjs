@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styling/NorcalPrices.css';
+import '../styling/screensHidden/NorcalPrices.css';
 
 function NorcalPrices() {
     return (

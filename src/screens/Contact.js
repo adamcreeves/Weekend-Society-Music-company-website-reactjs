@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import Header from "../components/Header";
-import '../styling/Contact.css'
+import Header from "../components/Header/Header";
+import '../styling/screens/Contact.css'
 import emailjs from 'emailjs-com';
-import Footer from '../components/Footer';
-import { ContactFormHeadline, ContactHeadline, Email, PhoneNumber } from '../resources/Strings';
+import Footer from '../components/Footer/Footer';
+import { ContactBanner, ContactBannerText, ContactFormHeadline, ContactHeadline, Email, PhoneNumber } from '../resources/Strings';
+import Banner from '../components/Subcomponents/Banner';
 
 function Contact() {
     const [name, setName] = useState('');
@@ -137,10 +138,7 @@ function Contact() {
         <div className='contact__page'>
             <Header className='contact__header'/>
             <div className='contact__container'>
-                <img 
-                    className='contact__imageTop' 
-                    src='/contactMain.jpg' 
-                    alt='Guy and girl dancing' />
+                <Banner source={ContactBanner} alternate={ContactBannerText} />
                 <div className='contact__infoHeader'>{ContactHeadline}</div>
                 <div className='contact__infoPhone'>
                     <a href='tel:+13238802005' className='infoContact__click'>{PhoneNumber}</a>

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styling/SocalPrices.css';
+import '../styling/screensHidden/SocalPrices.css';
 
 function SocalPrices() {
     return (
