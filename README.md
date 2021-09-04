@@ -1,6 +1,6 @@
 # WeekendSocietyMusic.com
 
-This the company website for [The Weekend Society](https://weekendsocietymusic.com) built by me, Adam Reeves.
+This is the company website for [The Weekend Society](https://weekendsocietymusic.com) built by me, Adam Reeves.
 
 This website was built using ReactJS which includes JavaScript, Html, and CSS.
 
