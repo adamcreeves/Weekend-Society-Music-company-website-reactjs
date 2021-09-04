@@ -1,9 +1,9 @@
 import React from 'react';
-import Header from '../components/Header/Header';
-import Footer from '../components/Footer/Footer';
+import Header from '../components/header/Header';
+import Footer from '../components/footer/Footer';
 import { AboutBanner, AboutBannerText, BandBio1, BandBio2, IsaacBio, IsaacBioTitle } from '../resources/Strings';
 import '../styling/screens/About.css';
-import Banner from '../components/Subcomponents/Banner';
+import Banner from '../components/subcomponents/Banner';
 
 function About() {
     return (

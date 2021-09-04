@@ -1,12 +1,12 @@
 import React from 'react';
-import "../../styling/components/Footer/Footer.css";
+import "../../styling/components/footer/Footer.css";
 import InstagramIcon from '@material-ui/icons/Instagram';
 import FacebookIcon from "@material-ui/icons/Facebook";
 import IconButton from "@material-ui/core/IconButton";
 import FooterIcon from './FooterIcon';
 import { Adam, BookNow, Email, FooterTagline, PhoneNumber, Trademark, WebsiteCredit } from '../../resources/Strings';
 
-function Footer({className}) {
+function Footer({ className }) {
     return (
         <div className={className}>
             <div className='footer'>

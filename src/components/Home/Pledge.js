@@ -12,7 +12,7 @@ import {
     PledgeLine8, 
     PledgeLine9,
     PledgeLine10 } from '../../resources/Strings';
-import '../../styling/components/Home/Pledge.css';
+import '../../styling/components/home/Pledge.css';
 
 function Pledge() {
     return (

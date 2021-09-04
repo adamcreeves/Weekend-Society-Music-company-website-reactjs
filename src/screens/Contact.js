@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import Header from "../components/Header/Header";
+import Header from "../components/header/Header";
 import '../styling/screens/Contact.css'
 import emailjs from 'emailjs-com';
-import Footer from '../components/Footer/Footer';
+import Footer from '../components/footer/Footer';
 import { ContactBanner, ContactBannerText, ContactFormHeadline, ContactHeadline, Email, PhoneNumber } from '../resources/Strings';
-import Banner from '../components/Subcomponents/Banner';
+import Banner from '../components/subcomponents/Banner';
 
 function Contact() {
     const [name, setName] = useState('');

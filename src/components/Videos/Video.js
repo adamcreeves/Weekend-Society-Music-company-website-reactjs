@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactPlayer from "react-player";
-import '../../styling/components/Videos/Video.css';
+import '../../styling/components/videos/Video.css';
 
-function Video({title, url}) {
+function Video({ title, url }) {
     return (
         <div className='videos__video'>
             {title !== '' ? <div className='video__title'>{title}</div> : null}            

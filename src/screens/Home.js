@@ -1,12 +1,12 @@
 import React from "react";
-import Header from "../components/Header/Header";
-import Footer from "../components/Footer/Footer";
+import Header from "../components/header/Header";
+import Footer from "../components/footer/Footer";
 import "../styling/screens/Home.css";
-import Pledge from "../components/Home/Pledge";
-import Tagline from "../components/Home/Tagline";
-import WhatsOffered from "../components/Home/WhatsOffered";
-import Banner from "../components/Subcomponents/Banner";
-import Video from "../components/Videos/Video";
+import Pledge from "../components/home/Pledge";
+import Tagline from "../components/home/Tagline";
+import WhatsOffered from "../components/home/WhatsOffered";
+import Banner from "../components/subcomponents/Banner";
+import Video from "../components/videos/Video";
 import { HomeBanner, HomeBannerText } from "../resources/Strings";
 
 function Home() {

@@ -6,10 +6,10 @@ import Services from './screens/Services';
 import Contact from './screens/Contact';
 import About from './screens/About';
 import VideosPage from "./screens/VideosPage";
-import NorcalPrices from "./screensHidden/NorcalPrices";
-import SocalPrices from "./screensHidden/SocalPrices";
-import CocktailGroups from "./screensHidden/CocktailGroups";
-import TravelPrices from "./screensHidden/TravelPrices";
+import NorcalPrices from "./screens/hidden/NorcalPrices";
+import SocalPrices from "./screens/hidden/SocalPrices";
+import CocktailGroups from "./screens/hidden/CocktailGroups";
+import TravelPrices from "./screens/hidden/TravelPrices";
 
 function App() {
   return (

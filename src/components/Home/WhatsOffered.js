@@ -5,7 +5,7 @@ import {
     SpecialEvents, 
     Weddings, 
     WhatWeOffer } from '../../resources/Strings';
-import '../../styling/components/Home/WhatsOffered.css';
+import '../../styling/components/home/WhatsOffered.css';
 
 function WhatsOffered() {
     return (

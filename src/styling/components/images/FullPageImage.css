@@ -1,10 +1,10 @@
-.cocktailgroups__page {
+.fullPageImage {
     display: flex;
     flex-direction: column;
     width: 100%;
     align-items: center;
 }
-.cocktailgroups__image {
+.fullPageImage__image {
     width: 100%;
     display: flex;
 }

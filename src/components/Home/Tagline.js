@@ -1,6 +1,6 @@
 import React from 'react';
 import { HomeTagline1, HomeTagline2, Welcome } from '../../resources/Strings';
-import '../../styling/components/Home/Tagline.css';
+import '../../styling/components/home/Tagline.css';
 
 function Tagline() {
     return (

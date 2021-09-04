@@ -1,7 +1,7 @@
 import React from 'react';
-import '../../styling/components/Subcomponents/Banner.css';
+import '../../styling/components/subcomponents/Banner.css';
 
-function Banner({source, alternate}) {
+function Banner({ source, alternate }) {
     return (
         <div className='banner'>
             <img 

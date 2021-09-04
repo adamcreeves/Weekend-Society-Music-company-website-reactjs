@@ -1,12 +1,12 @@
 import React, { useState }from 'react';
-import "../../styling/components/Header/Header.css";
+import "../../styling/components/header/Header.css";
 import HeaderLinks from './HeaderLinks';
 import HeaderIcon from './HeaderIcon';
 import MobileMenuButton from './MobileMenuButton';
 import MobileMenu from './MobileMenu';
 
 
-function Header({className}) {
+function Header({ className }) {
     const [count, setCount] = useState(0);
 
     const toggleMenu = () => {
