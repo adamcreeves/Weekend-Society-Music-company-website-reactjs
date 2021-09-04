@@ -1,0 +1,33 @@
+.imageRow {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.imageRow__image {
+    max-width: 45%;
+}
+@media only screen and (max-width: 900px) {
+    .imageRow {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .imageRow__image {
+        max-width: 90%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+@media only screen and (max-height: 400px) {
+    .imageRow {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .imageRow__image {
+        max-width: 45%;
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+}

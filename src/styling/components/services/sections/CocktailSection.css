@@ -1,0 +1,13 @@
+.cocktailSection {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.cocktailSection__titleContainer {
+    text-align: center;
+}
+.cocktailSection__details {
+    color: white;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 22px;
+}

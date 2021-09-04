@@ -7,7 +7,16 @@ import Tagline from "../components/home/Tagline";
 import WhatsOffered from "../components/home/WhatsOffered";
 import Banner from "../components/subcomponents/Banner";
 import Video from "../components/videos/Video";
-import { HomeBanner, HomeBannerText } from "../resources/Strings";
+import ImageRow from "../components/images/ImageRow";
+import { 
+    EmptyString, 
+    HomeBanner, 
+    HomeBannerText, 
+    Homepage1Source, 
+    Homepage1Text, 
+    Homepage2Source, 
+    Homepage2Text, 
+    HomeVideoSource } from "../resources/Strings";
 
 function Home() {
     return (
@@ -17,19 +26,14 @@ function Home() {
                 source={HomeBanner} 
                 alternate={HomeBannerText} />
             <Tagline />
-            <Video title={''} url={'https://vimeo.com/572268414'} />
+            <Video title={EmptyString} url={HomeVideoSource} />
             <div className='home__containerVeryBottom'>
                 <WhatsOffered />
-                <div className='home__bottomImageContainer'>
-                    <img 
-                        className='home__bottomImage' 
-                        src='/homepage1.jpg' 
-                        alt='Guy getting down'/>
-                    <img 
-                        className='home__bottomImage' 
-                        src='/homepage2.jpg' 
-                        alt='Bride and groom on dance floor'/>
-                </div>
+                <ImageRow 
+                    source1={Homepage1Source} 
+                    source2={Homepage2Source} 
+                    alt1={Homepage1Text} 
+                    alt2={Homepage2Text} />
                 <Pledge />
             </div>
             <Footer className='home__footer' />

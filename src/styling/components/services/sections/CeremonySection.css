@@ -1,0 +1,8 @@
+.services__sectionCeremony {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+/* .services__sectionCeremonyTitleContainer {
+    text-align: center;
+} */

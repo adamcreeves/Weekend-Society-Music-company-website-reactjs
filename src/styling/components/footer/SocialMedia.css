@@ -1,0 +1,17 @@
+.socialMedia {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -30px;
+    margin-bottom: 15px;
+}
+.solicalMedia__link {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 45px;
+}
+.socialMedia__icon {
+    color: white;
+    z-index: 100;
+}

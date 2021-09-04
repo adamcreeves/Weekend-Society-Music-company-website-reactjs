@@ -14,6 +14,8 @@ export const FooterTagline = 'The Weekend Society is located in Los Angeles and 
 export const PhoneNumber = '(323) 880-2005';
 export const Email = 'hello@weekendsocietymusic.com';
 export const BookNow = 'BOOK NOW!';
+export const InstagramProfile = 'https://www.instagram.com/weekendsocietymusic/';
+export const FacebookProfile = 'https://m.facebook.com/weekendsocietymusic';
 
 // Pledge
 export const PledgeTitle1 = 'Our';
@@ -40,6 +42,10 @@ export const Weddings = 'Weddings';
 export const CorporateEvents = 'Corporate Events';
 export const PrivateParties = 'Private Parties';
 export const SpecialEvents = 'Special Events';
+
+// Inquiry Form
+export const InquiryFormConfirmationMessage = 'Your information has been sent\nYou will hear from us soon!';
+export const InquiryFormErrorMessage = 'Something went wrong. Please try again.'
 
 // SCREENS
 // About
@@ -75,11 +81,19 @@ export const IsaacBio = `Born and raised in Los Angeles with a Bachelors in
 export const ContactBanner = '/contactMain.jpg';
 export const ContactBannerText = 'Guy and girl dancing';
 export const ContactHeadline = 'Contact us at:';
+export const PhoneNumberSource = 'tel:+13238802005';
+export const EmailSource = 'mailto:hello@weekendsocietymusic.com';
 export const ContactFormHeadline = 'or fill out the information below:';
 
 // Home
 export const HomeBanner = '/weekendsocietybg.jpg';
 export const HomeBannerText = 'The Weekend Society Music Group';
+export const HomeVideoSource = 'https://vimeo.com/572268414';
+export const Homepage1Source = '/homepage1.jpg';
+export const Homepage2Source = '/homepage2.jpg';
+export const Homepage1Text = 'Guy getting down';
+export const Homepage2Text = 'Bride and groom on dance floor';
+export const EmptyString = '';
 
 // Videos
 export const CrazyInLove = 'Crazy In Love';
@@ -98,3 +112,13 @@ export const ShakeYourBody = 'Shake Your Body Down';
 export const Kiss = 'Kiss';
 export const IWannaDance = 'I Wanna Dance With Somebody';
 export const ThatsWhatILike = 'That\'s What I Like';
+
+// HIDDEN
+export const CocktailGroupsSource = '/cocktailgroups.png';
+export const CocktailGroupsText = 'price sheet for NorCal';
+export const NorcalPricesSource = '/norcalprices.png';
+export const NorcalPricesText = 'price sheet for NorCal';
+export const SocalPricesSource = '/socalprices.png';
+export const SocalPricesText = 'price sheet for SoCal';
+export const TravelPricesSource ='/travelprices.png' ;
+export const TravelPricesText = 'price sheet for travel';
