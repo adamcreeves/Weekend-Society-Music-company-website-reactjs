@@ -4,239 +4,25 @@
     width: 100%;
     align-items: center;
 }
-.services__container {
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-}
 .services__header {
     height: auto;
 }
 .services__footer {
     height: auto;
 }
-.services__imageContainer {
-    width: 100%;
-}
-.services__mainImage {
-    width: 100%;
-}
-.services__tabsContainer {
-    display: flex;
-    flex-direction: row;
-    margin-top: 10px;
-    width: 100%;
-    justify-content: space-evenly;
-}
-.services__sectionContainer {
-    width: 100%;
-    display: flex;
-    /* padding-top: 20px;  */
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 40px;
-}
 
-.services__title {
-    color: gold;
-    font-size: 35px;
-    border: gold;
-    border-style: solid;
-    border-width: 3px;
-    padding: 5px;
-    font-weight: 600;
-    padding-left: 40px !important;
-    padding-right: 40px !important;
-    border-radius: 5px;
-}
-.services__titleUnderText {
-    color: white;
-    font-size: 22px;
-    margin-top: 10px;
-}
-.services__mainSection {
-    width: 90%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-.services__mainSectionColumn {
-    width: 48%;
-}
-.services__mainSectionCocktailColumn {
-    display: flex;
-    flex-direction: column;
-    width: 45%;
-    margin: 2%;
-
-}
-.services__section {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    margin-bottom: 20px;
-}
-.services__sectionDetails {
-    color: white;
-    margin-top: 4px;
-    margin-bottom: 4px;
-    font-size: 22px;
-}
-.services__mainSectionImage {
-    object-fit: contain;
-    max-width: 100%;
-    margin-top: 30px;
-}
-.services__mainSectionCeremony {
-    width: 90%;
-    justify-content: space-around;
-}
-.services__mainSectionCeremonyRow {
-    display: flex;
-    width: 100%;
-}
-.services__mainSectionCeremonyColumn {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 50%;
-}
-.services__mainSectionCocktail {
-    width: 90%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-.videos__video {
-    margin: 2%;
-    max-width: 50%;
-    height: auto;
-}
-.videoTitle {
-    color: white;
-    width: 100%;
-    font-size: 22px;
-    font-weight: 600;
-    text-align: center;
-    margin-bottom: 20px;
-}
-.video {
-    max-width: 100%;
-    max-height: 100%;
-}
 @media only screen and (max-width: 1100px) {
-    .services__mainSectionCeremonyColumn {
-        flex-direction: column;
-        justify-content: none;
-        display: flex;
-    }
-    .services__mainSectionCeremony {
-        width: 90%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .services__mainSectionCeremonyRow {
-        display: flex;
-        justify-content: space-evenly;
-        width: 100%;
-    }
-    .services__mainSectionCocktail {
-        width: 95%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .videos__video {
-        margin: 2%;
-        max-width: 100%;
-        height: auto;
-    }
-    .services__mainSectionCocktailColumn {
-        width: 90%;
-    }
-    /* #cocktailVideoColumn {
-        align-items: center;
-        display: flex;
-        width: 100%;
-    } */
-    .services__videoCocktail {
-        width: 100%;
-        height: auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+
 }
 @media only screen and (max-width: 900px) {
-    .services__mainSectionColumn {
-        width: 95%;
-    }
-    #mainSection1 {
-        flex-direction: column;
-        text-align: center;
-    }
-    .services__mainSectionImage {
-        margin-bottom: 30px;
-    }
+    
 }
 @media only screen and (max-width: 750px) {
-    .services__mainSectionCocktailColumn2 {
-        display: flex;
-        width: 100%;
-    }
+    
 }
 @media only screen and (max-width: 500px) {
     .services__header {
         margin-top: -10px;
         margin-bottom: 1px;
-    }
-    .services__mainSectionCeremonyRow {
-        display: flex;
-        width: 100%;
-        align-items: center;
-        justify-items: center;
-        flex-direction: column;
-        text-align: center;
-    }
-    .services__mainSectionCeremonyColumn {
-        width: 100%;
-        align-items: center;
-        justify-content: center;
-    }
-    .services__sectionContainer {
-        width: 100%;
-        justify-content: center;
-    }
-    .services__mainSectionCeremony {
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-    }
-    .services__mainSectionCocktailColumn {
-        width: 100%;
-    }
-    
-    .services__videoCocktail {
-        max-width: 100vw;
-        position: relative;
-        text-align: center;
-        color: white;
-    }
-    .videoTitle {
-        position: absolute;
-        left: 0px;
-        top: 17px;
-    }
-    .video {
-        max-width: 100%;
-    }
-    .services__title {
-        font-size: 30px;
-    }
-    .services__titleUnderText {
-        font-size: 16px;
     }
 }
