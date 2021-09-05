@@ -2,7 +2,7 @@ import React from 'react';
 import SectionTitle from '../SectionTitle';
 import '../../../styling/components/services/sections/ReceptionSection.css';
 
-function ReceptionSection( {sectionTitle, detail1, detail2, detail3 }) {
+function ReceptionSection ( {sectionTitle, detail1, detail2, detail3 }) {
     return (
         <div className='services__section'>
             <SectionTitle title={sectionTitle} />

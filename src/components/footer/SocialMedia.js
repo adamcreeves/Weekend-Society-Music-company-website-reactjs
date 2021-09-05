@@ -5,7 +5,7 @@ import IconButton from "@material-ui/core/IconButton";
 import "../../styling/components/footer/SocialMedia.css";
 import { FacebookProfile, InstagramProfile } from '../../resources/Strings';
 
-function SocialMedia() {
+function SocialMedia () {
     return (
         <div className='socialMedia'>
             <a 

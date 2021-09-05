@@ -4,7 +4,7 @@ import InquiryForm from './InquiryForm';
 import Banner from '../subcomponents/Banner';
 import "../../styling/components/contact/ContactBody.css";
 
-function ContactBody() {
+function ContactBody () {
     return (
         <div className='contactBody'>
             <Banner source={ContactBanner} alternate={ContactBannerText} />

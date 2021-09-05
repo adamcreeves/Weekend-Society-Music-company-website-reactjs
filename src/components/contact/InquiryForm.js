@@ -3,7 +3,7 @@ import emailjs from 'emailjs-com';
 import "../../styling/components/contact/InquiryForm.css";
 import { EmptyString, InquiryFormConfirmationMessage, InquiryFormErrorMessage } from '../../resources/Strings';
 
-function InquiryForm() {
+function InquiryForm () {
     const [name, setName] = useState(EmptyString);
     const [email, setEmail] = useState(EmptyString);
     const [phone, setPhone] = useState(EmptyString);

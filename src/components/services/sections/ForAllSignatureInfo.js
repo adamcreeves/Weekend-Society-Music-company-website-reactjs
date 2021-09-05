@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../../styling/components/services/sections/ForAllSignatureInfo.css';
 
-function ForAllSignatureInfo() {
+function ForAllSignatureInfo () {
     return (
         <div className='infoForAllContainer'>
             <div className='infoForAllTitle'>

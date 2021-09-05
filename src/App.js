@@ -11,7 +11,7 @@ import SocalPrices from "./screens/hidden/SocalPrices";
 import CocktailGroups from "./screens/hidden/CocktailGroups";
 import TravelPrices from "./screens/hidden/TravelPrices";
 
-function App() {
+function App () {
   return (
     <Router className='app'>
         <Switch>

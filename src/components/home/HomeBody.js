@@ -16,7 +16,7 @@ import {
     HomeVideoSource } from '../../resources/Strings';
 import '../../styling/components/home/HomeBody.css';
 
-function HomeBody() {
+function HomeBody () {
     return (
         <div className='homeBody'>
             <Banner 

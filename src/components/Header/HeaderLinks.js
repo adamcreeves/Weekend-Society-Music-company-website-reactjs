@@ -3,7 +3,7 @@ import "../../styling/components/header/HeaderLinks.css";
 import { Link } from "react-router-dom";
 import { About, Contact, Home, Services, Videos } from '../../resources/Strings';
 
-function HeaderLinks() {
+function HeaderLinks () {
     return (
         <div id='webLinks' className='header__webLinks'>
             <Link to='/' className='header__link'>

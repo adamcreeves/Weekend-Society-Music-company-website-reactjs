@@ -8,7 +8,7 @@ import CocktailSection from '../components/services/sections/CocktailSection';
 import CeremonySection from '../components/services/sections/CeremonySection';
 import ForAllSignatureInfo from '../components/services/sections/ForAllSignatureInfo';
 
-function Services() {
+function Services () {
     return (
         <div className='services__page'>
             <Header className='services__header' />

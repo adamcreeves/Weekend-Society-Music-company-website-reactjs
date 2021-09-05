@@ -2,7 +2,7 @@ import React from 'react';
 import { HomeTagline1, HomeTagline2, Welcome } from '../../resources/Strings';
 import '../../styling/components/home/Tagline.css';
 
-function Tagline() {
+function Tagline () {
     return (
         <div className='tagline'>
             <div className='tagline__title'>{Welcome}</div>

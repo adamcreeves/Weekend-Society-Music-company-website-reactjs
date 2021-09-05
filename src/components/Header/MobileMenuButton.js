@@ -2,7 +2,7 @@ import React from 'react';
 import "../../styling/components/header/MobileMenuButton.css";
 import ReorderIcon from '@material-ui/icons/Reorder';
 
-function MobileMenuButton({ menuFunction }) {
+function MobileMenuButton ({ menuFunction }) {
     return (
         <div className='mobileMenuButton__container'>
             <button id='menuButton' className='mobileMenuButton__button' onClick={menuFunction}>

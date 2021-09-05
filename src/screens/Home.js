@@ -4,7 +4,7 @@ import HomeBody from "../components/home/HomeBody";
 import Footer from "../components/footer/Footer";
 import "../styling/screens/Home.css";
 
-function Home() {
+function Home () {
     return (
         <div className='home__page'>
             <Header className='home__header' />

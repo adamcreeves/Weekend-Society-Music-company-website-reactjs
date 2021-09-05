@@ -1,7 +1,7 @@
 import React from 'react';
 import "../../styling/components/footer/FooterIcon.css";
 
-function FooterIcon() {
+function FooterIcon () {
     return (
         <img 
             className='footerIcon__icon'

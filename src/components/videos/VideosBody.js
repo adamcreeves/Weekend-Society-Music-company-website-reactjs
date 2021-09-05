@@ -3,7 +3,7 @@ import { CantStopTheFeelin, CrazyInLove, DontStartNow, DontStopBelievin, FlyMeTo
 import Video from './Video';
 import '../../styling/components/videos/VideosBody.css';
 
-function VideosBody() {
+function VideosBody () {
     return (
         <div className='videos__container'>
             <div className='videos__row'>

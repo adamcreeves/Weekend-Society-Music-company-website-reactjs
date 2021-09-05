@@ -4,7 +4,7 @@ import VideosBody from "../components/videos/VideosBody";
 import Footer from "../components/footer/Footer";
 import '../styling/screens/VideosPage.css';
 
-function VideosPage() {
+function VideosPage () {
     return (
         <div className='videos__page'>
             <Header className='videos__header' />

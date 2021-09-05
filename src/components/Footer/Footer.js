@@ -13,7 +13,7 @@ import {
     WebsiteCredit } from '../../resources/Strings';
 import SocialMedia from './SocialMedia';
 
-function Footer({ className }) {
+function Footer ({ className }) {
     return (
         <div className={className}>
             <div className='footer'>

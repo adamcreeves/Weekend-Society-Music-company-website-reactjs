@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { About, Contact, Home, Services, Videos } from '../../resources/Strings';
 import "../../styling/components/header/MobileMenu.css";
 
-function MobileMenu({ id, count, mobileMenuOff, mobileMenuOn }) {
+function MobileMenu ({ id, count, mobileMenuOff, mobileMenuOn }) {
         return (
             <div id={id} className='mobileMenu__container' style={count === 0 ? mobileMenuOff : mobileMenuOn}>
                 <Link to='/' className='mobileMenu__link'>

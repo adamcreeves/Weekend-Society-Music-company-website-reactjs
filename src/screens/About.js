@@ -4,7 +4,7 @@ import AboutBody from '../components/about/AboutBody';
 import Footer from '../components/footer/Footer';
 import '../styling/screens/About.css';
 
-function About() {
+function About () {
     return (
         <div className='about__page'>
             <Header className='contact__header'/>

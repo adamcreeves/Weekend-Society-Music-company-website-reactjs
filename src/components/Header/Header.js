@@ -6,7 +6,7 @@ import MobileMenuButton from './MobileMenuButton';
 import MobileMenu from './MobileMenu';
 
 
-function Header({ className }) {
+function Header ({ className }) {
     const [count, setCount] = useState(0);
 
     const toggleMenu = () => {

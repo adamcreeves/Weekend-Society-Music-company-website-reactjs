@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import "../../styling/components/header/HeaderIcon.css";
 
-function HeaderIcon() {
+function HeaderIcon () {
     return (
         <Link to='/' className='headerIcon__linkHome'>
             <button className='headerIcon__buttonHome'>

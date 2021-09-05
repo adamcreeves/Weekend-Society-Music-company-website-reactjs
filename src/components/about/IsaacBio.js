@@ -2,7 +2,7 @@ import React from 'react';
 import { IsaacBioText, IsaacBioTitle } from '../../resources/Strings';
 import "../../styling/components/about/IsaacBio.css";
 
-function IsaacBio() {
+function IsaacBio () {
     return (
         <div className='about__bio'>
             <img 

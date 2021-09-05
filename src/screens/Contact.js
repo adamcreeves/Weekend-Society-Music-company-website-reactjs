@@ -4,7 +4,7 @@ import Footer from '../components/footer/Footer';
 import ContactBody from '../components/contact/ContactBody';
 import '../styling/screens/Contact.css'
 
-function Contact() {
+function Contact () {
     return (
         <div className='contact__page'>
             <Header className='contact__header'/>
