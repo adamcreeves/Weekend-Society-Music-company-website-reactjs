@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from "../components/header/Header";
-import Footer from "../components/footer/Footer";
+import Header from "../components/head/Header";
+import Footer from "../components/foot/Footer";
 import '../styling/screens/Services.css';
 import ReactPlayer from "react-player";
 import ReceptionSection from '../components/services/sections/ReceptionSection';
