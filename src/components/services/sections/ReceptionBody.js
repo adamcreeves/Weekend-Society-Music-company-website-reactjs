@@ -1,6 +1,7 @@
 import React from 'react';
 import ReceptionSection from '../subsections/ReceptionSection';
 import ForAllSignatureInfo from '../subsections/ForAllSignatureInfo';
+import { Reception, ReceptionImageSource, ReceptionImageText, Signature, SignatureDetail1, SignatureDetail2, SignatureDetail3, SignaturePlus, SignaturePlusDetail1, SignaturePlusDetail2, SignaturePlusDetail3, SignaturePremium, SignaturePremiumDetail1, SignaturePremiumDetail2, SignaturePremiumDetail3 } from '../../../resources/Strings';
 
 function ReceptionBody ({ 
     sectionContainerClass, 
@@ -11,30 +12,30 @@ function ReceptionBody ({
     imageClass }) {
     return (
         <div className={sectionContainerClass}>
-            <div className={titleClass}>{'Reception'}</div>
+            <div className={titleClass}>{Reception}</div>
             <div id={mainSectionId} className={mainSectionClass}>
                 <div className={columnClass}>
                     <ReceptionSection 
-                        sectionTitle={'Signature Premium'} 
-                        detail1={'• 4 premium vocalists'} 
-                        detail2={'• Rhythm section: Keyboard, Guitar, Bass Guitar, & Drums'} 
-                        detail3={'• Full Brass section: Trumpet, Saxophone, & Trombone'} />
+                        sectionTitle={SignaturePremium} 
+                        detail1={SignaturePremiumDetail1} 
+                        detail2={SignaturePremiumDetail2} 
+                        detail3={SignaturePremiumDetail3} />
                     <ReceptionSection 
-                        sectionTitle={'Signature Plus'} 
-                        detail1={'• 3 premium vocalists'} 
-                        detail2={'• Rhythm section: Keyboard, Guitar, Bass Guitar, & Drums'} 
-                        detail3={'• Full Brass section: Trumpet & Saxophone'} />
+                        sectionTitle={SignaturePlus} 
+                        detail1={SignaturePlusDetail1} 
+                        detail2={SignaturePlusDetail2} 
+                        detail3={SignaturePlusDetail3} />
                     <ReceptionSection 
-                        sectionTitle={'Signature'} 
-                        detail1={'• 2 premium vocalists'} 
-                        detail2={'• Rhythm section: Keyboard, Guitar, Bass Guitar, & Drums'} 
-                        detail3={'• 1 Brass player: Saxophone'} />
+                        sectionTitle={Signature} 
+                        detail1={SignatureDetail1} 
+                        detail2={SignatureDetail2} 
+                        detail3={SignatureDetail3} />
                 </div>
                 <div className={columnClass}>
                     <img 
                         className={imageClass} 
-                        src='/servicesReceptionImage2.png' 
-                        alt={'Couples first dance'} />
+                        src={ReceptionImageSource} 
+                        alt={ReceptionImageText} />
                 </div>
             </div>
             <ForAllSignatureInfo />

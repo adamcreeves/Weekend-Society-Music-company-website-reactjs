@@ -17,7 +17,7 @@ function ServicesBody () {
             <CocktailBody
                 sectionContainerClass={'services__sectionContainer'}
                 titleClass={'services__title'}
-                underTitleTextClass={'services__titleUnderText'}
+                subtitleTextClass={'services__titleUnderText'}
                 mainSectionClass={'services__mainSectionCocktail'}
                 columnClass={'services__mainSectionCocktailColumn'}
                 videoContainerClass={'videos__video'}

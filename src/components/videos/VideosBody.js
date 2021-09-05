@@ -1,21 +1,37 @@
 import React from 'react';
 import { 
     CantStopTheFeelin, 
+    CantStopTheFeelinSource, 
     CrazyInLove, 
+    CrazyInLoveSource, 
     DontStartNow, 
+    DontStartNowSource, 
     DontStopBelievin, 
+    DontStopBelievinSource, 
     FlyMeToTheMoon, 
+    FlyMeToTheMoonSource, 
     IfIAintGotYou, 
+    IfIAintGotYouSource, 
     IWannaDance, 
+    IWannaDanceSource, 
     IWantYouBack, 
+    IWantYouBackSource, 
     Kiss, 
+    KissSource, 
     RaiseYourGlass, 
+    RaiseYourGlassSource, 
     September, 
+    SeptemberSource, 
     ShakeYourBody, 
+    ShakeYourBodySource, 
     ShutUpAndDance, 
+    ShutUpAndDanceSource, 
     SignedSealed, 
+    SignedSealedSource, 
     ThatsWhatILike, 
-    YouShookMe } from '../../resources/Strings';
+    ThatsWhatILikeSource, 
+    YouShookMe, 
+    YouShookMeSource} from '../../resources/Strings';
 import Video from './Video';
 import '../../styling/components/videos/VideosBody.css';
 
@@ -23,36 +39,36 @@ function VideosBody () {
     return (
         <div className='videos__container'>
             <div className='videos__row'>
-                <Video title={CrazyInLove} url={'https://vimeo.com/560991462'} />
-                <Video title={ShutUpAndDance} url={'https://vimeo.com/557864630'} />
+                <Video title={CrazyInLove} url={CrazyInLoveSource} />
+                <Video title={ShutUpAndDance} url={ShutUpAndDanceSource} />
             </div>
             <div className='videos__row'>
-                <Video title={DontStopBelievin} url={'https://vimeo.com/560094415'} />
-                <Video title={YouShookMe} url={'https://vimeo.com/555427896'} />
+                <Video title={DontStopBelievin} url={DontStopBelievinSource} />
+                <Video title={YouShookMe} url={YouShookMeSource} />
             </div>
             <div className='videos__row'>
-                <Video title={CantStopTheFeelin} url={'https://vimeo.com/561555897'} />
-                <Video title={FlyMeToTheMoon} url={'https://vimeo.com/561558104'} />
+                <Video title={CantStopTheFeelin} url={CantStopTheFeelinSource} />
+                <Video title={FlyMeToTheMoon} url={FlyMeToTheMoonSource} />
             </div>
             <div className='videos__row'>
-                <Video title={DontStartNow} url={'https://vimeo.com/563801264'} />
-                <Video title={IfIAintGotYou} url={'https://vimeo.com/563801725'} />
+                <Video title={DontStartNow} url={DontStartNowSource} />
+                <Video title={IfIAintGotYou} url={IfIAintGotYouSource} />
             </div>
             <div className='videos__row'>
-                <Video title={September} url={'https://vimeo.com/563807130'} />
-                <Video title={IWantYouBack} url={'https://vimeo.com/567150898'} />
+                <Video title={September} url={SeptemberSource} />
+                <Video title={IWantYouBack} url={IWantYouBackSource} />
             </div>
             <div className='videos__row'>
-                <Video title={SignedSealed} url={'https://vimeo.com/567151670'} />
-                <Video title={RaiseYourGlass} url={'https://vimeo.com/567151151'} />
+                <Video title={SignedSealed} url={SignedSealedSource} />
+                <Video title={RaiseYourGlass} url={RaiseYourGlassSource} />
             </div>
             <div className='videos__row'>
-                <Video title={ShakeYourBody} url={'https://vimeo.com/576976080'} />
-                <Video title={Kiss} url={'https://vimeo.com/576975855'} />
+                <Video title={ShakeYourBody} url={ShakeYourBodySource} />
+                <Video title={Kiss} url={KissSource} />
             </div>
             <div className='videos__row'>
-                <Video title={IWannaDance} url={'https://vimeo.com/576975954'} />
-                <Video title={ThatsWhatILike} url={'https://vimeo.com/576981766'} />
+                <Video title={IWannaDance} url={IWannaDanceSource} />
+                <Video title={ThatsWhatILike} url={ThatsWhatILikeSource} />
             </div>
         </div>
     );

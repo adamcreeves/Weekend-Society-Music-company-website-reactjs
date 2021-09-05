@@ -1,4 +1,14 @@
 import React from 'react';
+import { 
+    Ceremony, 
+    CeremonyDuoDetails, 
+    CeremonySoloDetails, 
+    CeremonyTrioDetails, 
+    Duo,  
+    Solo, 
+    StringQuartet, 
+    StringQuartetDetails, 
+    Trio,  } from '../../../resources/Strings';
 import CeremonySection from '../subsections/CeremonySection';
 
 function CeremonyBody ({ 
@@ -9,24 +19,24 @@ function CeremonyBody ({
     columnClass }) {
     return (
         <div className={sectionContainerClass}>
-            <div className={titleClass}>{'Ceremony'}</div>
+            <div className={titleClass}>{Ceremony}</div>
             <div className={mainSectionClass}>
                 <div className={rowClass}>
                     <div className={columnClass}>
                         <CeremonySection
-                            sectionTitle={'Solo'}
-                            details={'• Keys \n • Guitar \n • Saxophone \n • Violin'} />
+                            sectionTitle={Solo}
+                            details={CeremonySoloDetails} />
                         <CeremonySection 
-                            sectionTitle={'Duo'}
-                            details={'• Keys & Saxophone \n • Keys & Guitar \n • Violin & Cello \n • Violin & Keys'} />
+                            sectionTitle={Duo}
+                            details={CeremonyDuoDetails} />
                     </div>
                     <div className={columnClass}>
                         <CeremonySection 
-                            sectionTitle={'Trio'}
-                            details={'• Keys, Saxophone, Guitar \n • Violin, Cello, & Viola'} />
+                            sectionTitle={Trio}
+                            details={CeremonyTrioDetails} />
                         <CeremonySection 
-                            sectionTitle={'String Quartet'}
-                            details={'• 2 Violins, Cello, & Viola'} />
+                            sectionTitle={StringQuartet}
+                            details={StringQuartetDetails} />
                     </div>
                 </div>
             </div>
