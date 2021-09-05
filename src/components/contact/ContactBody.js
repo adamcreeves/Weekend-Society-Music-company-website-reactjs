@@ -2,6 +2,7 @@ import React from 'react';
 import { ContactBanner, ContactBannerText, ContactFormHeadline, ContactHeadline, Email, EmailSource, PhoneNumber, PhoneNumberSource } from '../../resources/Strings';
 import InquiryForm from './InquiryForm';
 import Banner from '../subcomponents/Banner';
+import ContactMethod from './ContactMethod';
 import "../../styling/components/contact/ContactBody.css";
 
 function ContactBody () {
@@ -9,20 +10,16 @@ function ContactBody () {
         <div className='contactBody'>
             <Banner source={ContactBanner} alternate={ContactBannerText} />
             <div className='contactBody__headine'>{ContactHeadline}</div>
-            <div className='contactBody__phone'>
-                <a 
-                    href={PhoneNumberSource} 
-                    className='contactBody__click'>
-                        {PhoneNumber}
-                </a>
-            </div>
-            <div className='contactBody__info'>
-                <a 
-                    href={EmailSource} 
-                    className='contactBody__click'>
-                        {Email}
-                </a>
-            </div>
+            <ContactMethod 
+                methodClass={'contactBody__phone'}
+                linkClass={'contactBody__click'} 
+                source={PhoneNumberSource}
+                text={PhoneNumber} />
+            <ContactMethod 
+                methodClass={'contactBody__info'}
+                linkClass={'contactBody__click'} 
+                source={EmailSource}
+                text={Email} />
             <div className='contactBody__info2'>{ContactFormHeadline}</div>
             <InquiryForm />
         </div>
