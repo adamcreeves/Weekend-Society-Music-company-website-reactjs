@@ -5,7 +5,7 @@ import Home from './screens/Home';
 import Services from './screens/Services';
 import Contact from './screens/Contact';
 import About from './screens/About';
-import VideosPage from "./screens/VideosPage";
+import Videos from "./screens/Videos";
 import NorcalPrices from "./screens/hidden/NorcalPrices";
 import SocalPrices from "./screens/hidden/SocalPrices";
 import CocktailGroups from "./screens/hidden/CocktailGroups";
@@ -17,7 +17,7 @@ function App () {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/services" component={Services} />
-          <Route exact path="/videos" component={VideosPage} />
+          <Route exact path="/videos" component={Videos} />
           <Route exact path="/about" component={About} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/norcalpricing" component={NorcalPrices} />
