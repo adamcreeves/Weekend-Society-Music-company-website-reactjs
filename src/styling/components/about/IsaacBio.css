@@ -1,4 +1,4 @@
-.about__bio {
+.isaacBio {
     width: 100%;
     display: flex;
     align-items: center;
@@ -7,58 +7,54 @@
     color: white;
     font-size: 23px;
 }
-.about__isaacImage {
+.isaacBio__image {
     margin-left: 5%;
     margin-right: 3%;
     width: 40%;
 }
-.about__isaacColumn {
+.isaacBio__column {
     display: flex;
     flex-direction: column;
     margin-left: 3%;
     margin-right: 5%;
 }
-.about__isaacName {
+.isaacBio__name {
     font-size: 25px;
     font-weight: 700;
     margin-bottom: 10px;
 }
 @media only screen and (max-width: 750px) {
-    .about__bio {
+    .isaacBio {
         flex-direction: column;
     }
-    .about__isaacImage {
+    .isaacBio__image {
         margin-top: 3%;
         width: 90%;
         margin-bottom: 5%;
     }
-    .about__isaacName {
+    .isaacBio__name {
         text-align: center;
     }
-    .about__isaacBioText {
+    .isaacBio__text {
         margin-bottom: 5%;
     }
 }
 @media only screen and (max-width: 500px) {
-    .about__bio {
+    .isaacBio {
         font-size: 20px;
     }
-    .about__header {
-        margin-top: -10px;
-        margin-bottom: 1px;
-    }
-    .about__isaacImage {
+    .isaacBio__image {
         margin-right: 5%;
     }
-    .about__isaacBioText {
+    .isaacBio__text {
         margin-left: 5%;
     }
 }
 @media only screen and (max-height: 400px) {
-    .about__bio {
+    .isaacBio {
         flex-direction: column;
     }
-    .about__isaacImage {
+    .isaacBio__image {
         width: 86%;
         margin-right: 7%;
     }

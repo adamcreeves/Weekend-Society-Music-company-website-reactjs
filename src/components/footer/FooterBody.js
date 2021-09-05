@@ -6,7 +6,7 @@ import "../../styling/components/footer/FooterBody.css";
 
 function FooterBody () {
     return (
-        <div className='footer'>
+        <div className='footerBody'>
             <IconSocialCredit />
             <TaglineAndContact />
             <FooterButton />

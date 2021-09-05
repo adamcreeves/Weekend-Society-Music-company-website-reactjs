@@ -17,7 +17,6 @@ function HeaderBody () {
             document.getElementById('mobileMenu').style = mobileMenuOff;
             setCount(0);
         }
-
     }
 
     return (

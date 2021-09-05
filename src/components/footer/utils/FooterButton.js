@@ -4,8 +4,8 @@ import "../../../styling/components/footer/utils/FooterButton.css";
 
 function FooterButton () {
     return (
-        <button className='footer__button'>
-            <a href={EmailSource} className='footer__buttonText'>{BookNow}</a>
+        <button className='footerButton'>
+            <a href={EmailSource} className='footerButton__text'>{BookNow}</a>
         </button>
     );
 }

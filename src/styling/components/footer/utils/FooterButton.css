@@ -1,4 +1,4 @@
-.footer__button {
+.footerButton {
     height: 100px;
     width: 20%;
     color: whitesmoke;
@@ -13,12 +13,12 @@
     font-size: 20px;
     font-weight: bold;
 }
-.footer__buttonText {
+.footerButton__text {
     color: whitesmoke;
     text-decoration: none;
 }
 @media only screen and (max-width: 800px) {
-    .footer__button {
+    .footerButton {
       height: 60px;
       width: 70%;
       margin-top: 5px;
@@ -26,15 +26,10 @@
     }
 }
 @media only screen and (max-width: 720px) {
-    /* .footer {
-      display: flex;
-      height: 95px;
-      flex-direction: column-reverse;
-      padding-bottom: 10px;
-    } */
+    
 }
 @media only screen and (max-height: 400px) {
-    .footer__button {
+    .footerButton {
       height: 60px;
       width: 55%;
       margin: 12px;

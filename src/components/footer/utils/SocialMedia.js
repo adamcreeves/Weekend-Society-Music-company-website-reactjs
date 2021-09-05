@@ -8,8 +8,7 @@ import "../../../styling/components/footer/utils/SocialMedia.css";
 function SocialMedia () {
     return (
         <div className='socialMedia'>
-            <a 
-                href={InstagramProfile}
+            <a href={InstagramProfile}
                 className='solicalMedia__link'>
                 <IconButton>
                     <InstagramIcon 
@@ -17,8 +16,7 @@ function SocialMedia () {
                         className='socialMedia__icon' />
                 </IconButton>
             </a>
-            <a
-                href={FacebookProfile}
+            <a href={FacebookProfile}
                 className='solicalMedia__link'>
                 <IconButton>
                     <FacebookIcon 

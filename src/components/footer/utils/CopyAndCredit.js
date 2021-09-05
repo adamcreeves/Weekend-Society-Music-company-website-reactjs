@@ -4,9 +4,9 @@ import "../../../styling/components/footer/utils/CopyAndCredit.css";
 
 function CopyAndCredit () {
     return (
-        <div className='footer__copyrightAndCredit'>
-            <div className='footer__copyrightAndCreditText'>{Trademark}</div>
-            <div className='footer__copyrightAndCreditText'>{WebsiteCredit}<br />{Adam}</div>
+        <div className='copyrightAndCredit'>
+            <div className='copyrightAndCredit__text'>{Trademark}</div>
+            <div className='copyrightAndCredit__text'>{WebsiteCredit}<br />{Adam}</div>
         </div>
     );
 }

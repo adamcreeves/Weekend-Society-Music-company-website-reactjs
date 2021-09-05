@@ -1,4 +1,4 @@
-.about__bio {
+.bandBio {
     width: 100%;
     display: flex;
     align-items: center;
@@ -7,25 +7,25 @@
     color: white;
     font-size: 23px;
 }
-.about__bandBioText {
+.bandBio__text {
     margin-left: 5%;
     margin-right: 5%;
 }
 @media only screen and (max-width: 750px) {
-    .about__bio {
+    .bandBio {
         flex-direction: column;
     }
 }
 @media only screen and (max-width: 500px) {
-    .about__bio {
+    .bandBio {
         font-size: 20px;
     }
-    .about__bandBioText {
+    .bandBio__text {
         margin-bottom: 17px;
     }
 }
 @media only screen and (max-height: 400px) {
-    .about__bio {
+    .bandBio {
         flex-direction: column;
     }
 }

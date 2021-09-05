@@ -4,14 +4,14 @@ import "../../styling/components/about/IsaacBio.css";
 
 function IsaacBio () {
     return (
-        <div className='about__bio'>
+        <div className='isaacBio'>
             <img 
-                className='about__isaacImage'
+                className='isaacBio__image'
                 src='/isaacpic.png'
                 alt='portrait of isaac' />
-            <div className='about__isaacColumn'>
-                <div className='about__isaacName'>{IsaacBioTitle}</div>
-                <div className='about__isaacBioText'>{IsaacBioText}</div>
+            <div className='isaacBio__column'>
+                <div className='isaacBio__name'>{IsaacBioTitle}</div>
+                <div className='isaacBio__text'>{IsaacBioText}</div>
             </div>
         </div>
     );

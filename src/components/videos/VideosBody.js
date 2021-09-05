@@ -37,36 +37,36 @@ import '../../styling/components/videos/VideosBody.css';
 
 function VideosBody () {
     return (
-        <div className='videos__container'>
-            <div className='videos__row'>
+        <div className='videosBody'>
+            <div className='videosBody__row'>
                 <Video title={CrazyInLove} url={CrazyInLoveSource} />
                 <Video title={ShutUpAndDance} url={ShutUpAndDanceSource} />
             </div>
-            <div className='videos__row'>
+            <div className='videosBody__row'>
                 <Video title={DontStopBelievin} url={DontStopBelievinSource} />
                 <Video title={YouShookMe} url={YouShookMeSource} />
             </div>
-            <div className='videos__row'>
+            <div className='videosBody__row'>
                 <Video title={CantStopTheFeelin} url={CantStopTheFeelinSource} />
                 <Video title={FlyMeToTheMoon} url={FlyMeToTheMoonSource} />
             </div>
-            <div className='videos__row'>
+            <div className='videosBody__row'>
                 <Video title={DontStartNow} url={DontStartNowSource} />
                 <Video title={IfIAintGotYou} url={IfIAintGotYouSource} />
             </div>
-            <div className='videos__row'>
+            <div className='videosBody__row'>
                 <Video title={September} url={SeptemberSource} />
                 <Video title={IWantYouBack} url={IWantYouBackSource} />
             </div>
-            <div className='videos__row'>
+            <div className='videosBody__row'>
                 <Video title={SignedSealed} url={SignedSealedSource} />
                 <Video title={RaiseYourGlass} url={RaiseYourGlassSource} />
             </div>
-            <div className='videos__row'>
+            <div className='videosBody__row'>
                 <Video title={ShakeYourBody} url={ShakeYourBodySource} />
                 <Video title={Kiss} url={KissSource} />
             </div>
-            <div className='videos__row'>
+            <div className='videosBody__row'>
                 <Video title={IWannaDance} url={IWannaDanceSource} />
                 <Video title={ThatsWhatILike} url={ThatsWhatILikeSource} />
             </div>

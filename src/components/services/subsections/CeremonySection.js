@@ -1,5 +1,5 @@
 import React from 'react';
-import SectionTitle from '../SectionTitle';
+import SectionTitle from './SectionTitle';
 import '../../../styling/components/services/sections/CeremonySection.css';
 
 function CeremonySection ({ sectionTitle, details }) {

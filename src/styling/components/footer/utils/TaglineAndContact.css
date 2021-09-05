@@ -9,13 +9,13 @@
     text-align: center;
     flex-direction: column;
 }
-.footer__info {
+.taglineAndContact__info {
     margin: 5px;
 }
-.footer__infoContact {
+.taglineAndContact__infoContact {
     margin: 7px;
 }
-.infoContact__click {
+.taglineAndContact__infoClick {
     color: white;
     text-decoration: none;
 }
@@ -26,10 +26,10 @@
         width: 100%;
         margin-top: 10px;
     }
-    .footer__infoContact {
+    .taglineAndContact__infoContact {
         font-size: 19px
     }
-    .footer__info {
+    .taglineAndContact__info {
         margin: 3px;
     }
   }

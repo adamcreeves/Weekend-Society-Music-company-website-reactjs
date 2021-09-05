@@ -4,7 +4,7 @@ import "../../../styling/components/header/utils/MobileMenuButton.css";
 
 function MobileMenuButton ({ menuFunction }) {
     return (
-        <div className='mobileMenuButton__container'>
+        <div className='mobileMenuButton'>
             <button id='menuButton' className='mobileMenuButton__button' onClick={menuFunction}>
                 <ReorderIcon fontSize='large' className='mobileMenuButton__icon' />
             </button>

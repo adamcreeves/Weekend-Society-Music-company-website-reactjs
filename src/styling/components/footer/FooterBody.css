@@ -1,4 +1,4 @@
-.footer {
+.footerBody {
     display: flex;
     height: auto;
     width: 98vw;
@@ -9,7 +9,7 @@
     z-index: 100;
 }
 @media only screen and (max-width: 720px) {
-    /* .footer {
+    /* .footerBody {
       display: flex;
       height: 95px;
       flex-direction: column-reverse;
@@ -17,12 +17,12 @@
     } */
 }
 @media only screen and (max-width: 800px) {
-  .footer {
+  .footerBody {
       flex-direction: column-reverse;
   }
 }
 @media only screen and (max-height: 400px) {
-  .footer {
+  .footerBody {
       flex-direction: column-reverse;
   }
 }

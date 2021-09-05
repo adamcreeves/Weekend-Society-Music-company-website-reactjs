@@ -11,15 +11,15 @@ import "../../../styling/components/footer/utils/TaglineAndContact.css";
 function TaglineAndContact () {
     return (
         <div className='taglineAndContact'>
-            <div className='footer__info'>{FooterTagline}</div>
+            <div className='taglineAndContact__info'>{FooterTagline}</div>
             <ContactMethod 
-                methodClass={'footer__infoContact'}
-                linkClass={'infoContact__click'}
+                methodClass={'taglineAndContact__infoContact'}
+                linkClass={'taglineAndContact__infoClick'}
                 source={PhoneNumberSource}
                 text={PhoneNumber} />
             <ContactMethod 
-                methodClass={'footer__infoContact'}
-                linkClass={'infoContact__click'}
+                methodClass={'taglineAndContact__infoContact'}
+                linkClass={'taglineAndContact__infoClick'}
                 source={EmailSource}
                 text={Email} />
         </div>

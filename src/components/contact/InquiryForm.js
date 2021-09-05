@@ -43,6 +43,7 @@ function InquiryForm () {
             alert(InquiryFormErrorMessage);
         });
     }
+    
     return (
         <form
             className='inquiryForm' 

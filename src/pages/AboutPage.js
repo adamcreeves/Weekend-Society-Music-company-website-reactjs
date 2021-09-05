@@ -7,9 +7,9 @@ import '../styling/pages/AboutPage.css';
 function AboutPage () {
     return (
         <div className='about__page'>
-            <Header className='contact__header'/>
+            <Header className='about__header'/>
             <AboutBody />
-            <Footer className='contact__footer' />
+            <Footer className='about__footer' />
         </div>
     );
 }

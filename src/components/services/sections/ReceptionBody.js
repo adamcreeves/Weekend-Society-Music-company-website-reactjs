@@ -1,7 +1,22 @@
 import React from 'react';
 import ReceptionSection from '../subsections/ReceptionSection';
 import ForAllSignatureInfo from '../subsections/ForAllSignatureInfo';
-import { Reception, ReceptionImageSource, ReceptionImageText, Signature, SignatureDetail1, SignatureDetail2, SignatureDetail3, SignaturePlus, SignaturePlusDetail1, SignaturePlusDetail2, SignaturePlusDetail3, SignaturePremium, SignaturePremiumDetail1, SignaturePremiumDetail2, SignaturePremiumDetail3 } from '../../../resources/Strings';
+import { 
+    Reception, 
+    ReceptionImageSource, 
+    ReceptionImageText, 
+    Signature, 
+    SignatureDetail1, 
+    SignatureDetail2, 
+    SignatureDetail3, 
+    SignaturePlus, 
+    SignaturePlusDetail1, 
+    SignaturePlusDetail2, 
+    SignaturePlusDetail3, 
+    SignaturePremium, 
+    SignaturePremiumDetail1, 
+    SignaturePremiumDetail2, 
+    SignaturePremiumDetail3 } from '../../../resources/Strings';
 
 function ReceptionBody ({ 
     sectionContainerClass, 

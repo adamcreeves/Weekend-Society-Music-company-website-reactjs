@@ -1,8 +1,8 @@
 
-.videos__container {
+.videosBody {
     width: 100%;
 }
-.videos__row {
+.videosBody__row {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -10,18 +10,18 @@
     justify-content: center;
 }
 @media only screen and (max-width: 1100px) {
-    .videos__row {
+    .videosBody__row {
         flex-direction: column;
         width: 100%;
     }
 }
 @media only screen and (max-width: 500px) {
-    .videos__container {
+    .videosBody {
         margin-bottom: 0px;
     }
 }
 @media only screen and (max-height: 400px) {
-    .videos__row {
+    .videosBody__row {
         flex-direction: column;
     }
 }

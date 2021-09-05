@@ -10,7 +10,7 @@ import "../../../styling/components/header/utils/MobileMenu.css";
 
 function MobileMenu ({ id, count, mobileMenuOff, mobileMenuOn }) {
         return (
-            <div id={id} className='mobileMenu__container' style={count === 0 ? mobileMenuOff : mobileMenuOn}>
+            <div id={id} className='mobileMenu' style={count === 0 ? mobileMenuOff : mobileMenuOn}>
                 <Link to='/' className='mobileMenu__link'>
                     <button className='mobileMenu__button'>
                         <div className='mobileMenu__buttonText'>{Home}</div>
@@ -18,7 +18,7 @@ function MobileMenu ({ id, count, mobileMenuOff, mobileMenuOn }) {
                 </Link>
                 <Link to='/services' className='mobileMenu__link'>
                     <button className='mobileMenu__button'>
-                        <div className='header__buttonText'>{Services}</div>
+                        <div className='mobileMenu__buttonText'>{Services}</div>
                     </button>
                 </Link>
                 <Link to='/videos' className='mobileMenu__link'>

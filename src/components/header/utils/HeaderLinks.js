@@ -10,7 +10,7 @@ import "../../../styling/components/header/utils/HeaderLinks.css";
 
 function HeaderLinks () {
     return (
-        <div id='webLinks' className='header__webLinks'>
+        <div className='header__webLinks'>
             <Link to='/' className='header__link'>
                 <button className='header__button'>
                     <h3 className='header__buttonText'>{Home}</h3>

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styling/components/services/SectionTitle.css';
+import '../../../styling/components/services/SectionTitle.css';
 
 function SectionTitle ({ title }) {
     return (

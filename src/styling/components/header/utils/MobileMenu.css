@@ -1,3 +1,7 @@
+.mobileMenu {
+    display: none;
+    width: 100%;
+}
 .mobileMenu__link {
     margin: 10px;
 }
@@ -11,19 +15,15 @@
     color: whitesmoke;
     font-size: 20px;
 }
-.mobileMenu__container {
-    display: none;
-    width: 100%;
-}
 @media only screen and (max-width: 950px) {
-    .mobileMenu__buttonText {
-        font-size: 18px;
-        font-weight: 600;
-    }
-    .mobileMenu__container {
+    .mobileMenu {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
+    }
+    .mobileMenu__buttonText {
+        font-size: 18px;
+        font-weight: 600;
     }
 }
