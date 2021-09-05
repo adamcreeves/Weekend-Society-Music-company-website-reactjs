@@ -1,0 +1,29 @@
+.footer {
+    display: flex;
+    height: auto;
+    width: 98vw;
+    display: flex;
+    color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+@media only screen and (max-width: 720px) {
+    /* .footer {
+      display: flex;
+      height: 95px;
+      flex-direction: column-reverse;
+      padding-bottom: 10px;
+    } */
+}
+@media only screen and (max-width: 800px) {
+  .footer {
+      flex-direction: column-reverse;
+  }
+}
+@media only screen and (max-height: 400px) {
+  .footer {
+      flex-direction: column-reverse;
+  }
+}
+  

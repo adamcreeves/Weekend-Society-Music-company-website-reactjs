@@ -1,0 +1,33 @@
+.footer__copyrightAndCredit {
+    margin-top: -10px;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.footer__copyrightAndCreditText {
+    margin: 2px;
+}
+@media only screen and (max-width: 720px) {
+    
+}
+@media only screen and (max-width: 800px) {
+    .footer__copyrightAndCredit {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .footer__copyrightAndCreditText {
+        font-size: 11px;
+        z-index: 150;
+        margin: 5px;
+    }
+}
+@media only screen and (max-height: 400px) {
+    .footer__copyrightAndCredit {
+        width: 90%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

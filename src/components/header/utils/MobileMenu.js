@@ -5,8 +5,8 @@ import {
     Contact, 
     Home, 
     Services, 
-    Videos } from '../../resources/Strings';
-import "../../styling/components/header/MobileMenu.css";
+    Videos } from '../../../resources/Strings';
+import "../../../styling/components/header/utils/MobileMenu.css";
 
 function MobileMenu ({ id, count, mobileMenuOff, mobileMenuOn }) {
         return (

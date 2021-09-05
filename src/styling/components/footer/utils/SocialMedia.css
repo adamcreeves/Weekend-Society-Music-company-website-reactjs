@@ -15,3 +15,8 @@
     color: white;
     z-index: 100;
 }
+@media only screen and (max-height: 400px) {
+    .socialMedia {
+      z-index: 100;
+    }
+}

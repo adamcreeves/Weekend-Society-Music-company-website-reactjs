@@ -5,8 +5,8 @@ import {
     Contact, 
     Home, 
     Services, 
-    Videos } from '../../resources/Strings';
-import "../../styling/components/header/HeaderLinks.css";
+    Videos } from '../../../resources/Strings';
+import "../../../styling/components/header/utils/HeaderLinks.css";
 
 function HeaderLinks () {
     return (

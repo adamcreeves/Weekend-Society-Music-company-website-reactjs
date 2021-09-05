@@ -13,6 +13,7 @@
 }
 .mobileMenu__container {
     display: none;
+    width: 100%;
 }
 @media only screen and (max-width: 950px) {
     .mobileMenu__buttonText {

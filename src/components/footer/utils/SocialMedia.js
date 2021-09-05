@@ -2,8 +2,8 @@ import React from 'react';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import FacebookIcon from "@material-ui/icons/Facebook";
 import IconButton from "@material-ui/core/IconButton";
-import { FacebookProfile, InstagramProfile } from '../../resources/Strings';
-import "../../styling/components/footer/SocialMedia.css";
+import { FacebookProfile, InstagramProfile } from '../../../resources/Strings';
+import "../../../styling/components/footer/utils/SocialMedia.css";
 
 function SocialMedia () {
     return (

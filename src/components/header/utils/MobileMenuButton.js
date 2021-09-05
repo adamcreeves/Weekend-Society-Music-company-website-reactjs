@@ -1,6 +1,6 @@
 import React from 'react';
 import ReorderIcon from '@material-ui/icons/Reorder';
-import "../../styling/components/header/MobileMenuButton.css";
+import "../../../styling/components/header/utils/MobileMenuButton.css";
 
 function MobileMenuButton ({ menuFunction }) {
     return (

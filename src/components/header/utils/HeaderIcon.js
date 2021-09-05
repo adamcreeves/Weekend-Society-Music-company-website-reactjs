@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import "../../styling/components/header/HeaderIcon.css";
+import "../../../styling/components/header/utils/HeaderIcon.css";
 
 function HeaderIcon () {
     return (
