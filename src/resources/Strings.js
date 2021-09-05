@@ -34,8 +34,9 @@ export const PledgeLine10 = 'We will not tell terrible jokes';
 
 // Tagline
 export const Welcome = 'Welcome';
-export const HomeTagline1 = 'You Dance, You Party, ';
-export const HomeTagline2 = 'We\'ll Play';
+export const HomeTagline1 = 'You Dance, ';
+export const HomeTagline2 = 'You Party, ';
+export const HomeTagline3 = 'We\'ll Play';
 
 // What We Offer
 export const WhatWeOffer = 'What We Offer';
