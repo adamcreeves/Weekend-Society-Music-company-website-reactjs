@@ -1,10 +1,10 @@
 import React from 'react';
+import ReceptionBody from './sections/ReceptionBody';
+import CocktailBody from './sections/CocktailBody';
 import CeremonyBody from './sections/CeremonyBody';
 import '../../styling/components/services/ServicesBody.css';
-import CocktailBody from './sections/CocktailBody';
-import ReceptionBody from './sections/ReceptionBody';
 
-function ServicesBody() {
+function ServicesBody () {
     return (
         <div className='services__container'>
             <ReceptionBody 

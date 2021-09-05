@@ -1,5 +1,13 @@
 import React from 'react';
-import { ContactBanner, ContactBannerText, ContactFormHeadline, ContactHeadline, Email, EmailSource, PhoneNumber, PhoneNumberSource } from '../../resources/Strings';
+import { 
+    ContactBanner, 
+    ContactBannerText, 
+    ContactFormHeadline, 
+    ContactHeadline, 
+    Email, 
+    EmailSource, 
+    PhoneNumber, 
+    PhoneNumberSource } from '../../resources/Strings';
 import InquiryForm from './InquiryForm';
 import Banner from '../subcomponents/Banner';
 import ContactMethod from './ContactMethod';

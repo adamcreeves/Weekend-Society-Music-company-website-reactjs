@@ -1,7 +1,7 @@
 import React from 'react'
+import Header from '../components/header/Header';
 import AboutBody from '../components/about/AboutBody';
 import Footer from '../components/footer/Footer';
-import Header from '../components/header/Header';
 import '../styling/pages/AboutPage.css';
 
 function AboutPage () {

@@ -2,7 +2,7 @@ import React from 'react'
 import ReactPlayer from 'react-player';
 import CocktailSection from '../subsections/CocktailSection';
 
-function CocktailBody({ 
+function CocktailBody ({ 
     sectionContainerClass, 
     titleClass, 
     underTitleTextClass,
@@ -36,4 +36,4 @@ function CocktailBody({
     );
 }
 
-export default CocktailBody
+export default CocktailBody;

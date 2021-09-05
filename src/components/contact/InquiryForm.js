@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
+import { 
+    EmptyString, 
+    InquiryFormConfirmationMessage, 
+    InquiryFormErrorMessage } from '../../resources/Strings';
 import "../../styling/components/contact/InquiryForm.css";
-import { EmptyString, InquiryFormConfirmationMessage, InquiryFormErrorMessage } from '../../resources/Strings';
 
 function InquiryForm () {
     const [name, setName] = useState(EmptyString);

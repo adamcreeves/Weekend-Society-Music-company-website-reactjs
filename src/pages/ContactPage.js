@@ -1,7 +1,7 @@
 import React from 'react';
+import Header from '../components/header/Header';
 import ContactBody from '../components/contact/ContactBody';
 import Footer from '../components/footer/Footer';
-import Header from '../components/header/Header';
 import '../styling/pages/ContactPage.css';
 
 function ContactPage () {

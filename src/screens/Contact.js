@@ -2,7 +2,7 @@ import React from 'react';
 import ContactPage from '../pages/ContactPage';
 
 function Contact () {
-    return <ContactPage />
+    return <ContactPage />;
 }
 
 export default Contact;

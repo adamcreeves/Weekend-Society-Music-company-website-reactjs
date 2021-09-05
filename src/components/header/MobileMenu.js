@@ -1,6 +1,11 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import { About, Contact, Home, Services, Videos } from '../../resources/Strings';
+import { 
+    About, 
+    Contact, 
+    Home, 
+    Services, 
+    Videos } from '../../resources/Strings';
 import "../../styling/components/header/MobileMenu.css";
 
 function MobileMenu ({ id, count, mobileMenuOff, mobileMenuOn }) {

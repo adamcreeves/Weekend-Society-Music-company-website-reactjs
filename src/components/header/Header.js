@@ -1,9 +1,9 @@
 import React, { useState }from 'react';
-import "../../styling/components/header/Header.css";
 import HeaderLinks from './HeaderLinks';
 import HeaderIcon from './HeaderIcon';
 import MobileMenuButton from './MobileMenuButton';
 import MobileMenu from './MobileMenu';
+import "../../styling/components/header/Header.css";
 
 
 function Header ({ className }) {

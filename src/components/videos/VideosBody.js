@@ -1,5 +1,21 @@
 import React from 'react';
-import { CantStopTheFeelin, CrazyInLove, DontStartNow, DontStopBelievin, FlyMeToTheMoon, IfIAintGotYou, IWannaDance, IWantYouBack, Kiss, RaiseYourGlass, September, ShakeYourBody, ShutUpAndDance, SignedSealed, ThatsWhatILike, YouShookMe } from '../../resources/Strings';
+import { 
+    CantStopTheFeelin, 
+    CrazyInLove, 
+    DontStartNow, 
+    DontStopBelievin, 
+    FlyMeToTheMoon, 
+    IfIAintGotYou, 
+    IWannaDance, 
+    IWantYouBack, 
+    Kiss, 
+    RaiseYourGlass, 
+    September, 
+    ShakeYourBody, 
+    ShutUpAndDance, 
+    SignedSealed, 
+    ThatsWhatILike, 
+    YouShookMe } from '../../resources/Strings';
 import Video from './Video';
 import '../../styling/components/videos/VideosBody.css';
 

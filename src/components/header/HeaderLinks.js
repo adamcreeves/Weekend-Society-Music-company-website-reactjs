@@ -1,7 +1,12 @@
 import React from 'react';
-import "../../styling/components/header/HeaderLinks.css";
 import { Link } from "react-router-dom";
-import { About, Contact, Home, Services, Videos } from '../../resources/Strings';
+import { 
+    About, 
+    Contact, 
+    Home, 
+    Services, 
+    Videos } from '../../resources/Strings';
+import "../../styling/components/header/HeaderLinks.css";
 
 function HeaderLinks () {
     return (
