@@ -27,7 +27,8 @@ export const PledgeLine4 = 'We will make your friends envious';
 export const PledgeLine5 = 'We will make you dance your face off';
 export const PledgeLine6 = 'We will make you "air guitar" solo';
 export const PledgeLine7 = 'We will not be diva artists that only play what "we" want to play';
-export const PledgeLine8 = 'We will not play the chicken dance, macarena, or electric slide, (unless that\'s your thing)';
+export const PledgeLine8 = `We will not play the chicken dance, macarena, or electric slide, 
+                            (unless that's your thing)`;
 export const PledgeLine9 = 'We will not take a break every 15 minutes';
 export const PledgeLine10 = 'We will not tell terrible jokes';
 
@@ -44,8 +45,17 @@ export const PrivateParties = 'Private Parties';
 export const SpecialEvents = 'Special Events';
 
 // Inquiry Form
-export const InquiryFormConfirmationMessage = 'Your information has been sent\nYou will hear from us soon!';
+export const InquiryFormConfirmationMessage = `Your information has been sent\nYou will 
+                                                hear from us soon!`;
 export const InquiryFormErrorMessage = 'Something went wrong. Please try again.'
+
+// Contact Body
+export const ContactBanner = '/contactMain.jpg';
+export const ContactBannerText = 'Guy and girl dancing';
+export const ContactHeadline = 'Contact us at:';
+export const PhoneNumberSource = 'tel:+13238802005';
+export const EmailSource = 'mailto:hello@weekendsocietymusic.com';
+export const ContactFormHeadline = 'or fill out the information below:';
 
 // SCREENS
 // About
@@ -70,20 +80,12 @@ export const BandBio2 = `To complement your reception, we bring along event
                         We also offer ceremony musicians and love to travel. 
                         Book The Weekend today!`;
 export const IsaacBioTitle = 'Isaac Johnson, Owner';
-export const IsaacBio = `Born and raised in Los Angeles with a Bachelors in 
+export const IsaacBioText = `Born and raised in Los Angeles with a Bachelors in 
                         Music Performance, Isaac has performed at countless 
                         weddings, private events, corporate and special 
                         celebrations. Isaac is an avid lover of cinema, enjoys 
                         making craft cocktails, and is absolutely in love with 
                         his 3 year old daughter.`;
-
-// Contact
-export const ContactBanner = '/contactMain.jpg';
-export const ContactBannerText = 'Guy and girl dancing';
-export const ContactHeadline = 'Contact us at:';
-export const PhoneNumberSource = 'tel:+13238802005';
-export const EmailSource = 'mailto:hello@weekendsocietymusic.com';
-export const ContactFormHeadline = 'or fill out the information below:';
 
 // Home
 export const HomeBanner = '/weekendsocietybg.jpg';

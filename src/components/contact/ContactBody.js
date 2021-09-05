@@ -1,8 +1,8 @@
 import React from 'react';
 import { ContactBanner, ContactBannerText, ContactFormHeadline, ContactHeadline, Email, EmailSource, PhoneNumber, PhoneNumberSource } from '../../resources/Strings';
 import InquiryForm from './InquiryForm';
-import "../../styling/components/contact/ContactBody.css";
 import Banner from '../subcomponents/Banner';
+import "../../styling/components/contact/ContactBody.css";
 
 function ContactBody() {
     return (

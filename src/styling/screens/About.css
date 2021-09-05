@@ -4,84 +4,18 @@
     width: 100%;
     align-items: center;
 }
-.about__container {
-    width: 100%;
-}
 .about__header {
     height: auto;
 }
 .about__footer {
     height: auto;
 }
-.about__bio {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    margin-top: 3%;
-    margin-bottom: 3%;
-    color: white;
-    font-size: 23px;
-}
-.about__bandBioText {
-    margin-left: 5%;
-    margin-right: 5%;
-}
-.about__isaacImage {
-    margin-left: 5%;
-    margin-right: 3%;
-    width: 40%;
-}
-.about__isaacColumn {
-    display: flex;
-    flex-direction: column;
-    margin-left: 3%;
-    margin-right: 5%;
-}
-.about__isaacName {
-    font-size: 25px;
-    font-weight: 700;
-    margin-bottom: 10px;
-}
 @media only screen and (max-width: 750px) {
-    .about__bio {
-        flex-direction: column;
-    }
-    .about__isaacImage {
-        margin-top: 3%;
-        width: 90%;
-        margin-bottom: 5%;
-    }
-    .about__isaacName {
-        text-align: center;
-    }
-    .about__isaacBioText {
-        margin-bottom: 5%;
-    }
+
 }
 @media only screen and (max-width: 500px) {
-    .about__header {
-        margin-top: -10px;
-        margin-bottom: 1px;
-    }
-    .about__bio {
-        font-size: 20px;
-    }
-    .about__isaacImage {
-        margin-right: 5%;
-    }
-    .about__isaacBioText {
-        margin-left: 5%;
-    }
-    .about__bandBioText {
-        margin-bottom: 17px;
-    }
+
 }
 @media only screen and (max-height: 400px) {
-    .about__isaacImage {
-        width: 86%;
-        margin-right: 7%;
-    }
-    .about__bio {
-        flex-direction: column;
-    }
+
 }

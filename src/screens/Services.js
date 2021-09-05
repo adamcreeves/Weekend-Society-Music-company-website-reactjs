@@ -9,7 +9,6 @@ import CeremonySection from '../components/services/sections/CeremonySection';
 import ForAllSignatureInfo from '../components/services/sections/ForAllSignatureInfo';
 
 function Services() {
-
     return (
         <div className='services__page'>
             <Header className='services__header' />

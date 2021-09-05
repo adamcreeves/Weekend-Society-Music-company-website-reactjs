@@ -7,23 +7,9 @@
 .contact__header {
     height: auto;
 }
-.contact__socialMedia {
-    text-decoration: none;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 2%;
-  }
-  .contact__infoLine {
-      margin: 1%;
-  }
 @media only screen and (max-width: 500px) {
     .contact__header {
         margin-top: -10px;
         margin-bottom: 1px;
-    }
-    .contact__infoLine {
-        margin-top: 7% !important;
-        margin-bottom: 2%
     }
 }
