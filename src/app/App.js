@@ -1,15 +1,15 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import './styling/App.css';
-import NorcalPrices from "./pages/hidden/NorcalPrices";
-import SocalPrices from "./pages/hidden/SocalPrices";
-import CocktailGroups from "./pages/hidden/CocktailGroups";
-import TravelPrices from "./pages/hidden/TravelPrices";
-import HomePage from "./pages/HomePage";
-import ServicesPage from "./pages/ServicesPage";
-import VideosPage from "./pages/VideosPage";
-import AboutPage from "./pages/AboutPage";
-import ContactPage from "./pages/ContactPage";
+import NorcalPrices from "../pages/hidden/NorcalPrices";
+import SocalPrices from "../pages/hidden/SocalPrices";
+import CocktailGroups from "../pages/hidden/CocktailGroups";
+import TravelPrices from "../pages/hidden/TravelPrices";
+import HomePage from "../pages/HomePage";
+import ServicesPage from "../pages/ServicesPage";
+import VideosPage from "../pages/VideosPage";
+import AboutPage from "../pages/AboutPage";
+import ContactPage from "../pages/ContactPage";
+import './../styling/App.css';
 
 function App () {
   return (
