@@ -58,7 +58,7 @@ export const PhoneNumberSource = 'tel:+13238802005';
 export const EmailSource = 'mailto:hello@weekendsocietymusic.com';
 export const ContactFormHeadline = 'or fill out the information below:';
 
-// SCREENS
+// PAGES
 // About
 export const AboutBanner = '/aboutMain.png';
 export const AboutBannerText = 'The Weekend Society Music Group';
