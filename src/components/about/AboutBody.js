@@ -1,6 +1,6 @@
 import React from 'react';
 import { AboutBanner, AboutBannerText } from '../../resources/Strings';
-import Banner from '../subcomps/Banner';
+import Banner from '../subcomponents/Banner';
 import BandBio from './BandBio';
 import IsaacBio from './IsaacBio';
 import "../../styling/components/about/AboutBody.css";

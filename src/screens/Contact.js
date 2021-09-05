@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from "../components/head/Header";
-import Footer from '../components/foot/Footer';
+import Header from "../components/header/Header";
+import Footer from '../components/footer/Footer';
 import ContactBody from '../components/contact/ContactBody';
 import '../styling/screens/Contact.css'
 

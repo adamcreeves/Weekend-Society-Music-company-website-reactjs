@@ -1,7 +1,7 @@
 import React from "react";
-import Header from "../components/head/Header";
-import VideosBody from "../components/videosComp/VideosBody";
-import Footer from "../components/foot/Footer";
+import Header from "../components/header/Header";
+import VideosBody from "../components/videos/VideosBody";
+import Footer from "../components/footer/Footer";
 import '../styling/screens/VideosPage.css';
 
 function VideosPage () {
