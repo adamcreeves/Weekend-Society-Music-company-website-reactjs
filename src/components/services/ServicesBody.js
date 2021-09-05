@@ -1,8 +1,8 @@
 import React from 'react';
-import CeremonyBody from './CeremonyBody';
-import CocktailBody from './CocktailBody';
-import ReceptionBody from './ReceptionBody';
+import CeremonyBody from './sections/CeremonyBody';
 import '../../styling/components/services/ServicesBody.css';
+import CocktailBody from './sections/CocktailBody';
+import ReceptionBody from './sections/ReceptionBody';
 
 function ServicesBody() {
     return (

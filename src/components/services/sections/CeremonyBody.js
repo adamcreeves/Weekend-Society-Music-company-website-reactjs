@@ -1,5 +1,5 @@
 import React from 'react';
-import CeremonySection from './sections/CeremonySection';
+import CeremonySection from '../subsections/CeremonySection';
 
 function CeremonyBody({ 
     sectionContainerClass, 

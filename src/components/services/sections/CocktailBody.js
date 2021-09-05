@@ -1,6 +1,6 @@
 import React from 'react'
-import CocktailSection from './sections/CocktailSection';
 import ReactPlayer from 'react-player';
+import CocktailSection from '../subsections/CocktailSection';
 
 function CocktailBody({ 
     sectionContainerClass, 

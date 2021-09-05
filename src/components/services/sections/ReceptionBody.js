@@ -1,6 +1,6 @@
 import React from 'react';
-import ForAllSignatureInfo from './sections/ForAllSignatureInfo';
-import ReceptionSection from './sections/ReceptionSection';
+import ReceptionSection from '../subsections/ReceptionSection';
+import ForAllSignatureInfo from '../subsections/ForAllSignatureInfo';
 
 function ReceptionBody ({ 
     sectionContainerClass, 
