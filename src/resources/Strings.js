@@ -21,13 +21,6 @@ export const Contact = 'CONTACT';
 export const Services = 'SERVICES';
 export const Videos = 'VIDEOS';
 
-// to
-export const ToHome = '/';
-export const ToAbout = '/about';
-export const ToContact = '/contact';
-export const ToServices = '/services';
-export const ToVideos = '/videos';
-
 // icon
 export const HeaderIconSource = '/weekend_icon.png';
 export const HeaderIconAlt = 'Weekend Society Icon';
