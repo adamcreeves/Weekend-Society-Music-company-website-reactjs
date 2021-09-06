@@ -1,12 +1,12 @@
 import React from 'react';
-import { c_0082, c_0083, c_0084, c_0085 } from '../../resources/ClassNames';
+import { c_0082, c_0083, c_0084, c_0085 } from '../../../resources/ClassNames';
 import { 
     CorporateEvents, 
     PrivateParties, 
     SpecialEvents, 
     Weddings, 
-    WhatWeOffer } from '../../resources/Strings';
-import '../../styling/components/home/WhatsOffered.css';
+    WhatWeOffer } from '../../../resources/Strings';
+import '../../../styling/components/home/WhatsOffered.css';
 
 function WhatsOffered () {
     return (

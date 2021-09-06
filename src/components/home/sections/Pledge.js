@@ -1,5 +1,5 @@
 import React from 'react';
-import { c_0074, c_0075, c_0076 } from '../../resources/ClassNames';
+import { c_0074, c_0075, c_0076 } from '../../../resources/ClassNames';
 import { 
     PledgeTitle1, 
     PledgeTitle2, 
@@ -12,8 +12,8 @@ import {
     PledgeLine7, 
     PledgeLine8, 
     PledgeLine9,
-    PledgeLine10 } from '../../resources/Strings';
-import '../../styling/components/home/Pledge.css';
+    PledgeLine10 } from '../../../resources/Strings';
+import '../../../styling/components/home/Pledge.css';
 
 function Pledge () {
     return (

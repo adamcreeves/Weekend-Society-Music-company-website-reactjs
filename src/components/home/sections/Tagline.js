@@ -1,11 +1,11 @@
 import React from 'react';
-import { c_0077, c_0078, c_0079, c_0080, c_0081 } from '../../resources/ClassNames';
+import { c_0077, c_0078, c_0079, c_0080, c_0081 } from '../../../resources/ClassNames';
 import { 
     HomeTagline1, 
     HomeTagline2, 
     HomeTagline3, 
-    Welcome } from '../../resources/Strings';
-import '../../styling/components/home/Tagline.css';
+    Welcome } from '../../../resources/Strings';
+import '../../../styling/components/home/Tagline.css';
 
 function Tagline () {
     return (

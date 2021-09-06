@@ -1,13 +1,13 @@
 import React from 'react';
 import Banner from '../subcomponents/Banner';
 import Video from '../videos/Video';
-import Tagline from './Tagline';
+import Tagline from './sections/Tagline';
 import { 
     EmptyString, 
     HomeBanner, 
     HomeBannerText, 
     HomeVideoSource } from '../../resources/Strings';
-import HomeBottom from './HomeBottom';
+import HomeBottom from './sections/HomeBottom';
 import { c_0019 } from '../../resources/ClassNames';
 import '../../styling/components/home/HomeBody.css';
 
