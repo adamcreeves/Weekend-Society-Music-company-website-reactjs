@@ -33,8 +33,8 @@ import {
     YouShookMe, 
     YouShookMeSource} from '../../resources/Strings';
 import Video from './Video';
-import '../../styling/components/videos/VideosBody.css';
 import { c_0021 } from '../../resources/ClassNames';
+import '../../styling/components/videos/VideosBody.css';
 
 function VideosBody () {
     return (

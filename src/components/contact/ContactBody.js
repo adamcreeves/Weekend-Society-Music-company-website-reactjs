@@ -11,8 +11,8 @@ import {
 import InquiryForm from './InquiryForm';
 import Banner from '../subcomponents/Banner';
 import ContactMethod from './ContactMethod';
-import "../../styling/components/contact/ContactBody.css";
 import { c_0018 } from '../../resources/ClassNames';
+import "../../styling/components/contact/ContactBody.css";
 
 function ContactBody () {
     return (

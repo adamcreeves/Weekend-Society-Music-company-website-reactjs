@@ -4,9 +4,9 @@ import HeaderLinks from './utils/HeaderLinks';
 import MobileMenu from './utils/MobileMenu';
 import MobileMenuButton from './utils/MobileMenuButton';
 import { mobileMenuOff, mobileMenuOn } from './utils/HeaderUtils';
-import "../../styling/components/header/HeaderBody.css";
 import { c_0022, c_0070, c_0071, c_0072 } from '../../resources/ClassNames';
 import { MobileMenuId } from '../../resources/Strings';
+import "../../styling/components/header/HeaderBody.css";
 
 function HeaderBody () {
     const [count, setCount] = useState(0);

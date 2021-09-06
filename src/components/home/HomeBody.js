@@ -7,9 +7,9 @@ import {
     HomeBanner, 
     HomeBannerText, 
     HomeVideoSource } from '../../resources/Strings';
-import '../../styling/components/home/HomeBody.css';
 import HomeBottom from './HomeBottom';
 import { c_0019 } from '../../resources/ClassNames';
+import '../../styling/components/home/HomeBody.css';
 
 function HomeBody () {
     return (

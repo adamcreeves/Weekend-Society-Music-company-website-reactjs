@@ -3,8 +3,8 @@ import { Homepage1Source, Homepage1Text, Homepage2Source, Homepage2Text } from '
 import ImageRow from '../images/ImageRow';
 import Pledge from './Pledge';
 import WhatsOffered from './WhatsOffered';
-import '../../styling/components/home/HomeBottom.css';
 import { c_0073 } from '../../resources/ClassNames';
+import '../../styling/components/home/HomeBottom.css';
 
 function HomeBottom() {
     return (

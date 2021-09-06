@@ -9,7 +9,6 @@ import ServicesPage from "../pages/ServicesPage";
 import VideosPage from "../pages/VideosPage";
 import AboutPage from "../pages/AboutPage";
 import ContactPage from "../pages/ContactPage";
-import './../styling/App.css';
 import { 
   aboutPath, 
   cocktailPath, 
@@ -21,6 +20,7 @@ import {
   travelPath, 
   videosPath } from "../resources/Strings";
 import { c_0001 } from "../resources/ClassNames";
+import './../styling/App.css';
 
 function App () {
   return (

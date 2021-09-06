@@ -31,8 +31,8 @@ import {
     TypeEmail, 
     TypeSubmit, 
     TypeText} from '../../resources/Strings';
-import "../../styling/components/contact/InquiryForm.css";
 import { c_0040, c_0041, c_0042 } from '../../resources/ClassNames';
+import "../../styling/components/contact/InquiryForm.css";
 
 function InquiryForm () {
     const [name, setName] = useState(EmptyString);

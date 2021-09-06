@@ -3,8 +3,8 @@ import { AboutBanner, AboutBannerText } from '../../resources/Strings';
 import Banner from '../subcomponents/Banner';
 import BandBio from './BandBio';
 import IsaacBio from './IsaacBio';
-import "../../styling/components/about/AboutBody.css";
 import { c_0017 } from '../../resources/ClassNames';
+import "../../styling/components/about/AboutBody.css";
 
 function AboutBody () {
     return (
