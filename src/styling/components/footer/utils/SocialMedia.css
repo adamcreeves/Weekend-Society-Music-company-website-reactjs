@@ -15,6 +15,11 @@
     color: white;
     z-index: 100;
 }
+@media only screen and (max-width: 1000px) {
+    .socialMedia {
+        margin-top: -15px;
+    }
+}
 @media only screen and (max-height: 400px) {
     .socialMedia {
       z-index: 100;
