@@ -1,4 +1,5 @@
 import React from 'react';
+import { c_0074, c_0075, c_0076 } from '../../resources/ClassNames';
 import { 
     PledgeTitle1, 
     PledgeTitle2, 
@@ -16,9 +17,9 @@ import '../../styling/components/home/Pledge.css';
 
 function Pledge () {
     return (
-        <div className='pledge'>
-            <div className='pledgeTitle'>{PledgeTitle1}<br />{PledgeTitle2}</div>
-            <div className='pledgeDetails'>
+        <div className={c_0074}>
+            <div className={c_0075}>{PledgeTitle1}<br />{PledgeTitle2}</div>
+            <div className={c_0076}>
                 {PledgeLine1}<br />
                 {PledgeLine2}<br />
                 {PledgeLine3}<br />

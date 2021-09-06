@@ -7,19 +7,20 @@ import {
     PhoneNumberSource } from '../../../resources/Strings';
 import ContactMethod from '../../contact/ContactMethod';
 import "../../../styling/components/footer/utils/TaglineAndContact.css";
+import { c_0052, c_0053, c_0054, c_0055 } from '../../../resources/ClassNames';
 
 function TaglineAndContact () {
     return (
-        <div className='taglineAndContact'>
-            <div className='taglineAndContact__info'>{FooterTagline}</div>
+        <div className={c_0052}>
+            <div className={c_0053}>{FooterTagline}</div>
             <ContactMethod 
-                methodClass={'taglineAndContact__infoContact'}
-                linkClass={'taglineAndContact__infoClick'}
+                methodClass={c_0054}
+                linkClass={c_0055}
                 source={PhoneNumberSource}
                 text={PhoneNumber} />
             <ContactMethod 
-                methodClass={'taglineAndContact__infoContact'}
-                linkClass={'taglineAndContact__infoClick'}
+                methodClass={c_0054}
+                linkClass={c_0055}
                 source={EmailSource}
                 text={Email} />
         </div>

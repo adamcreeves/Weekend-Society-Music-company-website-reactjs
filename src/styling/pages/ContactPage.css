@@ -1,14 +1,14 @@
-.contact__page {
+.contactPage {
     display: flex;
     flex-direction: column;
     width: 100%;
     align-items: center;
 }
-.contact__header {
+.contactPage__header {
     height: auto;
 }
 @media only screen and (max-width: 500px) {
-    .contact__header {
+    .contactPage__header {
         margin-top: -10px;
         margin-bottom: 1px;
     }

@@ -2,9 +2,37 @@ import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import { 
     EmptyString, 
+    FormBtnLabel, 
+    InputName_01, 
+    InputName_02, 
+    InputName_03, 
+    InputName_04, 
+    InputName_05, 
+    InputName_06, 
+    InputName_07, 
+    InputName_08, 
+    InputName_09, 
+    InputName_10, 
+    InputPH_01, 
+    InputPH_02,
+    InputPH_03,
+    InputPH_04, 
+    InputPH_05, 
+    InputPH_06, 
+    InputPH_07, 
+    InputPH_08, 
+    InputPH_09, 
+    InputPH_10, 
     InquiryFormConfirmationMessage, 
-    InquiryFormErrorMessage } from '../../resources/Strings';
+    InquiryFormErrorMessage, 
+    ServiceEmailKey, 
+    ServiceEmailName, 
+    ServiceEmailTemplate, 
+    TypeEmail, 
+    TypeSubmit, 
+    TypeText} from '../../resources/Strings';
 import "../../styling/components/contact/InquiryForm.css";
+import { c_0040, c_0041, c_0042 } from '../../resources/ClassNames';
 
 function InquiryForm () {
     const [name, setName] = useState(EmptyString);
@@ -21,10 +49,10 @@ function InquiryForm () {
     const sendEmail = (e) => {
         e.preventDefault();
         emailjs.sendForm(
-            'weekend_inquiries', 
-            'template_dfpxnv1', 
+            ServiceEmailName, 
+            ServiceEmailTemplate, 
             e.target, 
-            'user_BgakDUbNo9ThPcGN0y1JT')
+            ServiceEmailKey)
         .then((result) => {
             console.log(result.text);
             setName(EmptyString);
@@ -43,96 +71,96 @@ function InquiryForm () {
             alert(InquiryFormErrorMessage);
         });
     }
-    
+
     return (
         <form
-            className='inquiryForm' 
+            className={c_0040} 
             onSubmit={sendEmail}>
             <input 
-                placeholder='Your Name'
-                className='inquiryForm__input'
-                name='name'
-                type='text'
+                placeholder={InputPH_01}
+                className={c_0041}
+                name={InputName_01}
+                type={TypeText}
                 value={name}
                 onChange={e => setName(e.target.value)}
                 required 
             />
             <input 
-                placeholder='Phone Number'
-                className='inquiryForm__input'
-                type='text'
-                name='phone'
+                placeholder={InputPH_02}
+                className={c_0041}
+                type={TypeText}
+                name={InputName_02}
                 minLength={10}
                 value={phone}
                 onChange={e => setPhone(e.target.value)} 
                 required
             />
             <input
-                placeholder='Email Address'
-                className='inquiryForm__input'
-                type='email'
-                name='email'
+                placeholder={InputPH_03}
+                className={c_0041}
+                type={TypeEmail}
+                name={InputName_03}
                 value={email}
                 onChange={e => setEmail(e.target.value)} 
                 required
             />
             <input 
-                placeholder='Event Type'
-                className='inquiryForm__input'
-                type='text'
-                name='eventType'
+                placeholder={InputPH_04}
+                className={c_0041}
+                type={TypeText}
+                name={InputName_04}
                 value={eventType}
                 onChange={e => setEventType(e.target.value)} 
             />
             <input 
-                placeholder='Event Date'
-                className='inquiryForm__input'
-                type='text'
-                name='eventDate'
+                placeholder={InputPH_05}
+                className={c_0041}
+                type={TypeText}
+                name={InputName_05}
                 value={eventDate}
                 onChange={e => setEventDate(e.target.value)} 
             />
             <input 
-                placeholder='Event Location'
-                className='inquiryForm__input'
-                type='text'
-                name='eventLocation'
+                placeholder={InputPH_06}
+                className={c_0041}
+                type={TypeText}
+                name={InputName_06}
                 value={eventLocation}
                 onChange={e => setEventLocation(e.target.value)} 
             />
             <input 
-                placeholder='Event Length'
-                className='inquiryForm__input'
-                type='text'
-                name='eventLength'
+                placeholder={InputPH_07}
+                className={c_0041}
+                type={TypeText}
+                name={InputName_07}
                 value={eventLength}
                 onChange={e => setEventLength(e.target.value)} 
             />   
             <input 
-                placeholder='Notes or other details'
-                className='inquiryForm__input'
-                type='text'
-                name='notes'
+                placeholder={InputPH_08}
+                className={c_0041}
+                type={TypeText}
+                name={InputName_08}
                 value={notes}
                 onChange={e => setNotes(e.target.value)} 
             />
             <input
-                placeholder='Guest Count' 
-                className='inquiryForm__input'
-                type='text'
-                name='guestCount'
+                placeholder={InputPH_09} 
+                className={c_0041}
+                type={TypeText}
+                name={InputName_09}
                 value={guestCount}
                 onChange={e => setGuestCount(e.target.value)} 
             />
             <input 
-                placeholder='How you found us'
-                className='inquiryForm__input'
-                type='text'
-                name='heardAbout'
+                placeholder={InputPH_10}
+                className={c_0041}
+                type={TypeText}
+                name={InputName_10}
                 value={heardAbout}
                 onChange={e => setHeardAbout(e.target.value)} 
             />
-            <input className='inquiryForm__submitBtn' type='submit' value='Submit' />
+            <input className={c_0042} type={TypeSubmit} value={FormBtnLabel} />
         </form>
     );
 }

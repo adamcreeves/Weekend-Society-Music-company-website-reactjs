@@ -3,13 +3,14 @@ import Header from '../components/header/Header';
 import ContactBody from '../components/contact/ContactBody';
 import Footer from '../components/footer/Footer';
 import '../styling/pages/ContactPage.css';
+import { c_0005, c_0006, c_0007 } from '../resources/ClassNames';
 
 function ContactPage () {
     return (
-        <div className='contact__page'>
-            <Header className='contact__header'/>
+        <div className={c_0005}>
+            <Header className={c_0006} />
             <ContactBody />
-            <Footer className='contact__footer' />
+            <Footer className={c_0007} />
         </div>
     );
 }

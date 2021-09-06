@@ -1,13 +1,13 @@
-.services__page {
+.servicesPage {
     display: flex;
     flex-direction: column;
     width: 100%;
     align-items: center;
 }
-.services__header {
+.servicesPage__header {
     height: auto;
 }
-.services__footer {
+.servicesPage__footer {
     height: auto;
 }
 
@@ -21,7 +21,7 @@
     
 }
 @media only screen and (max-width: 500px) {
-    .services__header {
+    .servicesPage__header {
         margin-top: -10px;
         margin-bottom: 1px;
     }

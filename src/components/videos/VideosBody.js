@@ -34,10 +34,11 @@ import {
     YouShookMeSource} from '../../resources/Strings';
 import Video from './Video';
 import '../../styling/components/videos/VideosBody.css';
+import { c_0021 } from '../../resources/ClassNames';
 
 function VideosBody () {
     return (
-        <div className='videosBody'>
+        <div className={c_0021}>
             <div className='videosBody__row'>
                 <Video title={CrazyInLove} url={CrazyInLoveSource} />
                 <Video title={ShutUpAndDance} url={ShutUpAndDanceSource} />

@@ -3,13 +3,14 @@ import Header from '../components/header/Header';
 import VideosBody from '../components/videos/VideosBody';
 import Footer from '../components/footer/Footer';
 import '../styling/pages/VideosPage.css';
+import { c_0014, c_0015, c_0016 } from '../resources/ClassNames';
 
 function VideosPage () {
     return (
-        <div className='videos__page'>
-            <Header className='videos__header' />
+        <div className={c_0014}>
+            <Header className={c_0015} />
             <VideosBody />
-            <Footer className='videos__footer' />
+            <Footer className={c_0016} />
         </div>
     );
 }

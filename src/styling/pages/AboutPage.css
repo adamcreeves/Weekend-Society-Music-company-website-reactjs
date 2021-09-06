@@ -1,13 +1,13 @@
-.about__page {
+.aboutPage {
     display: flex;
     flex-direction: column;
     width: 100%;
     align-items: center;
 }
-.about__header {
+.aboutPage__header {
     height: auto;
 }
-.about__footer {
+.aboutPage__footer {
     height: auto;
 }
 @media only screen and (max-width: 750px) {

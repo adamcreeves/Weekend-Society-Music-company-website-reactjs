@@ -1,8 +1,8 @@
-.headerIcon__linkHome {
+.headerIcon {
     width: 350px;
     margin-left: 2%;
 }
-.headerIcon__buttonHome {
+.headerIcon__button {
     border: none;
     height: 100%;
     width: 100%;
@@ -10,13 +10,13 @@
     background: none;
     margin: 3px;
 }
-.headerIcon__icon {
+.headerIcon__image {
     object-fit: contain;
     max-width: 100%;
     height: auto;
 }
 @media only screen and (max-width: 950px) {
-    .headerIcon__linkHome {
+    .headerIcon {
         width: 50%;
         margin-left: 2%;
     }

@@ -1,39 +1,45 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import { c_0063, c_0064, c_0065, c_0066 } from '../../../resources/ClassNames';
 import { 
     About, 
     Contact, 
     Home, 
     Services, 
+    ToAbout, 
+    ToContact, 
+    ToHome, 
+    ToServices, 
+    ToVideos, 
     Videos } from '../../../resources/Strings';
 import "../../../styling/components/header/utils/MobileMenu.css";
 
 function MobileMenu ({ id, count, mobileMenuOff, mobileMenuOn }) {
         return (
-            <div id={id} className='mobileMenu' style={count === 0 ? mobileMenuOff : mobileMenuOn}>
-                <Link to='/' className='mobileMenu__link'>
-                    <button className='mobileMenu__button'>
-                        <div className='mobileMenu__buttonText'>{Home}</div>
+            <div id={id} className={c_0063} style={count === 0 ? mobileMenuOff : mobileMenuOn}>
+                <Link to={ToHome} className={c_0064}>
+                    <button className={c_0065}>
+                        <div className={c_0066}>{Home}</div>
                     </button>
                 </Link>
-                <Link to='/services' className='mobileMenu__link'>
-                    <button className='mobileMenu__button'>
-                        <div className='mobileMenu__buttonText'>{Services}</div>
+                <Link to={ToServices} className={c_0064}>
+                    <button className={c_0065}>
+                        <div className={c_0066}>{Services}</div>
                     </button>
                 </Link>
-                <Link to='/videos' className='mobileMenu__link'>
-                    <button className='mobileMenu__button'>
-                        <div className='mobileMenu__buttonText'>{Videos}</div>
+                <Link to={ToVideos} className={c_0064}>
+                    <button className={c_0065}>
+                        <div className={c_0066}>{Videos}</div>
                     </button>
                 </Link>
-                <Link to='/about' className='mobileMenu__link'>
-                    <button className='mobileMenu__button'>
-                        <div className='mobileMenu__buttonText'>{About}</div>
+                <Link to={ToAbout} className={c_0064}>
+                    <button className={c_0065}>
+                        <div className={c_0066}>{About}</div>
                     </button>
                 </Link>
-                <Link to='/contact' className='mobileMenu__link'>
-                    <button className='mobileMenu__button'>
-                        <div className='mobileMenu__buttonText'>{Contact}</div>
+                <Link to={ToContact} className={c_0064}>
+                    <button className={c_0065}>
+                        <div className={c_0066}>{Contact}</div>
                     </button>
                 </Link>
             </div>

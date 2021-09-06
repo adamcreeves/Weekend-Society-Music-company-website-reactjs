@@ -1,25 +1,25 @@
-.videos__page {
+.videosPage {
     display: flex;
     flex-direction: column;
     width: 100%;
     align-items: center;
 }
-.videos__header {
+.videosPage__header {
     height: auto;
 }
 @media only screen and (max-width: 1100px) {
-    .videos__footer {
+    .videosPage__footer {
         margin-bottom: 20px;
     }
 }
 @media only screen and (max-width: 500px) {
-    .videos__header {
+    .videosPage__header {
         margin-top: -10px;
         margin-bottom: 1px;
     }
 }
 @media only screen and (max-height: 400px) {
-    .videos__footer {
+    .videosPage__footer {
         margin-bottom: 20px;
     }
 }

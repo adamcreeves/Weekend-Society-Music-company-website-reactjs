@@ -3,10 +3,11 @@ import ReceptionBody from './sections/ReceptionBody';
 import CocktailBody from './sections/CocktailBody';
 import CeremonyBody from './sections/CeremonyBody';
 import '../../styling/components/services/ServicesBody.css';
+import { c_0020 } from '../../resources/ClassNames';
 
 function ServicesBody () {
     return (
-        <div className='services__container'>
+        <div className={c_0020}>
             <ReceptionBody 
                 sectionContainerClass={'services__sectionContainer'}
                 titleClass={'services__title'}

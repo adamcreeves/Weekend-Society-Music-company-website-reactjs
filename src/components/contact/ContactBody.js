@@ -12,10 +12,11 @@ import InquiryForm from './InquiryForm';
 import Banner from '../subcomponents/Banner';
 import ContactMethod from './ContactMethod';
 import "../../styling/components/contact/ContactBody.css";
+import { c_0018 } from '../../resources/ClassNames';
 
 function ContactBody () {
     return (
-        <div className='contactBody'>
+        <div className={c_0018}>
             <Banner source={ContactBanner} alternate={ContactBannerText} />
             <div className='contactBody__headine'>{ContactHeadline}</div>
             <ContactMethod 

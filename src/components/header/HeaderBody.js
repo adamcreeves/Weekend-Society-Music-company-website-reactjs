@@ -5,32 +5,34 @@ import MobileMenu from './utils/MobileMenu';
 import MobileMenuButton from './utils/MobileMenuButton';
 import { mobileMenuOff, mobileMenuOn } from './utils/HeaderUtils';
 import "../../styling/components/header/HeaderBody.css";
+import { c_0022, c_0070, c_0071, c_0072 } from '../../resources/ClassNames';
+import { MobileMenuId } from '../../resources/Strings';
 
 function HeaderBody () {
     const [count, setCount] = useState(0);
 
     const toggleMenu = () => {
         if(count === 0) {
-            document.getElementById('mobileMenu').style = mobileMenuOn;
+            document.getElementById(MobileMenuId).style = mobileMenuOn;
             setCount(1);
         } else {
-            document.getElementById('mobileMenu').style = mobileMenuOff;
+            document.getElementById(MobileMenuId).style = mobileMenuOff;
             setCount(0);
         }
     }
 
     return (
-        <nav className='header'>
-            <div className='header__container'>
+        <nav className={c_0022}>
+            <div className={c_0070}>
                 <HeaderIcon />
-                <div className='header__links'>
+                <div className={c_0071}>
                     <HeaderLinks />
                     <MobileMenuButton menuFunction={toggleMenu} />
                 </div>
             </div>
-            <div className='header__mobileMenu'>
+            <div className={c_0072}>
                 <MobileMenu 
-                    id={'mobileMenu'} 
+                    id={MobileMenuId} 
                     count={count} 
                     mobileMenuOff={mobileMenuOff} 
                     mobileMenuOn={mobileMenuOn} 

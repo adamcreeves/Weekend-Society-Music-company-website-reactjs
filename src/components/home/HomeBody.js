@@ -9,10 +9,11 @@ import {
     HomeVideoSource } from '../../resources/Strings';
 import '../../styling/components/home/HomeBody.css';
 import HomeBottom from './HomeBottom';
+import { c_0019 } from '../../resources/ClassNames';
 
 function HomeBody () {
     return (
-        <div className='homeBody'>
+        <div className={c_0019}>
             <Banner 
                 source={HomeBanner} 
                 alternate={HomeBannerText} />

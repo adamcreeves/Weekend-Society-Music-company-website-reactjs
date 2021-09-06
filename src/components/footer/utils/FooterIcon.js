@@ -1,12 +1,14 @@
 import React from 'react';
+import { c_0047 } from '../../../resources/ClassNames';
+import { FooterIconAlt, FooterIconSource } from '../../../resources/Strings';
 import "../../../styling/components/footer/utils/FooterIcon.css";
 
 function FooterIcon () {
     return (
         <img 
-            className='footerIcon__icon'
-            src='/weekend_icon.png' 
-            alt='Weekend Society Icon' 
+            className={c_0047}
+            src={FooterIconSource} 
+            alt={FooterIconAlt} 
         />
     );
 }

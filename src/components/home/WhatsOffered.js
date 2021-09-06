@@ -1,4 +1,5 @@
 import React from 'react';
+import { c_0082, c_0083, c_0084, c_0085 } from '../../resources/ClassNames';
 import { 
     CorporateEvents, 
     PrivateParties, 
@@ -9,13 +10,13 @@ import '../../styling/components/home/WhatsOffered.css';
 
 function WhatsOffered () {
     return (
-        <div className='whatsOffered'>
-            <div className='whatsOffered__title'>{WhatWeOffer}</div>
-            <div className='whatsOffered__detailContainer'>
-                <div className='whatsOffered__detail'>{Weddings}</div>
-                <div className='whatsOffered__detail'>{CorporateEvents}</div>
-                <div className='whatsOffered__detail'>{PrivateParties}</div>
-                <div className='whatsOffered__detail'>{SpecialEvents}</div>
+        <div className={c_0082}>
+            <div className={c_0083}>{WhatWeOffer}</div>
+            <div className={c_0084}>
+                <div className={c_0085}>{Weddings}</div>
+                <div className={c_0085}>{CorporateEvents}</div>
+                <div className={c_0085}>{PrivateParties}</div>
+                <div className={c_0085}>{SpecialEvents}</div>
             </div>
         </div>
     );

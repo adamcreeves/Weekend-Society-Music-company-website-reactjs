@@ -4,10 +4,11 @@ import ImageRow from '../images/ImageRow';
 import Pledge from './Pledge';
 import WhatsOffered from './WhatsOffered';
 import '../../styling/components/home/HomeBottom.css';
+import { c_0073 } from '../../resources/ClassNames';
 
 function HomeBottom() {
     return (
-        <div className='homeBottom'>
+        <div className={c_0073}>
             <WhatsOffered />
             <ImageRow 
                 source1={Homepage1Source} 

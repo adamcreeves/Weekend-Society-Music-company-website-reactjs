@@ -10,20 +10,31 @@ import VideosPage from "../pages/VideosPage";
 import AboutPage from "../pages/AboutPage";
 import ContactPage from "../pages/ContactPage";
 import './../styling/App.css';
+import { 
+  aboutPath, 
+  cocktailPath, 
+  contactPath, 
+  homePath, 
+  norCalPath, 
+  servicesPath, 
+  soCalPath, 
+  travelPath, 
+  videosPath } from "../resources/Strings";
+import { c_0001 } from "../resources/ClassNames";
 
 function App () {
   return (
-    <Router className='app'>
+    <Router className={c_0001}>
         <Switch>
-          <Route exact path="/" component={HomePage} />
-          <Route exact path="/services" component={ServicesPage} />
-          <Route exact path="/videos" component={VideosPage} />
-          <Route exact path="/about" component={AboutPage} />
-          <Route exact path="/contact" component={ContactPage} />
-          <Route exact path="/norcalpricing" component={NorcalPrices} />
-          <Route exact path="/socalpricing" component={SocalPrices} />
-          <Route exact path="/cocktailgroups" component={CocktailGroups} />
-          <Route exact path='/travelpricing' component={TravelPrices} />
+          <Route exact path={homePath} component={HomePage} />
+          <Route exact path={servicesPath} component={ServicesPage} />
+          <Route exact path={videosPath} component={VideosPage} />
+          <Route exact path={aboutPath} component={AboutPage} />
+          <Route exact path={contactPath} component={ContactPage} />
+          <Route exact path={norCalPath} component={NorcalPrices} />
+          <Route exact path={soCalPath} component={SocalPrices} />
+          <Route exact path={cocktailPath} component={CocktailGroups} />
+          <Route exact path={travelPath} component={TravelPrices} />
         </Switch>
     </Router>
   );

@@ -1,10 +1,36 @@
+// app
+// paths
+export const homePath = '/';
+export const aboutPath = '/about';
+export const cocktailPath = '/cocktailgroups';
+export const contactPath = '/contact';
+export const norCalPath = '/norcalpricing';
+export const servicesPath = '/services';
+export const soCalPath = "/socalpricing";
+export const travelPath = '/travelpricing';
+export const videosPath = '/videos';
+
 // components
-// Header Links
+// header
+export const MobileMenuId = 'mobileMenu';
+
+// links
 export const Home = 'HOME';
-export const Services = 'SERVICES';
-export const Videos = 'VIDEOS';
 export const About = 'ABOUT';
 export const Contact = 'CONTACT';
+export const Services = 'SERVICES';
+export const Videos = 'VIDEOS';
+
+// to
+export const ToHome = '/';
+export const ToAbout = '/about';
+export const ToContact = '/contact';
+export const ToServices = '/services';
+export const ToVideos = '/videos';
+
+// icon
+export const HeaderIconSource = '/weekend_icon.png';
+export const HeaderIconAlt = 'Weekend Society Icon';
 
 // footer
 export const Trademark = '© 2021 The Weekend Society';
@@ -16,8 +42,15 @@ export const Email = 'hello@weekendsocietymusic.com';
 export const BookNow = 'BOOK NOW!';
 export const InstagramProfile = 'https://www.instagram.com/weekendsocietymusic/';
 export const FacebookProfile = 'https://m.facebook.com/weekendsocietymusic';
+export const FooterIconSource = '/weekend_icon.png';
+export const FooterIconAlt ='Weekend Society Icon';
+export const IconSize = 'large';
 
-// Pledge
+// about
+export const IsaacBioPicSource = '/isaacpic.png';
+export const IsaacBioPicAlt = 'portrait of isaac';
+
+// pledge
 export const PledgeTitle1 = 'Our';
 export const PledgeTitle2 = 'Pledge';
 export const PledgeLine1 = 'We will play the best music to fit the mood of your guests';
@@ -32,23 +65,60 @@ export const PledgeLine8 = `We will not play the chicken dance, macarena, or ele
 export const PledgeLine9 = 'We will not take a break every 15 minutes';
 export const PledgeLine10 = 'We will not tell terrible jokes';
 
-// Tagline
+// tagline
 export const Welcome = 'Welcome';
 export const HomeTagline1 = 'You Dance, ';
 export const HomeTagline2 = 'You Party, ';
 export const HomeTagline3 = 'We\'ll Play';
 
-// What We Offer
+// what we offer
 export const WhatWeOffer = 'What We Offer';
 export const Weddings = 'Weddings';
 export const CorporateEvents = 'Corporate Events';
 export const PrivateParties = 'Private Parties';
 export const SpecialEvents = 'Special Events';
 
-// Inquiry Form
+// inquiry form
 export const InquiryFormConfirmationMessage = `Your information has been sent\nYou will 
                                                 hear from us soon!`;
 export const InquiryFormErrorMessage = 'Something went wrong. Please try again.'
+
+// inputs types
+export const TypeText = 'text';
+export const TypeEmail = 'email';
+export const TypeSubmit = 'submit';
+
+// input placeholders
+export const InputPH_01 = 'Your Name';
+export const InputPH_02 = 'Phone Number';
+export const InputPH_03 = 'Email Address';
+export const InputPH_04 = 'Event Type';
+export const InputPH_05 = 'Event Date';
+export const InputPH_06 = 'Event Location';
+export const InputPH_07 = 'Event Length';
+export const InputPH_08 = 'Notes or other details';
+export const InputPH_09 = 'Guest Count';
+export const InputPH_10 = 'How you found us';
+
+// input names
+export const InputName_01 = 'name';
+export const InputName_02 = 'phone';
+export const InputName_03 = 'email';
+export const InputName_04 = 'eventType';
+export const InputName_05 = 'eventDate';
+export const InputName_06 = 'eventLocation';
+export const InputName_07 = 'eventLength';
+export const InputName_08 = 'notes';
+export const InputName_09 = 'guestCount';
+export const InputName_10 = 'heardAbout';
+
+// form button
+export const FormBtnLabel = 'Submit';
+
+// send email
+export const ServiceEmailName = 'weekend_inquiries';
+export const ServiceEmailTemplate = 'template_dfpxnv1';
+export const ServiceEmailKey = 'user_BgakDUbNo9ThPcGN0y1JT';
 
 // contact
 export const ContactBanner = '/contactMain.jpg';

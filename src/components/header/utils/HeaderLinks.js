@@ -1,39 +1,45 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import { c_0059, c_0060, c_0061, c_0062 } from '../../../resources/ClassNames';
 import { 
     About, 
     Contact, 
     Home, 
     Services, 
+    ToAbout, 
+    ToContact, 
+    ToHome, 
+    ToServices, 
+    ToVideos, 
     Videos } from '../../../resources/Strings';
 import "../../../styling/components/header/utils/HeaderLinks.css";
 
 function HeaderLinks () {
     return (
-        <div className='header__webLinks'>
-            <Link to='/' className='header__link'>
-                <button className='header__button'>
-                    <h3 className='header__buttonText'>{Home}</h3>
+        <div className={c_0059}>
+            <Link to={ToHome} className={c_0060}>
+                <button className={c_0061}>
+                    <h3 className={c_0062}>{Home}</h3>
                 </button>
             </Link>
-            <Link to='/services' className='header__link'>
-                <button className='header__button'>
-                    <h3 className='header__buttonText'>{Services}</h3>
+            <Link to={ToServices} className={c_0060}>
+                <button className={c_0061}>
+                    <h3 className={c_0062}>{Services}</h3>
                 </button>
             </Link>
-            <Link to='/videos' className='header__link'>
-                <button className='header__button'>
-                    <h3 className='header__buttonText'>{Videos}</h3>
+            <Link to={ToVideos} className={c_0060}>
+                <button className={c_0061}>
+                    <h3 className={c_0062}>{Videos}</h3>
                 </button>
             </Link>
-            <Link to='/about' className='header__link'>
-                <button className='header__button'>
-                    <h3 className='header__buttonText'>{About}</h3>
+            <Link to={ToAbout} className={c_0060}>
+                <button className={c_0061}>
+                    <h3 className={c_0062}>{About}</h3>
                 </button>
             </Link>
-            <Link to='/contact' className='header__link'>
-                <button className='header__button'>
-                    <h3 className='header__buttonText'>{Contact}</h3>
+            <Link to={ToContact} className={c_0060}>
+                <button className={c_0061}>
+                    <h3 className={c_0062}>{Contact}</h3>
                 </button>
             </Link>
         </div>
