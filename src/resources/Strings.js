@@ -6,7 +6,7 @@ export const cocktailPath = '/cocktailgroups';
 export const contactPath = '/contact';
 export const norCalPath = '/norcalpricing';
 export const servicesPath = '/services';
-export const soCalPath = "/socalpricing";
+export const soCalPath = '/socalpricing';
 export const travelPath = '/travelpricing';
 export const videosPath = '/videos';
 
