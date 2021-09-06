@@ -6,7 +6,7 @@ import { FacebookProfile, IconSize, InstagramProfile } from '../../../resources/
 import { c_0049, c_0050, c_0051 } from '../../../resources/ClassNames';
 import "../../../styling/components/footer/utils/SocialMedia.css";
 
-function SocialMedia () {
+function SocialMedia() {
     return (
         <div className={c_0049}>
             <a href={InstagramProfile}

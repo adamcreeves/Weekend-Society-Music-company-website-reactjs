@@ -13,7 +13,7 @@ import {
     Trio } from '../../../resources/Strings';
 import CocktailSection from '../subsections/CocktailSection';
 
-function CocktailBody ({ 
+function CocktailBody({ 
     sectionContainerClass, 
     titleClass, 
     subtitleTextClass,

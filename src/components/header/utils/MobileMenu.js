@@ -14,7 +14,7 @@ import {
     Videos } from '../../../resources/Strings';
 import "../../../styling/components/header/utils/MobileMenu.css";
 
-function MobileMenu ({ id, count, mobileMenuOff, mobileMenuOn }) {
+function MobileMenu({ id, count, mobileMenuOff, mobileMenuOn }) {
         return (
             <div id={id} className={c_0063} style={count === 0 ? mobileMenuOff : mobileMenuOn}>
                 <Link to={ToHome} className={c_0064}>

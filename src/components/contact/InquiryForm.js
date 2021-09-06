@@ -34,7 +34,7 @@ import {
 import { c_0040, c_0041, c_0042 } from '../../resources/ClassNames';
 import "../../styling/components/contact/InquiryForm.css";
 
-function InquiryForm () {
+function InquiryForm() {
     const [name, setName] = useState(EmptyString);
     const [email, setEmail] = useState(EmptyString);
     const [phone, setPhone] = useState(EmptyString);

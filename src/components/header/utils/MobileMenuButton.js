@@ -4,7 +4,7 @@ import { IconSize } from '../../../resources/Strings';
 import { c_0067, c_0068, c_0069 } from '../../../resources/ClassNames';
 import "../../../styling/components/header/utils/MobileMenuButton.css";
 
-function MobileMenuButton ({ menuFunction }) {
+function MobileMenuButton({ menuFunction }) {
     return (
         <div className={c_0067}>
             <button className={c_0068} onClick={menuFunction}>

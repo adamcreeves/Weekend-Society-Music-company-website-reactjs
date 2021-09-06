@@ -7,7 +7,7 @@ import {
     Welcome } from '../../../resources/Strings';
 import '../../../styling/components/home/Tagline.css';
 
-function Tagline () {
+function Tagline() {
     return (
         <div className={c_0077}>
             <div className={c_0078}>{Welcome}</div>

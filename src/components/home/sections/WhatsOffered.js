@@ -8,7 +8,7 @@ import {
     WhatWeOffer } from '../../../resources/Strings';
 import '../../../styling/components/home/WhatsOffered.css';
 
-function WhatsOffered () {
+function WhatsOffered() {
     return (
         <div className={c_0082}>
             <div className={c_0083}>{WhatWeOffer}</div>

@@ -6,7 +6,7 @@ import IsaacBio from './IsaacBio';
 import { c_0017 } from '../../resources/ClassNames';
 import "../../styling/components/about/AboutBody.css";
 
-function AboutBody () {
+function AboutBody() {
     return (
         <div className={c_0017}>
             <Banner source={AboutBanner} alternate={AboutBannerText} />

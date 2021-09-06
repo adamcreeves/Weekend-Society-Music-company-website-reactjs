@@ -14,7 +14,7 @@ import ContactMethod from './ContactMethod';
 import { c_0018 } from '../../resources/ClassNames';
 import "../../styling/components/contact/ContactBody.css";
 
-function ContactBody () {
+function ContactBody() {
     return (
         <div className={c_0018}>
             <Banner source={ContactBanner} alternate={ContactBannerText} />

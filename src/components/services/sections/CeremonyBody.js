@@ -11,7 +11,7 @@ import {
     Trio,  } from '../../../resources/Strings';
 import CeremonySection from '../subsections/CeremonySection';
 
-function CeremonyBody ({ 
+function CeremonyBody({ 
     sectionContainerClass, 
     titleClass, 
     mainSectionClass,

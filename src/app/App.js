@@ -22,7 +22,7 @@ import {
 import { c_0001 } from "../resources/ClassNames";
 import './../styling/App.css';
 
-function App () {
+function App() {
   return (
     <Router className={c_0001}>
         <Switch>

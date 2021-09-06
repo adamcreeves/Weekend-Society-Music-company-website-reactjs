@@ -5,7 +5,7 @@ import SocialMedia from './SocialMedia';
 import { c_0048 } from '../../../resources/ClassNames';
 import "../../../styling/components/footer/utils/IconSocialCredit.css";
 
-function IconSocialCredit () {
+function IconSocialCredit() {
     return (
         <div className={c_0048}>
             <FooterIcon />

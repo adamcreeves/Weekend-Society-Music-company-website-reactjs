@@ -18,7 +18,7 @@ import {
     SignaturePremiumDetail2, 
     SignaturePremiumDetail3 } from '../../../resources/Strings';
 
-function ReceptionBody ({ 
+function ReceptionBody({ 
     sectionContainerClass, 
     titleClass, 
     mainSectionClass, 

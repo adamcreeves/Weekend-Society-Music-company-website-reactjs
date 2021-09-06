@@ -5,7 +5,7 @@ import TaglineAndContact from './utils/TaglineAndContact';
 import { c_0023 } from '../../resources/ClassNames';
 import "../../styling/components/footer/FooterBody.css";
 
-function FooterBody () {
+function FooterBody() {
     return (
         <div className={c_0023}>
             <IconSocialCredit />

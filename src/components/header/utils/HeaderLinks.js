@@ -14,7 +14,7 @@ import {
     Videos } from '../../../resources/Strings';
 import "../../../styling/components/header/utils/HeaderLinks.css";
 
-function HeaderLinks () {
+function HeaderLinks() {
     return (
         <div className={c_0059}>
             <Link to={ToHome} className={c_0060}>

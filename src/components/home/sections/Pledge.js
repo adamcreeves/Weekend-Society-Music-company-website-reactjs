@@ -15,7 +15,7 @@ import {
     PledgeLine10 } from '../../../resources/Strings';
 import '../../../styling/components/home/Pledge.css';
 
-function Pledge () {
+function Pledge() {
     return (
         <div className={c_0074}>
             <div className={c_0075}>{PledgeTitle1}<br />{PledgeTitle2}</div>

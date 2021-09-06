@@ -36,7 +36,7 @@ import Video from './Video';
 import { c_0021 } from '../../resources/ClassNames';
 import '../../styling/components/videos/VideosBody.css';
 
-function VideosBody () {
+function VideosBody() {
     return (
         <div className={c_0021}>
             <div className='videosBody__row'>

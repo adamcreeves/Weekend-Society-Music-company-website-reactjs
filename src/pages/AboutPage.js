@@ -5,7 +5,7 @@ import Footer from '../components/footer/Footer';
 import { c_0002, c_0003, c_0004 } from '../resources/ClassNames';
 import '../styling/pages/AboutPage.css';
 
-function AboutPage () {
+function AboutPage() {
     return (
         <div className={c_0002}>
             <Header className={c_0003} />

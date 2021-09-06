@@ -18,10 +18,10 @@ import {
     c_0109,
     c_0110,
     c_0111,
-    c_0112} from '../../resources/ClassNames';
+    c_0112 } from '../../resources/ClassNames';
 import '../../styling/components/services/ServicesBody.css';
 
-function ServicesBody () {
+function ServicesBody() {
     return (
         <div className={c_0020}>
             <ReceptionBody 

@@ -7,7 +7,7 @@ import {
     IsaacBioTitle } from '../../resources/Strings';
 import "../../styling/components/about/IsaacBio.css";
 
-function IsaacBio () {
+function IsaacBio() {
     return (
         <div className={c_0035}>
             <img 

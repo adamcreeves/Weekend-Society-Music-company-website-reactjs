@@ -4,7 +4,7 @@ import { c_0056, c_0057, c_0058 } from '../../../resources/ClassNames';
 import { HeaderIconAlt, HeaderIconSource } from '../../../resources/Strings';
 import "../../../styling/components/header/utils/HeaderIcon.css";
 
-function HeaderIcon () {
+function HeaderIcon() {
     return (
         <Link to='/' className={c_0056}>
             <button className={c_0057}>

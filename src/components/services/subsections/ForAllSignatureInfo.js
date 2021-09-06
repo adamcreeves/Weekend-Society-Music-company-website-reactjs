@@ -14,7 +14,7 @@ import {
     ForAllTitle } from '../../../resources/Strings';
 import '../../../styling/components/services/sections/ForAllSignatureInfo.css';
 
-function ForAllSignatureInfo () {
+function ForAllSignatureInfo() {
     return (
         <div className={c_0092}>
             <div className={c_0093}>{ForAllTitle}</div>

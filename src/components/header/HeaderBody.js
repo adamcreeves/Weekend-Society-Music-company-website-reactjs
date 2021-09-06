@@ -8,7 +8,7 @@ import { c_0022, c_0070, c_0071, c_0072 } from '../../resources/ClassNames';
 import { MobileMenuId } from '../../resources/Strings';
 import "../../styling/components/header/HeaderBody.css";
 
-function HeaderBody () {
+function HeaderBody() {
     const [count, setCount] = useState(0);
 
     const toggleMenu = () => {

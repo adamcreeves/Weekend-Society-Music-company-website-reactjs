@@ -11,7 +11,7 @@ import HomeBottom from './sections/HomeBottom';
 import { c_0019 } from '../../resources/ClassNames';
 import '../../styling/components/home/HomeBody.css';
 
-function HomeBody () {
+function HomeBody() {
     return (
         <div className={c_0019}>
             <Banner 
