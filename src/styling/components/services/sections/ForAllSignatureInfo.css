@@ -1,22 +1,22 @@
-.infoForAllContainer {
+.infoForAll {
     width: 90%;
     margin-left: 5%;
     display: flex;
     flex-direction: column;
 }
-.infoForAllTitle {
+.infoForAll__title {
     font-size: 30px;
     color: white;
     /* text-align: center; */
     text-decoration-line: underline;
 }
-.infoForAllDetails {
+.infoForAll__details {
     color: white;
     margin: 4px;
     font-size: 22px;
 }
 @media only screen and (max-width: 500px) {
-    .infoForAllTitle {
+    .infoForAll__title {
         text-align: center;
         font-size: 25px;
     }

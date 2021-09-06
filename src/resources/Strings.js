@@ -172,6 +172,7 @@ export const SignatureDetail2 = '• Rhythm section: Keyboard, Guitar, Bass Guit
 export const SignatureDetail3 = '• 1 Brass player: Saxophone';
 export const ReceptionImageSource = '/servicesReceptionImage2.png';
 export const ReceptionImageText = 'Couples first dance';
+export const ReceptionSectionId = 'mainSection1';
 
 // subsections
 export const ForAllTitle = 'All Signature Services Include';
