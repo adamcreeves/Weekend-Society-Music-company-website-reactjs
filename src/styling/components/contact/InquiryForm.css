@@ -4,6 +4,7 @@
     width: 700px;
     align-items: center;
     margin-bottom: 10px;
+    z-index: 100;
 }
 .inquiryForm__input {
     color: white;

@@ -1,0 +1,17 @@
+.loadingSpinner {
+    display: flex;
+    justify-content: center;
+    margin-top: 175px;
+    margin-bottom: 300px;
+}
+@media only screen and (max-width: 500px) {
+    .loadingSpinner {
+        margin-top: 200px;
+        margin-bottom: 350px;
+    }
+}
+@media only screen and (max-height: 400px) {
+    .loadingSpinner {
+        margin-top: 13px;
+    }
+}
