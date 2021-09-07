@@ -1,9 +1,9 @@
 import React from 'react';
 import FullPageImage from '../../components/images/FullPageImage';
-import { NorcalPricesSource, NorcalPricesText } from '../../resources/Strings';
+import { alt_005, src_007 } from '../../resources/Strings';
 
 function NorcalPrices() {
-    return <FullPageImage source={NorcalPricesSource} alternate={NorcalPricesText} />;
+    return <FullPageImage source={src_007} alternate={alt_005} />;
 }
 
 export default NorcalPrices;

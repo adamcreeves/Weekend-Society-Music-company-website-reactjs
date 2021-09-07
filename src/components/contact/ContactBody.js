@@ -1,13 +1,13 @@
 import React from 'react';
 import { 
-    ContactBanner, 
-    ContactBannerText, 
+    alt_010, 
     ContactFormHeadline, 
     ContactHeadline, 
-    Email, 
-    EmailSource, 
-    PhoneNumber, 
-    PhoneNumberSource } from '../../resources/Strings';
+    Email,
+    PhoneNumber,
+    src_003, 
+    src_013,
+    src_014} from '../../resources/Strings';
 import InquiryForm from './InquiryForm';
 import Banner from '../subcomponents/Banner';
 import ContactMethod from './ContactMethod';
@@ -17,17 +17,17 @@ import "../../styling/components/contact/ContactBody.css";
 function ContactBody() {
     return (
         <div className={c_0018}>
-            <Banner source={ContactBanner} alternate={ContactBannerText} />
+            <Banner source={src_003} alternate={alt_010} />
             <div className='contactBody__headine'>{ContactHeadline}</div>
             <ContactMethod 
                 methodClass={'contactBody__phone'}
                 linkClass={'contactBody__click'} 
-                source={PhoneNumberSource}
+                source={src_013}
                 text={PhoneNumber} />
             <ContactMethod 
                 methodClass={'contactBody__info'}
                 linkClass={'contactBody__click'} 
-                source={EmailSource}
+                source={src_014}
                 text={Email} />
             <div className='contactBody__info2'>{ContactFormHeadline}</div>
             <InquiryForm />

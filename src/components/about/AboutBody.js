@@ -1,5 +1,5 @@
 import React from 'react';
-import { AboutBanner, AboutBannerText } from '../../resources/Strings';
+import { alt_003, src_004 } from '../../resources/Strings';
 import Banner from '../subcomponents/Banner';
 import BandBio from './BandBio';
 import IsaacBio from './IsaacBio';
@@ -9,7 +9,7 @@ import "../../styling/components/about/AboutBody.css";
 function AboutBody() {
     return (
         <div className={c_0017}>
-            <Banner source={AboutBanner} alternate={AboutBannerText} />
+            <Banner source={src_004} alternate={alt_003} />
             <BandBio />
             <IsaacBio />
         </div>

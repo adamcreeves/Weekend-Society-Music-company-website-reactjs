@@ -1,5 +1,5 @@
 import React from 'react';
-import { Homepage1Source, Homepage1Text, Homepage2Source, Homepage2Text } from '../../../resources/Strings';
+import { alt_009, alt_011, src_011, src_012 } from '../../../resources/Strings';
 import ImageRow from '../../images/ImageRow';
 import Pledge from './Pledge';
 import WhatsOffered from './WhatsOffered';
@@ -11,10 +11,10 @@ function HomeBottom() {
         <div className={c_0073}>
             <WhatsOffered />
             <ImageRow 
-                source1={Homepage1Source} 
-                source2={Homepage2Source} 
-                alt1={Homepage1Text} 
-                alt2={Homepage2Text} />
+                source1={src_011} 
+                source2={src_012} 
+                alt1={alt_011} 
+                alt2={alt_009} />
             <Pledge />
         </div>
     );

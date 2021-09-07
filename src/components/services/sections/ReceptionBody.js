@@ -2,9 +2,9 @@ import React from 'react';
 import ReceptionSection from '../subsections/ReceptionSection';
 import ForAllSignatureInfo from '../subsections/ForAllSignatureInfo';
 import { 
+    alt_012,
     Reception, 
     ReceptionImageSource, 
-    ReceptionImageText, 
     Signature, 
     SignatureDetail1, 
     SignatureDetail2, 
@@ -50,7 +50,7 @@ function ReceptionBody({
                     <img 
                         className={imageClass} 
                         src={ReceptionImageSource} 
-                        alt={ReceptionImageText} />
+                        alt={alt_012} />
                 </div>
             </div>
             <ForAllSignatureInfo />

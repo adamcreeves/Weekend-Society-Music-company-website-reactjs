@@ -5,11 +5,11 @@ import {
     CocktailQuartetDetails, 
     CocktailQuintetDetails, 
     CocktailSubtitle, 
-    CocktailTrioDetails, 
-    CocktailVideoSource, 
+    CocktailTrioDetails,
     CocktailVideoTitle, 
     Quartet, 
     Quintet, 
+    src_018, 
     Trio } from '../../../resources/Strings';
 import CocktailSection from '../subsections/CocktailSection';
 
@@ -40,7 +40,7 @@ function CocktailBody({
                 </div>
                 <div className={videoContainerClass}>
                     <div className={videoTitleClass}>{CocktailVideoTitle}</div>
-                    <ReactPlayer className={videoClass} url={CocktailVideoSource} />
+                    <ReactPlayer className={videoClass} url={src_018} />
                 </div>
             </div>
         </div>

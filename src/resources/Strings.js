@@ -1,29 +1,90 @@
-// app
-// paths
-export const homePath = '/';
-export const aboutPath = '/about';
-export const cocktailPath = '/cocktailgroups';
-export const contactPath = '/contact';
-export const norCalPath = '/norcalpricing';
-export const servicesPath = '/services';
-export const soCalPath = '/socalpricing';
-export const travelPath = '/travelpricing';
-export const videosPath = '/videos';
-
-// components
-// header
-export const MobileMenuId = 'mobileMenu';
+// ids
+export const id_01 = 'mobileMenu';
 
 // links
-export const Home = 'HOME';
-export const About = 'ABOUT';
-export const Contact = 'CONTACT';
-export const Services = 'SERVICES';
-export const Videos = 'VIDEOS';
+export const l_01 = 'HOME';
+export const l_02 = 'ABOUT';
+export const l_03 = 'CONTACT';
+export const l_04 = 'SERVICES';
+export const l_05 = 'VIDEOS';
 
-// icon
-export const HeaderIconSource = '/weekend_icon.png';
-export const HeaderIconAlt = 'Weekend Society Icon';
+// paths
+export const p_01 = '/';
+export const p_02 = '/about';
+export const p_03 = '/cocktailgroups';
+export const p_04 = '/contact';
+export const p_05 = '/norcalpricing';
+export const p_06 = '/services';
+export const p_07 = '/socalpricing';
+export const p_08 = '/travelpricing';
+export const p_09 = '/videos';
+
+// sources
+export const src_001 = '/weekend_icon.png';
+export const src_002 = '/isaacpic.png';
+export const src_003 = '/contactMain.jpg';
+export const src_004 = '/aboutMain.png';
+export const src_005 = '/weekendsocietybg.jpg';
+export const src_006 = '/cocktailgroups.png';
+export const src_007 = '/norcalprices.png';
+export const src_008 = '/socalprices.png';
+export const src_009 ='/travelprices.png' ;
+export const src_011 = '/homepage1.jpg';
+export const src_012 = '/homepage2.jpg';
+export const src_013 = 'tel:+13238802005';
+export const src_014 = 'mailto:hello@weekendsocietymusic.com';
+export const src_015 = 'https://www.instagram.com/weekendsocietymusic/';
+export const src_016 = 'https://m.facebook.com/weekendsocietymusic';
+export const src_017 = 'https://vimeo.com/572268414';
+export const src_018 = 'https://vimeo.com/569581619';
+
+// atls
+export const alt_001 ='Weekend Society Icon';
+export const alt_002 = 'The Weekend Society Music Group Home Banner';
+export const alt_003 = 'The Weekend Society Music Group About Banner';
+export const alt_004 = 'The Cocktail Groups page';
+export const alt_005 = 'Price sheet for NorCal';
+export const alt_006 = 'Price sheet for SoCal';
+export const alt_007 = 'Price sheet for travel';
+export const alt_008 = 'Portrait of isaac';
+export const alt_009 = 'Guy and girl dancing';
+export const alt_010 = 'Guy celebrating with his arms up';
+export const alt_011 = 'Guy getting down';
+export const alt_012 = 'Bride and groom on dance floor';
+
+// videos
+export const CrazyInLove = 'Crazy In Love';
+export const CrazyInLoveSource = 'https://vimeo.com/560991462';
+export const ShutUpAndDance = 'Shut Up And Dance';
+export const ShutUpAndDanceSource = 'https://vimeo.com/557864630'; 
+export const DontStopBelievin = 'Don\'t Stop Believin\'';
+export const DontStopBelievinSource = 'https://vimeo.com/560094415';
+export const YouShookMe = 'You Shook Me All Night Long';
+export const YouShookMeSource = 'https://vimeo.com/555427896';
+export const CantStopTheFeelin = 'Can\'t Stop The Feelin\'';
+export const CantStopTheFeelinSource = 'https://vimeo.com/561555897';
+export const FlyMeToTheMoon = 'Fly Me To The Moon';
+export const FlyMeToTheMoonSource = 'https://vimeo.com/561558104';
+export const DontStartNow = 'Don\'t Start Now';
+export const DontStartNowSource = 'https://vimeo.com/563801264';
+export const IfIAintGotYou = 'If I Ain\'t Got You';
+export const IfIAintGotYouSource = 'https://vimeo.com/563801725';
+export const September = 'September';
+export const SeptemberSource = 'https://vimeo.com/563807130';
+export const IWantYouBack = 'I Want You Back';
+export const IWantYouBackSource = 'https://vimeo.com/567150898';
+export const SignedSealed = 'Signed, Sealed, Delivered';
+export const SignedSealedSource = 'https://vimeo.com/567151670';
+export const RaiseYourGlass = 'Raise Your Glass';
+export const RaiseYourGlassSource = 'https://vimeo.com/567151151';
+export const ShakeYourBody = 'Shake Your Body Down';
+export const ShakeYourBodySource = 'https://vimeo.com/576976080';
+export const Kiss = 'Kiss';
+export const KissSource = 'https://vimeo.com/576975855';
+export const IWannaDance = 'I Wanna Dance With Somebody';
+export const IWannaDanceSource = 'https://vimeo.com/576975954';
+export const ThatsWhatILike = 'That\'s What I Like';
+export const ThatsWhatILikeSource = 'https://vimeo.com/576981766';
 
 // footer
 export const Trademark = '© 2021 The Weekend Society';
@@ -33,15 +94,7 @@ export const FooterTagline = 'The Weekend Society is located in Los Angeles and 
 export const PhoneNumber = '(323) 880-2005';
 export const Email = 'hello@weekendsocietymusic.com';
 export const BookNow = 'BOOK NOW!';
-export const InstagramProfile = 'https://www.instagram.com/weekendsocietymusic/';
-export const FacebookProfile = 'https://m.facebook.com/weekendsocietymusic';
-export const FooterIconSource = '/weekend_icon.png';
-export const FooterIconAlt ='Weekend Society Icon';
 export const IconSize = 'large';
-
-// about
-export const IsaacBioPicSource = '/isaacpic.png';
-export const IsaacBioPicAlt = 'portrait of isaac';
 
 // pledge
 export const PledgeTitle1 = 'Our';
@@ -114,15 +167,10 @@ export const ServiceEmailTemplate = 'template_dfpxnv1';
 export const ServiceEmailKey = 'user_BgakDUbNo9ThPcGN0y1JT';
 
 // contact
-export const ContactBanner = '/contactMain.jpg';
-export const ContactBannerText = 'Guy and girl dancing';
 export const ContactHeadline = 'Contact us at:';
-export const PhoneNumberSource = 'tel:+13238802005';
-export const EmailSource = 'mailto:hello@weekendsocietymusic.com';
 export const ContactFormHeadline = 'or fill out the information below:';
 
-// services
-// sections
+// services sections
 export const Ceremony = 'Ceremony';
 export const Solo = 'Solo';
 export const CeremonySoloDetails = '• Keys \n • Guitar \n • Saxophone \n • Violin';
@@ -149,7 +197,6 @@ export const CocktailQuintetDetails = `• Margarita - Keys, Upright Bass, Saxop
                                         Vocalist \n • Night Crawler - Guitar, Upright Bass, Trumpet, 
                                         Saxophone, & Drums`;
 export const CocktailVideoTitle = 'Cocktail Hour (Blue Bossa)';
-export const CocktailVideoSource = 'https://vimeo.com/569581619';
 export const Reception = 'Reception';
 export const SignaturePremium = 'Signature Premium';
 export const SignaturePremiumDetail1 = '• 4 premium vocalists';
@@ -164,7 +211,6 @@ export const SignatureDetail1 = '• 2 premium vocalists';
 export const SignatureDetail2 = '• Rhythm section: Keyboard, Guitar, Bass Guitar, & Drums';
 export const SignatureDetail3 = '• 1 Brass player: Saxophone';
 export const ReceptionImageSource = '/servicesReceptionImage2.png';
-export const ReceptionImageText = 'Couples first dance';
 export const ReceptionSectionId = 'mainSection1';
 
 // subsections
@@ -181,44 +227,7 @@ export const ForAllDetail8 = '• Up to 4 personalized song selections outside o
 export const ForAllDetail9 = '• Setup (2-3 hours), teardown, & travel included';
 export const ForAllDetail10 = '• An electric slide & chicken dance free dance floor';
 
-// videos
-export const CrazyInLove = 'Crazy In Love';
-export const CrazyInLoveSource = 'https://vimeo.com/560991462';
-export const ShutUpAndDance = 'Shut Up And Dance';
-export const ShutUpAndDanceSource = 'https://vimeo.com/557864630'; 
-export const DontStopBelievin = 'Don\'t Stop Believin\'';
-export const DontStopBelievinSource = 'https://vimeo.com/560094415';
-export const YouShookMe = 'You Shook Me All Night Long';
-export const YouShookMeSource = 'https://vimeo.com/555427896';
-export const CantStopTheFeelin = 'Can\'t Stop The Feelin\'';
-export const CantStopTheFeelinSource = 'https://vimeo.com/561555897';
-export const FlyMeToTheMoon = 'Fly Me To The Moon';
-export const FlyMeToTheMoonSource = 'https://vimeo.com/561558104';
-export const DontStartNow = 'Don\'t Start Now';
-export const DontStartNowSource = 'https://vimeo.com/563801264';
-export const IfIAintGotYou = 'If I Ain\'t Got You';
-export const IfIAintGotYouSource = 'https://vimeo.com/563801725';
-export const September = 'September';
-export const SeptemberSource = 'https://vimeo.com/563807130';
-export const IWantYouBack = 'I Want You Back';
-export const IWantYouBackSource = 'https://vimeo.com/567150898';
-export const SignedSealed = 'Signed, Sealed, Delivered';
-export const SignedSealedSource = 'https://vimeo.com/567151670';
-export const RaiseYourGlass = 'Raise Your Glass';
-export const RaiseYourGlassSource = 'https://vimeo.com/567151151';
-export const ShakeYourBody = 'Shake Your Body Down';
-export const ShakeYourBodySource = 'https://vimeo.com/576976080';
-export const Kiss = 'Kiss';
-export const KissSource = 'https://vimeo.com/576975855';
-export const IWannaDance = 'I Wanna Dance With Somebody';
-export const IWannaDanceSource = 'https://vimeo.com/576975954';
-export const ThatsWhatILike = 'That\'s What I Like';
-export const ThatsWhatILikeSource = 'https://vimeo.com/576981766';
-
-// PAGES
-// About
-export const AboutBanner = '/aboutMain.png';
-export const AboutBannerText = 'The Weekend Society Music Group';
+// about
 export const BandBio1 = `The Weekend Society is a high energy dance band 
                         committed to making the best day of your life, 
                         the actual best day of your life, and will effortlessly 
@@ -245,22 +254,5 @@ export const IsaacBioText = `Born and raised in Los Angeles with a Bachelors in
                         making craft cocktails, and is absolutely in love with 
                         his 3 year old daughter.`;
 
-// Home
-export const HomeBanner = '/weekendsocietybg.jpg';
-export const HomeBannerText = 'The Weekend Society Music Group';
-export const HomeVideoSource = 'https://vimeo.com/572268414';
-export const Homepage1Source = '/homepage1.jpg';
-export const Homepage2Source = '/homepage2.jpg';
-export const Homepage1Text = 'Guy getting down';
-export const Homepage2Text = 'Bride and groom on dance floor';
+// home
 export const EmptyString = '';
-
-// HIDDEN
-export const CocktailGroupsSource = '/cocktailgroups.png';
-export const CocktailGroupsText = 'price sheet for NorCal';
-export const NorcalPricesSource = '/norcalprices.png';
-export const NorcalPricesText = 'price sheet for NorCal';
-export const SocalPricesSource = '/socalprices.png';
-export const SocalPricesText = 'price sheet for SoCal';
-export const TravelPricesSource ='/travelprices.png' ;
-export const TravelPricesText = 'price sheet for travel';
