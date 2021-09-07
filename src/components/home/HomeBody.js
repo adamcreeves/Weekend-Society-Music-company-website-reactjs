@@ -4,9 +4,9 @@ import Video from '../videos/Video';
 import Tagline from './sections/Tagline';
 import { 
     alt_002,
-    EmptyString,
     src_005,
-    src_017} from '../../resources/Strings';
+    src_017,
+    s_001 } from '../../resources/Strings';
 import HomeBottom from './sections/HomeBottom';
 import { c_0019 } from '../../resources/ClassNames';
 import '../../styling/components/home/HomeBody.css';
@@ -18,7 +18,7 @@ function HomeBody() {
                 source={src_005} 
                 alternate={alt_002} />
             <Tagline />
-            <Video title={EmptyString} url={src_017} />
+            <Video title={s_001} url={src_017} />
             <HomeBottom />
         </div>
     );

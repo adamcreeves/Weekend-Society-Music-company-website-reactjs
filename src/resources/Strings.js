@@ -1,6 +1,17 @@
 // ids
 export const id_01 = 'mobileMenu';
 
+// keys
+export const k_01 = 'weekend_inquiries';
+export const k_02 = 'template_dfpxnv1';
+export const k_03 = 'user_BgakDUbNo9ThPcGN0y1JT';
+
+// types
+export const t_01 = 'text';
+export const t_02 = 'email';
+export const t_03 = 'submit';
+export const t_04 = 'large';
+
 // links
 export const l_01 = 'HOME';
 export const l_02 = 'ABOUT';
@@ -19,27 +30,8 @@ export const p_07 = '/socalpricing';
 export const p_08 = '/travelpricing';
 export const p_09 = '/videos';
 
-// sources
-export const src_001 = '/weekend_icon.png';
-export const src_002 = '/isaacpic.png';
-export const src_003 = '/contactMain.jpg';
-export const src_004 = '/aboutMain.png';
-export const src_005 = '/weekendsocietybg.jpg';
-export const src_006 = '/cocktailgroups.png';
-export const src_007 = '/norcalprices.png';
-export const src_008 = '/socalprices.png';
-export const src_009 ='/travelprices.png' ;
-export const src_011 = '/homepage1.jpg';
-export const src_012 = '/homepage2.jpg';
-export const src_013 = 'tel:+13238802005';
-export const src_014 = 'mailto:hello@weekendsocietymusic.com';
-export const src_015 = 'https://www.instagram.com/weekendsocietymusic/';
-export const src_016 = 'https://m.facebook.com/weekendsocietymusic';
-export const src_017 = 'https://vimeo.com/572268414';
-export const src_018 = 'https://vimeo.com/569581619';
-
-// atls
-export const alt_001 ='Weekend Society Icon';
+// alternates
+export const alt_001 = 'Weekend Society Icon';
 export const alt_002 = 'The Weekend Society Music Group Home Banner';
 export const alt_003 = 'The Weekend Society Music Group About Banner';
 export const alt_004 = 'The Cocktail Groups page';
@@ -52,49 +44,90 @@ export const alt_010 = 'Guy celebrating with his arms up';
 export const alt_011 = 'Guy getting down';
 export const alt_012 = 'Bride and groom on dance floor';
 
+// sources
+export const src_001 = '/weekend_icon.png';
+export const src_002 = '/isaacpic.png';
+export const src_003 = '/contactMain.jpg';
+export const src_004 = '/aboutMain.png';
+export const src_005 = '/weekendsocietybg.jpg';
+export const src_006 = '/cocktailgroups.png';
+export const src_007 = '/norcalprices.png';
+export const src_008 = '/socalprices.png';
+export const src_009 ='/travelprices.png' ;
+export const src_010 = '/homepage1.jpg';
+export const src_011 = '/homepage2.jpg';
+export const src_012 = 'tel:+13238802005';
+export const src_013 = 'mailto:hello@weekendsocietymusic.com';
+export const src_014 = 'hello@weekendsocietymusic.com';
+export const src_015 = 'https://www.instagram.com/weekendsocietymusic/';
+export const src_016 = 'https://m.facebook.com/weekendsocietymusic';
+export const src_017 = 'https://vimeo.com/572268414';
+export const src_018 = 'https://vimeo.com/569581619';
+export const src_019 = 'https://vimeo.com/560991462';
+export const src_020 = 'https://vimeo.com/557864630';
+export const src_021 = 'https://vimeo.com/560094415';
+export const src_022 = 'https://vimeo.com/555427896';
+export const src_023 = 'https://vimeo.com/561555897';
+export const src_024 = 'https://vimeo.com/561558104';
+export const src_025 = 'https://vimeo.com/563801264';
+export const src_026 = 'https://vimeo.com/563801725';
+export const src_027 = 'https://vimeo.com/563807130';
+export const src_028 = 'https://vimeo.com/567150898';
+export const src_029 = 'https://vimeo.com/567151670';
+export const src_030 = 'https://vimeo.com/567151151';
+export const src_031 = 'https://vimeo.com/576976080';
+export const src_032 = 'https://vimeo.com/576975855';
+export const src_033 = 'https://vimeo.com/576975954';
+export const src_034 = 'https://vimeo.com/576981766';
+export const src_035 = '(323) 880-2005';
+
+// strings
+export const s_001 = '';
+export const s_002 = 'name';
+export const s_003 = 'phone';
+export const s_004 = 'email';
+export const s_005 = 'eventType';
+export const s_006 = 'eventDate';
+export const s_007 = 'eventLocation';
+export const s_008 = 'eventLength';
+export const s_009 = 'notes';
+export const s_010 = 'guestCount';
+export const s_011 = 'heardAbout';
+export const InputPH_01 = 'Your Name';
+export const InputPH_02 = 'Phone Number';
+export const InputPH_03 = 'Email Address';
+export const InputPH_04 = 'Event Type';
+export const InputPH_05 = 'Event Date';
+export const InputPH_06 = 'Event Location';
+export const InputPH_07 = 'Event Length';
+export const InputPH_08 = 'Notes or other details';
+export const InputPH_09 = 'Guest Count';
+export const InputPH_10 = 'How you found us';
+
 // videos
 export const CrazyInLove = 'Crazy In Love';
-export const CrazyInLoveSource = 'https://vimeo.com/560991462';
 export const ShutUpAndDance = 'Shut Up And Dance';
-export const ShutUpAndDanceSource = 'https://vimeo.com/557864630'; 
 export const DontStopBelievin = 'Don\'t Stop Believin\'';
-export const DontStopBelievinSource = 'https://vimeo.com/560094415';
 export const YouShookMe = 'You Shook Me All Night Long';
-export const YouShookMeSource = 'https://vimeo.com/555427896';
 export const CantStopTheFeelin = 'Can\'t Stop The Feelin\'';
-export const CantStopTheFeelinSource = 'https://vimeo.com/561555897';
 export const FlyMeToTheMoon = 'Fly Me To The Moon';
-export const FlyMeToTheMoonSource = 'https://vimeo.com/561558104';
 export const DontStartNow = 'Don\'t Start Now';
-export const DontStartNowSource = 'https://vimeo.com/563801264';
 export const IfIAintGotYou = 'If I Ain\'t Got You';
-export const IfIAintGotYouSource = 'https://vimeo.com/563801725';
 export const September = 'September';
-export const SeptemberSource = 'https://vimeo.com/563807130';
 export const IWantYouBack = 'I Want You Back';
-export const IWantYouBackSource = 'https://vimeo.com/567150898';
 export const SignedSealed = 'Signed, Sealed, Delivered';
-export const SignedSealedSource = 'https://vimeo.com/567151670';
 export const RaiseYourGlass = 'Raise Your Glass';
-export const RaiseYourGlassSource = 'https://vimeo.com/567151151';
 export const ShakeYourBody = 'Shake Your Body Down';
-export const ShakeYourBodySource = 'https://vimeo.com/576976080';
 export const Kiss = 'Kiss';
-export const KissSource = 'https://vimeo.com/576975855';
 export const IWannaDance = 'I Wanna Dance With Somebody';
-export const IWannaDanceSource = 'https://vimeo.com/576975954';
 export const ThatsWhatILike = 'That\'s What I Like';
-export const ThatsWhatILikeSource = 'https://vimeo.com/576981766';
 
 // footer
 export const Trademark = '© 2021 The Weekend Society';
 export const WebsiteCredit = 'Webiste developed by';
 export const Adam = 'Adam Reeves';
 export const FooterTagline = 'The Weekend Society is located in Los Angeles and loves to travel';
-export const PhoneNumber = '(323) 880-2005';
-export const Email = 'hello@weekendsocietymusic.com';
 export const BookNow = 'BOOK NOW!';
-export const IconSize = 'large';
 
 // pledge
 export const PledgeTitle1 = 'Our';
@@ -129,42 +162,8 @@ export const InquiryFormConfirmationMessage = `Your information has been sent\nY
                                                 hear from us soon!`;
 export const InquiryFormErrorMessage = 'Something went wrong. Please try again.'
 
-// inputs types
-export const TypeText = 'text';
-export const TypeEmail = 'email';
-export const TypeSubmit = 'submit';
-
-// input placeholders
-export const InputPH_01 = 'Your Name';
-export const InputPH_02 = 'Phone Number';
-export const InputPH_03 = 'Email Address';
-export const InputPH_04 = 'Event Type';
-export const InputPH_05 = 'Event Date';
-export const InputPH_06 = 'Event Location';
-export const InputPH_07 = 'Event Length';
-export const InputPH_08 = 'Notes or other details';
-export const InputPH_09 = 'Guest Count';
-export const InputPH_10 = 'How you found us';
-
-// input names
-export const InputName_01 = 'name';
-export const InputName_02 = 'phone';
-export const InputName_03 = 'email';
-export const InputName_04 = 'eventType';
-export const InputName_05 = 'eventDate';
-export const InputName_06 = 'eventLocation';
-export const InputName_07 = 'eventLength';
-export const InputName_08 = 'notes';
-export const InputName_09 = 'guestCount';
-export const InputName_10 = 'heardAbout';
-
 // form button
 export const FormBtnLabel = 'Submit';
-
-// send email
-export const ServiceEmailName = 'weekend_inquiries';
-export const ServiceEmailTemplate = 'template_dfpxnv1';
-export const ServiceEmailKey = 'user_BgakDUbNo9ThPcGN0y1JT';
 
 // contact
 export const ContactHeadline = 'Contact us at:';
@@ -254,5 +253,3 @@ export const IsaacBioText = `Born and raised in Los Angeles with a Bachelors in
                         making craft cocktails, and is absolutely in love with 
                         his 3 year old daughter.`;
 
-// home
-export const EmptyString = '';

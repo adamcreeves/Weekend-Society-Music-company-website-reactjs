@@ -1,37 +1,37 @@
 import React from 'react';
 import { 
     CantStopTheFeelin, 
-    CantStopTheFeelinSource, 
     CrazyInLove, 
-    CrazyInLoveSource, 
     DontStartNow, 
-    DontStartNowSource, 
-    DontStopBelievin, 
-    DontStopBelievinSource, 
-    FlyMeToTheMoon, 
-    FlyMeToTheMoonSource, 
+    DontStopBelievin,  
+    FlyMeToTheMoon,  
     IfIAintGotYou, 
-    IfIAintGotYouSource, 
     IWannaDance, 
-    IWannaDanceSource, 
     IWantYouBack, 
-    IWantYouBackSource, 
     Kiss, 
-    KissSource, 
     RaiseYourGlass, 
-    RaiseYourGlassSource, 
     September, 
-    SeptemberSource, 
     ShakeYourBody, 
-    ShakeYourBodySource, 
-    ShutUpAndDance, 
-    ShutUpAndDanceSource, 
+    ShutUpAndDance,  
     SignedSealed, 
-    SignedSealedSource, 
+    src_019, 
+    src_020, 
+    src_021, 
+    src_022, 
+    src_023, 
+    src_024, 
+    src_025, 
+    src_026, 
+    src_027, 
+    src_028, 
+    src_029, 
+    src_030, 
+    src_031, 
+    src_032, 
+    src_033, 
+    src_034, 
     ThatsWhatILike, 
-    ThatsWhatILikeSource, 
-    YouShookMe, 
-    YouShookMeSource} from '../../resources/Strings';
+    YouShookMe } from '../../resources/Strings';
 import Video from './Video';
 import { c_0021 } from '../../resources/ClassNames';
 import '../../styling/components/videos/VideosBody.css';
@@ -40,36 +40,36 @@ function VideosBody() {
     return (
         <div className={c_0021}>
             <div className='videosBody__row'>
-                <Video title={CrazyInLove} url={CrazyInLoveSource} />
-                <Video title={ShutUpAndDance} url={ShutUpAndDanceSource} />
+                <Video title={CrazyInLove} url={src_019} />
+                <Video title={ShutUpAndDance} url={src_020} />
             </div>
             <div className='videosBody__row'>
-                <Video title={DontStopBelievin} url={DontStopBelievinSource} />
-                <Video title={YouShookMe} url={YouShookMeSource} />
+                <Video title={DontStopBelievin} url={src_021} />
+                <Video title={YouShookMe} url={src_022} />
             </div>
             <div className='videosBody__row'>
-                <Video title={CantStopTheFeelin} url={CantStopTheFeelinSource} />
-                <Video title={FlyMeToTheMoon} url={FlyMeToTheMoonSource} />
+                <Video title={CantStopTheFeelin} url={src_023} />
+                <Video title={FlyMeToTheMoon} url={src_024} />
             </div>
             <div className='videosBody__row'>
-                <Video title={DontStartNow} url={DontStartNowSource} />
-                <Video title={IfIAintGotYou} url={IfIAintGotYouSource} />
+                <Video title={DontStartNow} url={src_025} />
+                <Video title={IfIAintGotYou} url={src_026} />
             </div>
             <div className='videosBody__row'>
-                <Video title={September} url={SeptemberSource} />
-                <Video title={IWantYouBack} url={IWantYouBackSource} />
+                <Video title={September} url={src_027} />
+                <Video title={IWantYouBack} url={src_028} />
             </div>
             <div className='videosBody__row'>
-                <Video title={SignedSealed} url={SignedSealedSource} />
-                <Video title={RaiseYourGlass} url={RaiseYourGlassSource} />
+                <Video title={SignedSealed} url={src_029} />
+                <Video title={RaiseYourGlass} url={src_030} />
             </div>
             <div className='videosBody__row'>
-                <Video title={ShakeYourBody} url={ShakeYourBodySource} />
-                <Video title={Kiss} url={KissSource} />
+                <Video title={ShakeYourBody} url={src_031} />
+                <Video title={Kiss} url={src_032} />
             </div>
             <div className='videosBody__row'>
-                <Video title={IWannaDance} url={IWannaDanceSource} />
-                <Video title={ThatsWhatILike} url={ThatsWhatILikeSource} />
+                <Video title={IWannaDance} url={src_033} />
+                <Video title={ThatsWhatILike} url={src_034} />
             </div>
         </div>
     );
