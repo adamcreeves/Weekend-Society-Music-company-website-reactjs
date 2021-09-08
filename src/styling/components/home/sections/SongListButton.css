@@ -1,0 +1,35 @@
+.songListButton {
+    height: 100px;
+    width: 40%;
+    color: whitesmoke;
+    background: none;
+    border-color: whitesmoke;
+    border-width: 2px;
+    z-index: 150;
+    border-radius: 5px;
+    align-content: center;
+    justify-content: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+.songListButton__text {
+    color: whitesmoke;
+    font-size: 60px;
+}
+@media only screen and (max-width: 1070px) {
+    .songListButton {
+        width: 80%;
+    }
+    .songListButton__text {
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .songListButton {
+        width: 90%;
+        margin-top: 35px;
+    }
+}

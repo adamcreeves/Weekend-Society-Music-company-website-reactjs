@@ -5,7 +5,7 @@ import {
     HomeTagline2, 
     HomeTagline3, 
     Welcome } from '../../../resources/Strings';
-import '../../../styling/components/home/Tagline.css';
+import '../../../styling/components/home/sections/Tagline.css';
 
 function Tagline() {
     return (

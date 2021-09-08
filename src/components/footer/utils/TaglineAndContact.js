@@ -3,8 +3,8 @@ import {
     FooterTagline,
     src_012,
     src_013, 
-    src_014,
-    src_035 } from '../../../resources/Strings';
+    src_035, 
+    src_036} from '../../../resources/Strings';
 import ContactMethod from '../../contact/ContactMethod';
 import { c_0052, c_0053, c_0054, c_0055 } from '../../../resources/ClassNames';
 import "../../../styling/components/footer/utils/TaglineAndContact.css";
@@ -22,7 +22,7 @@ function TaglineAndContact() {
                 methodClass={c_0054}
                 linkClass={c_0055}
                 source={src_013}
-                text={src_014} />
+                text={src_036} />
         </div>
     );
 }

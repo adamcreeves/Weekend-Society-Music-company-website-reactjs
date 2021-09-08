@@ -116,3 +116,5 @@ export const c_0115 = 'contactBody__phone';
 export const c_0116 = 'contactBody__click';
 export const c_0117 = 'contactBody__info';
 export const c_0118 = 'contactBody__info2';
+export const c_0119 = 'songListButton';
+export const c_0120 = 'songListButton__text';

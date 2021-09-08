@@ -6,8 +6,8 @@ import {
     src_003, 
     src_012, 
     src_013, 
-    src_014,
-    src_035 } from '../../resources/Strings';
+    src_035, 
+    src_036} from '../../resources/Strings';
 import InquiryForm from './InquiryForm';
 import Banner from '../subcomponents/Banner';
 import ContactMethod from './ContactMethod';
@@ -43,7 +43,7 @@ function ContactBody() {
                         methodClass={c_0117}
                         linkClass={c_0116} 
                         source={src_013}
-                        text={src_014} />
+                        text={src_036} />
                     <div className={c_0118}>
                         {ContactFormHeadline}
                     </div>

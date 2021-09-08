@@ -4,7 +4,8 @@ import ImageRow from '../../images/ImageRow';
 import Pledge from './Pledge';
 import WhatsOffered from './WhatsOffered';
 import { c_0073 } from '../../../resources/ClassNames';
-import '../../../styling/components/home/HomeBottom.css';
+import '../../../styling/components/home/sections/HomeBottom.css';
+import SongListButton from './SongListButton';
 
 function HomeBottom() {
     return (
@@ -16,6 +17,7 @@ function HomeBottom() {
                 alt1={alt_011} 
                 alt2={alt_009} />
             <Pledge />
+            <SongListButton />
         </div>
     );
 }

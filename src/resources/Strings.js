@@ -31,6 +31,7 @@ export const p_06 = '/services';
 export const p_07 = '/socalpricing';
 export const p_08 = '/travelpricing';
 export const p_09 = '/videos';
+export const p_10 = '/songlist';
 
 // alternates
 export const alt_001 = 'Weekend Society Icon';
@@ -45,6 +46,7 @@ export const alt_009 = 'Guy and girl dancing';
 export const alt_010 = 'Guy celebrating with his arms up';
 export const alt_011 = 'Guy getting down';
 export const alt_012 = 'Bride and groom on dance floor';
+export const alt_013 = 'The song list that the Weekend Society plays';
 
 // sources
 export const src_001 = '/weekend_icon.png';
@@ -60,7 +62,7 @@ export const src_010 = '/homepage1.jpg';
 export const src_011 = '/homepage2.jpg';
 export const src_012 = 'tel:+13238802005';
 export const src_013 = 'mailto:hello@weekendsocietymusic.com';
-export const src_014 = 'hello@weekendsocietymusic.com';
+export const src_014 = './WeekendSocietySongList.png';
 export const src_015 = 'https://www.instagram.com/weekendsocietymusic/';
 export const src_016 = 'https://m.facebook.com/weekendsocietymusic';
 export const src_017 = 'https://vimeo.com/572268414';
@@ -82,6 +84,7 @@ export const src_032 = 'https://vimeo.com/576975855';
 export const src_033 = 'https://vimeo.com/576975954';
 export const src_034 = 'https://vimeo.com/576981766';
 export const src_035 = '(323) 880-2005';
+export const src_036 = 'hello@weekendsocietymusic.com';
 
 // strings
 export const s_001 = '';
