@@ -1,19 +1,6 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import {
-    FormBtnLabel, 
-    InputPH_01, 
-    InputPH_02,
-    InputPH_03,
-    InputPH_04, 
-    InputPH_05, 
-    InputPH_06, 
-    InputPH_07, 
-    InputPH_08, 
-    InputPH_09, 
-    InputPH_10, 
-    InquiryFormConfirmationMessage, 
-    InquiryFormErrorMessage, 
     k_01, 
     k_02, 
     k_03,
@@ -28,6 +15,18 @@ import {
     s_009,
     s_010,
     s_011,
+    s_012,
+    s_013,
+    s_014,
+    s_015,
+    s_016,
+    s_017,
+    s_018,
+    s_019,
+    s_020,
+    s_027,
+    s_028,
+    s_029,
     t_01, 
     t_02,
     t_03 } from '../../resources/Strings';
@@ -65,10 +64,10 @@ function InquiryForm() {
             setNotes(s_001);
             setGuestCount(s_001);
             setHeardAbout(s_001);
-            alert(InquiryFormConfirmationMessage);
+            alert(s_027);
         }, (error) => {
             console.log(error.text);
-            alert(InquiryFormErrorMessage);
+            alert(s_028);
         });
     }
 
@@ -77,7 +76,7 @@ function InquiryForm() {
             className={c_0040} 
             onSubmit={sendEmail}>
             <input 
-                placeholder={InputPH_01}
+                placeholder={s_012}
                 className={c_0041}
                 name={s_002}
                 type={t_01}
@@ -86,7 +85,7 @@ function InquiryForm() {
                 required 
             />
             <input 
-                placeholder={InputPH_02}
+                placeholder={s_013}
                 className={c_0041}
                 type={t_01}
                 name={s_003}
@@ -96,7 +95,7 @@ function InquiryForm() {
                 required
             />
             <input
-                placeholder={InputPH_03}
+                placeholder={s_014}
                 className={c_0041}
                 type={t_02}
                 name={s_004}
@@ -105,7 +104,7 @@ function InquiryForm() {
                 required
             />
             <input 
-                placeholder={InputPH_04}
+                placeholder={s_015}
                 className={c_0041}
                 type={t_01}
                 name={s_005}
@@ -113,7 +112,7 @@ function InquiryForm() {
                 onChange={e => setEventType(e.target.value)} 
             />
             <input 
-                placeholder={InputPH_05}
+                placeholder={s_016}
                 className={c_0041}
                 type={t_01}
                 name={s_006}
@@ -121,7 +120,7 @@ function InquiryForm() {
                 onChange={e => setEventDate(e.target.value)} 
             />
             <input 
-                placeholder={InputPH_06}
+                placeholder={s_017}
                 className={c_0041}
                 type={t_01}
                 name={s_007}
@@ -129,7 +128,7 @@ function InquiryForm() {
                 onChange={e => setEventLocation(e.target.value)} 
             />
             <input 
-                placeholder={InputPH_07}
+                placeholder={s_018}
                 className={c_0041}
                 type={t_01}
                 name={s_008}
@@ -137,7 +136,7 @@ function InquiryForm() {
                 onChange={e => setEventLength(e.target.value)} 
             />   
             <input 
-                placeholder={InputPH_08}
+                placeholder={s_019}
                 className={c_0041}
                 type={t_01}
                 name={s_009}
@@ -145,7 +144,7 @@ function InquiryForm() {
                 onChange={e => setNotes(e.target.value)} 
             />
             <input
-                placeholder={InputPH_09} 
+                placeholder={s_020} 
                 className={c_0041}
                 type={t_01}
                 name={s_010}
@@ -153,14 +152,14 @@ function InquiryForm() {
                 onChange={e => setGuestCount(e.target.value)} 
             />
             <input 
-                placeholder={InputPH_10}
+                placeholder={s_020}
                 className={c_0041}
                 type={t_01}
                 name={s_011}
                 value={heardAbout}
                 onChange={e => setHeardAbout(e.target.value)} 
             />
-            <input className={c_0042} type={t_03} value={FormBtnLabel} />
+            <input className={c_0042} type={t_03} value={s_029} />
         </form>
     );
 }

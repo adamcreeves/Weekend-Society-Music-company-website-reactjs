@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { 
-    alt_010, 
-    ContactFormHeadline, 
-    ContactHeadline,
+    alt_010,
     src_003, 
     src_012, 
     src_013, 
     src_035, 
-    src_036} from '../../resources/Strings';
+    src_036,
+    s_034,
+    s_035 } from '../../resources/Strings';
 import InquiryForm from './InquiryForm';
 import Banner from '../subcomponents/Banner';
 import ContactMethod from './ContactMethod';
@@ -33,7 +33,7 @@ function ContactBody() {
             : (
                 <div className={c_0018}>
                     <Banner source={src_003} alternate={alt_010} />
-                    <div className={c_0114}>{ContactHeadline}</div>
+                    <div className={c_0114}>{s_034}</div>
                     <ContactMethod 
                         methodClass={c_0115}
                         linkClass={c_0116} 
@@ -44,9 +44,7 @@ function ContactBody() {
                         linkClass={c_0116} 
                         source={src_013}
                         text={src_036} />
-                    <div className={c_0118}>
-                        {ContactFormHeadline}
-                    </div>
+                    <div className={c_0118}>{s_035}</div>
                     <InquiryForm />
                 </div>
             )}

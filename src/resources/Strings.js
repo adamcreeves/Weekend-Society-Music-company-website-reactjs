@@ -98,81 +98,64 @@ export const s_008 = 'eventLength';
 export const s_009 = 'notes';
 export const s_010 = 'guestCount';
 export const s_011 = 'heardAbout';
-export const InputPH_01 = 'Your Name';
-export const InputPH_02 = 'Phone Number';
-export const InputPH_03 = 'Email Address';
-export const InputPH_04 = 'Event Type';
-export const InputPH_05 = 'Event Date';
-export const InputPH_06 = 'Event Location';
-export const InputPH_07 = 'Event Length';
-export const InputPH_08 = 'Notes or other details';
-export const InputPH_09 = 'Guest Count';
-export const InputPH_10 = 'How you found us';
-
-// videos
-export const CrazyInLove = 'Crazy In Love';
-export const ShutUpAndDance = 'Shut Up And Dance';
-export const DontStopBelievin = 'Don\'t Stop Believin\'';
-export const YouShookMe = 'You Shook Me All Night Long';
-export const CantStopTheFeelin = 'Can\'t Stop The Feelin\'';
-export const FlyMeToTheMoon = 'Fly Me To The Moon';
-export const DontStartNow = 'Don\'t Start Now';
-export const IfIAintGotYou = 'If I Ain\'t Got You';
-export const September = 'September';
-export const IWantYouBack = 'I Want You Back';
-export const SignedSealed = 'Signed, Sealed, Delivered';
-export const RaiseYourGlass = 'Raise Your Glass';
-export const ShakeYourBody = 'Shake Your Body Down';
-export const Kiss = 'Kiss';
-export const IWannaDance = 'I Wanna Dance With Somebody';
-export const ThatsWhatILike = 'That\'s What I Like';
-
-// footer
-export const Trademark = '© 2021 The Weekend Society';
-export const WebsiteCredit = 'Webiste developed by';
-export const Adam = 'Adam Reeves';
-export const FooterTagline = 'The Weekend Society is located in Los Angeles and loves to travel';
-export const BookNow = 'BOOK NOW!';
-
-// pledge
-export const PledgeTitle1 = 'Our';
-export const PledgeTitle2 = 'Pledge';
-export const PledgeLine1 = 'We will play the best music to fit the mood of your guests';
-export const PledgeLine2 = 'We will read the audience and build energy accordingly';
-export const PledgeLine3 = 'We will take you seamlessly from dinner to the dance party';
-export const PledgeLine4 = 'We will make your friends envious';
-export const PledgeLine5 = 'We will make you dance your face off';
-export const PledgeLine6 = 'We will make you "air guitar" solo';
-export const PledgeLine7 = 'We will not be diva artists that only play what "we" want to play';
-export const PledgeLine8 = `We will not play the chicken dance, macarena, or electric slide, 
+export const s_012 = 'Your Name';
+export const s_013 = 'Phone Number';
+export const s_014 = 'Email Address';
+export const s_015 = 'Event Type';
+export const s_016 = 'Event Date';
+export const s_017 = 'Event Location';
+export const s_018 = 'Event Length';
+export const s_019 = 'Notes or other details';
+export const s_020 = 'Guest Count';
+export const s_021 = 'How you found us';
+export const s_022 = '© 2021 The Weekend Society';
+export const s_023 = 'Webiste developed by';
+export const s_024 = 'Adam Reeves';
+export const s_025 = 'The Weekend Society is located in Los Angeles and loves to travel';
+export const s_026 = 'BOOK NOW!';
+export const s_027 = 'Your information has been sent\nYou will hear from us soon!';
+export const s_028 = 'Something went wrong. Please try again.'
+export const s_029 = 'Submit';
+export const s_030 = 'Welcome';
+export const s_031 = 'You Dance, ';
+export const s_032 = 'You Party, ';
+export const s_033 = 'We\'ll Play';
+export const s_034 = 'Contact us at:';
+export const s_035 = 'or fill out the information below:';
+export const s_036 = 'Crazy In Love';
+export const s_037 = 'Shut Up And Dance';
+export const s_038 = 'Don\'t Stop Believin\'';
+export const s_039 = 'You Shook Me All Night Long';
+export const s_040 = 'Can\'t Stop The Feelin\'';
+export const s_041 = 'Fly Me To The Moon';
+export const s_042 = 'Don\'t Start Now';
+export const s_043 = 'If I Ain\'t Got You';
+export const s_044 = 'September';
+export const s_045 = 'I Want You Back';
+export const s_046 = 'Signed, Sealed, Delivered';
+export const s_047 = 'Raise Your Glass';
+export const s_048 = 'Shake Your Body Down';
+export const s_049 = 'Kiss';
+export const s_050 = 'I Wanna Dance With Somebody';
+export const s_051 = 'That\'s What I Like';
+export const s_052 = 'Our';
+export const s_053 = 'Pledge';
+export const s_054 = 'We will play the best music to fit the mood of your guests';
+export const s_055 = 'We will read the audience and build energy accordingly';
+export const s_056 = 'We will take you seamlessly from dinner to the dance party';
+export const s_057 = 'We will make your friends envious';
+export const s_058 = 'We will make you dance your face off';
+export const s_059 = 'We will make you "air guitar" solo';
+export const s_060 = 'We will not be diva artists that only play what "we" want to play';
+export const s_061 = `We will not play the chicken dance, macarena, or electric slide, 
                             (unless that's your thing)`;
-export const PledgeLine9 = 'We will not take a break every 15 minutes';
-export const PledgeLine10 = 'We will not tell terrible jokes';
-
-// tagline
-export const Welcome = 'Welcome';
-export const HomeTagline1 = 'You Dance, ';
-export const HomeTagline2 = 'You Party, ';
-export const HomeTagline3 = 'We\'ll Play';
-
-// what we offer
-export const WhatWeOffer = 'What We Offer';
-export const Weddings = 'Weddings';
-export const CorporateEvents = 'Corporate Events';
-export const PrivateParties = 'Private Parties';
-export const SpecialEvents = 'Special Events';
-
-// inquiry form
-export const InquiryFormConfirmationMessage = `Your information has been sent\nYou will 
-                                                hear from us soon!`;
-export const InquiryFormErrorMessage = 'Something went wrong. Please try again.'
-
-// form button
-export const FormBtnLabel = 'Submit';
-
-// contact
-export const ContactHeadline = 'Contact us at:';
-export const ContactFormHeadline = 'or fill out the information below:';
+export const s_062 = 'We will not take a break every 15 minutes';
+export const s_063 = 'We will not tell terrible jokes';
+export const s_064 = 'What We Offer';
+export const s_065 = 'Weddings';
+export const s_066 = 'Corporate Events';
+export const s_067 = 'Private Parties';
+export const s_068 = 'Special Events';
 
 // services sections
 export const Ceremony = 'Ceremony';
