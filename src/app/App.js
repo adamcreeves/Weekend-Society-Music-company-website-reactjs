@@ -18,9 +18,9 @@ import {
   p_06, 
   p_07, 
   p_08, 
-  p_09, } from "../resources/Strings";
+  p_09 } from "../resources/Strings";
 import { c_0001 } from "../resources/ClassNames";
-import './../styling/App.css';
+import './../styling/app/App.css';
 
 function App() {
   return (
