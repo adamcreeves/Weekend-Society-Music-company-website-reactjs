@@ -31,12 +31,12 @@ import {
     src_033, 
     src_034, 
     ThatsWhatILike, 
-    t_08, 
     YouShookMe } from '../../resources/Strings';
 import Video from './Video';
 import { c_0021 } from '../../resources/ClassNames';
 import '../../styling/components/videos/VideosBody.css';
 import LoadingSpinner from '../subcomponents/LoadingSpinner';
+import { int_02 } from '../../resources/Integers';
 
 function VideosBody() {
     const [loaderVisible, setLoaderVisible] = useState(true);
@@ -44,7 +44,7 @@ function VideosBody() {
     useEffect(() => {
         const timer = setTimeout(() => {
           setLoaderVisible(false)
-        }, t_08);
+        }, int_02);
         return () => clearTimeout(timer);
     }, []);
 

@@ -6,12 +6,12 @@ import {
     alt_002,
     src_005,
     src_017,
-    s_001,
-    t_08 } from '../../resources/Strings';
+    s_001 } from '../../resources/Strings';
 import HomeBottom from './sections/HomeBottom';
 import { c_0019 } from '../../resources/ClassNames';
 import '../../styling/components/home/HomeBody.css';
 import LoadingSpinner from '../subcomponents/LoadingSpinner';
+import { int_02 } from '../../resources/Integers';
 
 function HomeBody() {
     const [loaderVisible, setLoaderVisible] = useState(true);
@@ -19,7 +19,7 @@ function HomeBody() {
     useEffect(() => {
         const timer = setTimeout(() => {
           setLoaderVisible(false)
-        }, t_08);
+        }, int_02);
         return () => clearTimeout(timer);
     }, []);
 

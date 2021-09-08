@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import ReceptionBody from './sections/ReceptionBody';
 import CocktailBody from './sections/CocktailBody';
 import CeremonyBody from './sections/CeremonyBody';
-import { ReceptionSectionId, t_08 } from '../../resources/Strings';
+import { ReceptionSectionId } from '../../resources/Strings';
 import { 
     c_0020, 
     c_0099, 
@@ -21,6 +21,7 @@ import {
     c_0112 } from '../../resources/ClassNames';
 import '../../styling/components/services/ServicesBody.css';
 import LoadingSpinner from '../subcomponents/LoadingSpinner';
+import { int_02 } from '../../resources/Integers';
 
 function ServicesBody() {
     const [loaderVisible, setLoaderVisible] = useState(true);
@@ -28,7 +29,7 @@ function ServicesBody() {
     useEffect(() => {
         const timer = setTimeout(() => {
           setLoaderVisible(false)
-        }, t_08);
+        }, int_02);
         return () => clearTimeout(timer);
     }, []);
 

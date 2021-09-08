@@ -13,8 +13,6 @@ export const t_03 = 'submit';
 export const t_04 = 'large';
 export const t_05 = 'TailSpin';
 export const t_06 = '#00BFFF';
-export const t_07 = 80;
-export const t_08 = 750;
 
 // links
 export const l_01 = 'HOME';
