@@ -8,13 +8,13 @@ import { int_01 } from '../../resources/Integers';
 function LoadingSpinner({ isVisible }) {
     return (
         <div className={c_0113}>
-                <Loader 
-                    type={t_05} 
-                    color={t_06} 
-                    height={int_01} 
-                    width={int_01} 
-                    visible={isVisible} />
-            </div>
+            <Loader 
+                type={t_05} 
+                color={t_06} 
+                height={int_01} 
+                width={int_01} 
+                visible={isVisible} />
+        </div>
     );
 }
 
