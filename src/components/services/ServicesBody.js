@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import ReceptionBody from './sections/ReceptionBody';
 import CocktailBody from './sections/CocktailBody';
 import CeremonyBody from './sections/CeremonyBody';
-import { ReceptionSectionId } from '../../resources/Strings';
+import { id_02 } from '../../resources/Strings';
 import { 
     c_0020, 
     c_0099, 
@@ -18,7 +18,8 @@ import {
     c_0109,
     c_0110,
     c_0111,
-    c_0112 } from '../../resources/ClassNames';
+    c_0112, 
+    c_0121} from '../../resources/ClassNames';
 import '../../styling/components/services/ServicesBody.css';
 import LoadingSpinner from '../subcomponents/LoadingSpinner';
 import { int_02 } from '../../resources/Integers';
@@ -43,11 +44,11 @@ function ServicesBody() {
                         sectionContainerClass={c_0099}
                         titleClass={c_0100}
                         mainSectionClass={c_0101}
-                        mainSectionId={ReceptionSectionId}
+                        mainSectionId={id_02}
                         columnClass={c_0102}
                         imageClass={c_0103} />
                     <CocktailBody
-                        sectionContainerClass={c_0099}
+                        sectionContainerClass={c_0121}
                         titleClass={c_0100}
                         subtitleTextClass={c_0104}
                         mainSectionClass={c_0105}

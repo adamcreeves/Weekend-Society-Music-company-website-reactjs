@@ -3,20 +3,20 @@ import ReceptionSection from '../subsections/ReceptionSection';
 import ForAllSignatureInfo from '../subsections/ForAllSignatureInfo';
 import { 
     alt_012,
-    Reception, 
-    ReceptionImageSource, 
-    Signature, 
-    SignatureDetail1, 
-    SignatureDetail2, 
-    SignatureDetail3, 
-    SignaturePlus, 
-    SignaturePlusDetail1, 
-    SignaturePlusDetail2, 
-    SignaturePlusDetail3, 
-    SignaturePremium, 
-    SignaturePremiumDetail1, 
-    SignaturePremiumDetail2, 
-    SignaturePremiumDetail3 } from '../../../resources/Strings';
+    src_037, 
+    s_069,
+    s_070,
+    s_071,
+    s_072,
+    s_073,
+    s_074,
+    s_075,
+    s_076,
+    s_077,
+    s_078,
+    s_079,
+    s_080,
+    s_081 } from '../../../resources/Strings';
 
 function ReceptionBody({ 
     sectionContainerClass, 
@@ -27,29 +27,29 @@ function ReceptionBody({
     imageClass }) {
     return (
         <div className={sectionContainerClass}>
-            <div className={titleClass}>{Reception}</div>
+            <div className={titleClass}>{s_069}</div>
             <div id={mainSectionId} className={mainSectionClass}>
                 <div className={columnClass}>
                     <ReceptionSection 
-                        sectionTitle={SignaturePremium} 
-                        detail1={SignaturePremiumDetail1} 
-                        detail2={SignaturePremiumDetail2} 
-                        detail3={SignaturePremiumDetail3} />
+                        sectionTitle={s_070} 
+                        detail1={s_071} 
+                        detail2={s_072} 
+                        detail3={s_073} />
                     <ReceptionSection 
-                        sectionTitle={SignaturePlus} 
-                        detail1={SignaturePlusDetail1} 
-                        detail2={SignaturePlusDetail2} 
-                        detail3={SignaturePlusDetail3} />
+                        sectionTitle={s_074} 
+                        detail1={s_075} 
+                        detail2={s_076} 
+                        detail3={s_077} />
                     <ReceptionSection 
-                        sectionTitle={Signature} 
-                        detail1={SignatureDetail1} 
-                        detail2={SignatureDetail2} 
-                        detail3={SignatureDetail3} />
+                        sectionTitle={s_078} 
+                        detail1={s_079} 
+                        detail2={s_080} 
+                        detail3={s_081} />
                 </div>
                 <div className={columnClass}>
                     <img 
                         className={imageClass} 
-                        src={ReceptionImageSource} 
+                        src={src_037} 
                         alt={alt_012} />
                 </div>
             </div>

@@ -1,5 +1,6 @@
 // ids
 export const id_01 = 'mobileMenu';
+export const id_02 = 'mainSection1';
 
 // keys
 export const k_01 = 'weekend_inquiries';
@@ -85,6 +86,7 @@ export const src_033 = 'https://vimeo.com/576975954';
 export const src_034 = 'https://vimeo.com/576981766';
 export const src_035 = '(323) 880-2005';
 export const src_036 = 'hello@weekendsocietymusic.com';
+export const src_037 = '/servicesReceptionImage2.png';
 
 // strings
 export const s_001 = '';
@@ -148,7 +150,7 @@ export const s_058 = 'We will make you dance your face off';
 export const s_059 = 'We will make you "air guitar" solo';
 export const s_060 = 'We will not be diva artists that only play what "we" want to play';
 export const s_061 = `We will not play the chicken dance, macarena, or electric slide, 
-                            (unless that's your thing)`;
+    (unless that's your thing)`;
 export const s_062 = 'We will not take a break every 15 minutes';
 export const s_063 = 'We will not tell terrible jokes';
 export const s_064 = 'What We Offer';
@@ -156,88 +158,66 @@ export const s_065 = 'Weddings';
 export const s_066 = 'Corporate Events';
 export const s_067 = 'Private Parties';
 export const s_068 = 'Special Events';
-
-// services sections
-export const Ceremony = 'Ceremony';
-export const Solo = 'Solo';
-export const CeremonySoloDetails = '• Keys \n • Guitar \n • Saxophone \n • Violin';
-export const Duo = 'Duo';
-export const CeremonyDuoDetails = '• Keys & Saxophone \n • Keys & Guitar \n • Violin & Cello \n • Violin & Keys';
-export const Trio = 'Trio';
-export const CeremonyTrioDetails = '• Keys, Saxophone, Guitar \n • Violin, Cello, & Viola';
-export const StringQuartet = 'String Quartet';
-export const StringQuartetDetails = '• 2 Violins, Cello, & Viola';
-export const Cocktail = 'Cocktail';
-export const CocktailSubtitle = '(Named after some of our favorite cocktails)';
-export const CocktailTrioDetails = `• Old-Fashioned - Keys, Drums, & Saxophone \n • Penecillin - 
-                                    Saxophone, Drums, & Upright Bass \n • Sazerac - Guitar, Drums, 
-                                    & Saxophone \n • Manhattan - Keys, Guitar, & Drums`;
-export const Quartet = 'Quartet';
-export const CocktailQuartetDetails = `• Classic Martini - Keys, Upright Bass, Saxophone, & Drums \n 
-                                        • Gimlet - Keys, Upright Bass, Trumpet, & Drums \n • Gin & Tonic 
-                                        - Guitar, Upright Bass, Keys, & Drums \n • Bramble - Guitar, 
-                                        Upright Bass, Saxophone, & Drums`;
-export const Quintet = 'Quintet';
-export const CocktailQuintetDetails = `• Margarita - Keys, Upright Bass, Saxophone, Trumpet, & Drums \n 
-                                        • Paloma - Guitar, Keys, Upright Bass, Saxophone, & Drums \n 
-                                        • Infante - Keys, Guitar, Upright Bass, Drums, & Male or Female 
-                                        Vocalist \n • Night Crawler - Guitar, Upright Bass, Trumpet, 
-                                        Saxophone, & Drums`;
-export const CocktailVideoTitle = 'Cocktail Hour (Blue Bossa)';
-export const Reception = 'Reception';
-export const SignaturePremium = 'Signature Premium';
-export const SignaturePremiumDetail1 = '• 4 premium vocalists';
-export const SignaturePremiumDetail2 = '• Rhythm section: Keyboard, Guitar, Bass Guitar, & Drums';
-export const SignaturePremiumDetail3 = '• Full Brass section: Trumpet, Saxophone, & Trombone';
-export const SignaturePlus = 'Signature Plus';
-export const SignaturePlusDetail1 = '• 3 premium vocalists';
-export const SignaturePlusDetail2 = '• Rhythm section: Keyboard, Guitar, Bass Guitar, & Drums';
-export const SignaturePlusDetail3 = '• Full Brass section: Trumpet & Saxophone';
-export const Signature = 'Signature';
-export const SignatureDetail1 = '• 2 premium vocalists';
-export const SignatureDetail2 = '• Rhythm section: Keyboard, Guitar, Bass Guitar, & Drums';
-export const SignatureDetail3 = '• 1 Brass player: Saxophone';
-export const ReceptionImageSource = '/servicesReceptionImage2.png';
-export const ReceptionSectionId = 'mainSection1';
-
-// subsections
-export const ForAllTitle = 'All Signature Services Include';
-export const ForAllDetail1 = '• 4 hours of Curated Music';
-export const ForAllDetail2 = '• High quality professional musicians in event appropriate attire';
-export const ForAllDetail3 = '• Carefully selected song list based on your vision and our industry expertise ';
-export const ForAllDetail4 = '• Premium sound & lighting design';
-export const ForAllDetail5 = `• Professional producer to work with your event coordinator throughout the
-                                event to ensure your vision is executed in a timely manner`;
-export const ForAllDetail6 = '• Pre-event music consultation to discuss your preferences';
-export const ForAllDetail7 = '• Continuous music during band breaks to match the atmosphere';
-export const ForAllDetail8 = '• Up to 4 personalized song selections outside of our repertoire';
-export const ForAllDetail9 = '• Setup (2-3 hours), teardown, & travel included';
-export const ForAllDetail10 = '• An electric slide & chicken dance free dance floor';
-
-// about
-export const BandBio1 = `The Weekend Society is a high energy dance band 
-                        committed to making the best day of your life, 
-                        the actual best day of your life, and will effortlessly 
-                        take your event from dinner all the way through 
-                        to the dance party. Based in Los Angeles, we offer 
-                        not only a wealth of talent but also  a wide range 
-                        of genres and band sizes to custom fit your special 
-                        occasion. Our members bring their passion, joy, and 
-                        love for live music, as well as years of experience 
-                        sharing the stage with artists such as Gwen Stefani, 
-                        Kanye West, John Legend, Jennifer Hudson, and Andy Grammer.`;
-export const BandBio2 = `To complement your reception, we bring along event 
-                        lighting and a premium sound system in addition to MC 
-                        services. A cocktail hour trio, quartet, or quintet 
-                        can join your celebration and provide an ambient, 
-                        jazzy background as you sip your favorite spirits. 
-                        We also offer ceremony musicians and love to travel. 
-                        Book The Weekend today!`;
-export const IsaacBioTitle = 'Isaac Johnson, Owner';
-export const IsaacBioText = `Born and raised in Los Angeles with a Bachelors in 
-                        Music Performance, Isaac has performed at countless 
-                        weddings, private events, corporate and special 
-                        celebrations. Isaac is an avid lover of cinema, enjoys 
-                        making craft cocktails, and is absolutely in love with 
-                        his 3 year old daughter.`;
-
+export const s_069 = 'Reception';
+export const s_070 = 'Signature Premium';
+export const s_071 = '• 4 premium vocalists';
+export const s_072 = '• Rhythm section: Keyboard, Guitar, Bass Guitar, & Drums';
+export const s_073 = '• Full Brass section: Trumpet, Saxophone, & Trombone';
+export const s_074 = 'Signature Plus';
+export const s_075 = '• 3 premium vocalists';
+export const s_076 = '• Rhythm section: Keyboard, Guitar, Bass Guitar, & Drums';
+export const s_077 = '• Full Brass section: Trumpet & Saxophone';
+export const s_078 = 'Signature';
+export const s_079 = '• 2 premium vocalists';
+export const s_080 = '• Rhythm section: Keyboard, Guitar, Bass Guitar, & Drums';
+export const s_081 = '• 1 Brass player: Saxophone';
+export const s_082 = 'All Signature Services Include';
+export const s_083 = '• 4 hours of Curated Music';
+export const s_084 = '• High quality professional musicians in event appropriate attire';
+export const s_085 = '• Carefully selected song list based on your vision and our industry expertise ';
+export const s_086 = '• Premium sound & lighting design';
+export const s_087 = `• Professional producer to work with your event coordinator throughout the
+    event to ensure your vision is executed in a timely manner`;
+export const s_088 = '• Pre-event music consultation to discuss your preferences';
+export const s_089 = '• Continuous music during band breaks to match the atmosphere';
+export const s_090 = '• Up to 4 personalized song selections outside of our repertoire';
+export const s_091 = '• Setup (2-3 hours), teardown, & travel included';
+export const s_092 = '• An electric slide & chicken dance free dance floor';
+export const s_093 = 'Ceremony';
+export const s_094 = 'Solo';
+export const s_095 = '• Keys \n • Guitar \n • Saxophone \n • Violin';
+export const s_096 = 'Duo';
+export const s_097 = '• Keys & Saxophone \n • Keys & Guitar \n • Violin & Cello \n • Violin & Keys';
+export const s_098 = 'Trio';
+export const s_099 = '• Keys, Saxophone, Guitar \n • Violin, Cello, & Viola';
+export const s_100 = 'String Quartet';
+export const s_101 = '• 2 Violins, Cello, & Viola';
+export const s_102 = 'Cocktail';
+export const s_103 = '(Named after some of our favorite cocktails)';
+export const s_104 = `• Old-Fashioned - Keys, Drums, & Saxophone \n • Penecillin - Saxophone, Drums, 
+    & Upright Bass \n • Sazerac - Guitar, Drums, & Saxophone \n • Manhattan - Keys, Guitar, & Drums`;
+export const s_105 = 'Quartet';
+export const s_106 = `• Classic Martini - Keys, Upright Bass, Saxophone, & Drums \n • Gimlet - Keys, 
+    Upright Bass, Trumpet, & Drums \n • Gin & Tonic - Guitar, Upright Bass, Keys, & Drums \n • 
+    Bramble - Guitar, Upright Bass, Saxophone, & Drums`;
+export const s_107 = 'Quintet';
+export const s_108 = `• Margarita - Keys, Upright Bass, Saxophone, Trumpet, & Drums \n • Paloma - Guitar, 
+    Keys, Upright Bass, Saxophone, & Drums \n • Infante - Keys, Guitar, Upright Bass, Drums, & Male or 
+    Female Vocalist \n • Night Crawler - Guitar, Upright Bass, Trumpet, Saxophone, & Drums`;                                      
+export const s_109 = 'Cocktail Hour (Blue Bossa)';
+export const s_110 = `The Weekend Society is a high energy dance band committed to making the best 
+    day of your life, the actual best day of your life, and will effortlessly take your event from 
+    dinner all the way through to the dance party. Based in Los Angeles, we offer not only a wealth 
+    of talent but also  a wide range of genres and band sizes to custom fit your special occasion. 
+    Our members bring their passion, joy, and love for live music, as well as years of experience 
+    sharing the stage with artists such as Gwen Stefani, Kanye West, John Legend, Jennifer Hudson, 
+    and Andy Grammer.`;
+export const s_111 = `To complement your reception, we bring along event lighting and a premium sound 
+    system in addition to MC services. A cocktail hour trio, quartet, or quintet can join your celebration 
+    and provide an ambient, jazzy background as you sip your favorite spirits. We also offer ceremony 
+    musicians and love to travel. Book The Weekend today!`;
+export const s_112 = 'Isaac Johnson, Owner';
+export const s_113 = `Born and raised in Los Angeles with a Bachelors in Music Performance, Isaac has 
+    performed at countless weddings, private events, corporate and special celebrations. Isaac is an 
+    avid lover of cinema, enjoys making craft cocktails, and is absolutely in love with his 3 year 
+    old daughter.`;

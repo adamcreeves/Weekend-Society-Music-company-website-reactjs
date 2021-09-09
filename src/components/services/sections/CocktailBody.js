@@ -1,16 +1,16 @@
 import React from 'react'
 import ReactPlayer from 'react-player';
-import { 
-    Cocktail, 
-    CocktailQuartetDetails, 
-    CocktailQuintetDetails, 
-    CocktailSubtitle, 
-    CocktailTrioDetails,
-    CocktailVideoTitle, 
-    Quartet, 
-    Quintet, 
+import {
     src_018, 
-    Trio } from '../../../resources/Strings';
+    s_098, 
+    s_102, 
+    s_103, 
+    s_104, 
+    s_105, 
+    s_106, 
+    s_107, 
+    s_108, 
+    s_109 } from '../../../resources/Strings';
 import CocktailSection from '../subsections/CocktailSection';
 
 function CocktailBody({ 
@@ -24,22 +24,22 @@ function CocktailBody({
     videoClass }) {
     return (
         <div className={sectionContainerClass}>
-            <div className={titleClass}>{Cocktail}</div>
-            <div className={subtitleTextClass}>{CocktailSubtitle}</div>
+            <div className={titleClass}>{s_102}</div>
+            <div className={subtitleTextClass}>{s_103}</div>
             <div className={mainSectionClass}>
                 <div className={columnClass}>
                     <CocktailSection 
-                        sectionTitle={Trio} 
-                        details={CocktailTrioDetails} />
+                        sectionTitle={s_098} 
+                        details={s_104} />
                     <CocktailSection 
-                        sectionTitle={Quartet} 
-                        details={CocktailQuartetDetails} />
+                        sectionTitle={s_105} 
+                        details={s_106} />
                     <CocktailSection 
-                        sectionTitle={Quintet} 
-                        details={CocktailQuintetDetails} />
+                        sectionTitle={s_107} 
+                        details={s_108} />
                 </div>
                 <div className={videoContainerClass}>
-                    <div className={videoTitleClass}>{CocktailVideoTitle}</div>
+                    <div className={videoTitleClass}>{s_109}</div>
                     <ReactPlayer className={videoClass} url={src_018} />
                 </div>
             </div>
