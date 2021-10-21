@@ -20,9 +20,13 @@ import {
   p_07, 
   p_08, 
   p_09, 
-  p_10} from '../resources/Strings';
+  p_10,
+  p_11,
+  p_12} from '../resources/Strings';
 import { c_0001 } from '../resources/ClassNames';
 import './../styling/app/App.css';
+import CocktailGroupsPrices from '../pages/hidden/CocktailGroupsPrices';
+import CeremonyPrices from '../pages/hidden/CeremonyPrices';
 
 function App() {
   return (
@@ -38,6 +42,8 @@ function App() {
           <Route exact path={p_08} component={TravelPrices} />
           <Route exact path={p_09} component={VideosPage} />
           <Route exact path={p_10} component={SongList} />
+          <Route exact path={p_11} component={CocktailGroupsPrices} />
+          <Route exact path={p_12} component={CeremonyPrices} />
         </Switch>
     </Router>
   );

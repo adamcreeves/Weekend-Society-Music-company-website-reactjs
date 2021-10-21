@@ -33,6 +33,8 @@ export const p_07 = '/socalpricing';
 export const p_08 = '/travelpricing';
 export const p_09 = '/videos';
 export const p_10 = '/songlist';
+export const p_11 = '/cocktailgroupspricing';
+export const p_12 = '/ceremonypricing'
 
 // alternates
 export const alt_001 = 'Weekend Society Icon';
@@ -48,6 +50,8 @@ export const alt_010 = 'Guy celebrating with his arms up';
 export const alt_011 = 'Guy getting down';
 export const alt_012 = 'Bride and groom on dance floor';
 export const alt_013 = 'The song list that the Weekend Society plays';
+export const alt_014 = 'The Cocktail Groups page with prices';
+export const alt_015 = 'Ceremony pricing page';
 
 // sources
 export const src_001 = '/weekend_icon.png';
@@ -58,7 +62,7 @@ export const src_005 = '/weekendsocietybg.jpg';
 export const src_006 = '/cocktailgroups.png';
 export const src_007 = '/norcalprices.png';
 export const src_008 = '/socalprices.png';
-export const src_009 ='/travelprices.png' ;
+export const src_009 = '/travelprices.png';
 export const src_010 = '/homepage1.jpg';
 export const src_011 = '/homepage2.jpg';
 export const src_012 = 'tel:+13238802005';
@@ -87,6 +91,8 @@ export const src_034 = 'https://vimeo.com/576981766';
 export const src_035 = '(323) 880-2005';
 export const src_036 = 'hello@weekendsocietymusic.com';
 export const src_037 = '/servicesReceptionImage2.png';
+export const src_038 = '/cocktailgroups2.png';
+export const src_039 = '/ceremonypricing.png';
 
 // strings
 export const s_001 = '';
