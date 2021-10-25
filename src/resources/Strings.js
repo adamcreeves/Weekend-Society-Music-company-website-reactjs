@@ -200,7 +200,7 @@ export const s_100 = 'String Quartet';
 export const s_101 = '• 2 Violins, Cello, & Viola';
 export const s_102 = 'Cocktail';
 export const s_103 = '(Named after some of our favorite cocktails)';
-export const s_104 = `• Old-Fashioned - Keys, Drums, & Saxophone \n • Penecillin - Saxophone, Drums, 
+export const s_104 = `• Old-Fashioned - Keys, Drums, & Saxophone \n • Penicillin - Saxophone, Drums, 
     & Upright Bass \n • Sazerac - Guitar, Drums, & Saxophone \n • Manhattan - Keys, Guitar, & Drums`;
 export const s_105 = 'Quartet';
 export const s_106 = `• Classic Martini - Keys, Upright Bass, Saxophone, & Drums \n • Gimlet - Keys, 
