@@ -1,50 +1,50 @@
 .whatsOffered {
-    color: white;
-    margin-bottom: 25px;
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
+  color: white;
+  margin-bottom: 25px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 .whatsOffered__title {
-    font-size: 75px;
-    margin: 2%;
-    width: 50%;
-    font-weight: 1000;
-    text-align: end;
+  font-size: 75px;
+  margin: 2%;
+  width: 50%;
+  font-weight: 1000;
+  text-align: end;
 }
 .whatsOffered__detailContainer {
-    display: flex;
-    flex-direction: column;
-    width: 35%;
-    text-align: left;
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  text-align: left;
 }
 .whatsOffered__detail {
-    font-size: 30px;
-    margin: 2%;
-    width: 100%;
+  font-size: 30px;
+  margin: 2%;
+  width: 100%;
 }
 @media only screen and (max-width: 900px) {
-    .whatsOffered__title {
-        font-size: 50px;
-    }
+  .whatsOffered__title {
+    font-size: 50px;
+  }
 }
 @media only screen and (max-width: 750px) {
-    .whatsOffered__title {
-        font-size: 35px;
-    }
-    .whatsOffered__detail {
-        font-size: 20px;
-    }
+  .whatsOffered__title {
+    font-size: 35px;
+  }
+  .whatsOffered__detail {
+    font-size: 20px;
+  }
 }
 @media only screen and (max-width: 500px) {
-    .whatsOffered {
-        margin-bottom: 35px;
-    }
-    .whatsOffered__detailContainer {
-        width: 50%;
-    }
-    .whatsOffered__detail {
-        font-size: 17px;
-    }
+  .whatsOffered {
+    margin-bottom: 35px;
+  }
+  .whatsOffered__detailContainer {
+    width: 50%;
+  }
+  .whatsOffered__detail {
+    font-size: 17px;
+  }
 }

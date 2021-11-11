@@ -1,15 +1,15 @@
 .footerBody {
-    display: flex;
-    height: auto;
-    width: 98vw;
-    display: flex;
-    color: whitesmoke;
-    align-items: center;
-    justify-content: center;
-    z-index: 100;
+  display: flex;
+  height: auto;
+  width: 98vw;
+  display: flex;
+  color: whitesmoke;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
 }
 @media only screen and (max-width: 720px) {
-    /* .footerBody {
+  /* .footerBody {
       display: flex;
       height: 95px;
       flex-direction: column-reverse;
@@ -18,12 +18,11 @@
 }
 @media only screen and (max-width: 800px) {
   .footerBody {
-      flex-direction: column-reverse;
+    flex-direction: column-reverse;
   }
 }
 @media only screen and (max-height: 400px) {
   .footerBody {
-      flex-direction: column-reverse;
+    flex-direction: column-reverse;
   }
 }
-  

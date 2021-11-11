@@ -1,49 +1,49 @@
 .video {
-    margin: 2%;
-    max-width: 45%;
-    height: auto;
+  margin: 2%;
+  max-width: 45%;
+  height: auto;
 }
 .video__title {
-    color: white;
-    width: 100%;
-    font-size: 22px;
-    font-weight: 600;
-    text-align: center;
-    margin-bottom: 20px;
+  color: white;
+  width: 100%;
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
 }
 .video__player {
-    max-width: 100%;
-    max-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 @media only screen and (max-width: 1100px) {
-    .video {
-        align-items: center;
-        justify-content: center;
-        max-width: 99%;
-    }
-    .video__player {
-        width: 100%;
-        height: 100%;
-    }
+  .video {
+    align-items: center;
+    justify-content: center;
+    max-width: 99%;
+  }
+  .video__player {
+    width: 100%;
+    height: 100%;
+  }
 }
 @media only screen and (max-width: 500px) {
-    .video {
-        width: 100%;
-        position: relative;
-        text-align: center;
-        color: white;
-    }
-    .video__title {
-        position: absolute;
-        left: 0px;
-        top: 17px;
-    }
+  .video {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .video__title {
+    position: absolute;
+    left: 0px;
+    top: 17px;
+  }
 }
 @media only screen and (max-height: 400px) {
-    .videos__video {
-        align-items: center;
-        justify-content: center;
-        max-width: 99%;
-        margin-bottom: 30px;
-    }
+  .videos__video {
+    align-items: center;
+    justify-content: center;
+    max-width: 99%;
+    margin-bottom: 30px;
+  }
 }

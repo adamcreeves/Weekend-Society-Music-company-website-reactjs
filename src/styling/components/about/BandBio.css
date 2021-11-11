@@ -1,26 +1,26 @@
 .bandBio {
-    width: 95%;
-    display: flex;
-    align-items: center;
-    margin: 3%;
-    color: white;
-    font-size: 23px;
+  width: 95%;
+  display: flex;
+  align-items: center;
+  margin: 3%;
+  color: white;
+  font-size: 23px;
 }
 @media only screen and (max-width: 750px) {
-    .bandBio {
-        flex-direction: column;
-    }
+  .bandBio {
+    flex-direction: column;
+  }
 }
 @media only screen and (max-width: 500px) {
-    .bandBio {
-        font-size: 20px;
-    }
-    .bandBio__text {
-        margin-bottom: 17px;
-    }
+  .bandBio {
+    font-size: 20px;
+  }
+  .bandBio__text {
+    margin-bottom: 17px;
+  }
 }
 @media only screen and (max-height: 400px) {
-    .bandBio {
-        flex-direction: column;
-    }
+  .bandBio {
+    flex-direction: column;
+  }
 }

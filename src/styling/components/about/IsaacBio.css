@@ -1,61 +1,61 @@
 .isaacBio {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    margin-top: 3%;
-    margin-bottom: 3%;
-    color: white;
-    font-size: 23px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  color: white;
+  font-size: 23px;
 }
 .isaacBio__image {
-    margin-left: 5%;
-    margin-right: 3%;
-    width: 40%;
+  margin-left: 5%;
+  margin-right: 3%;
+  width: 40%;
 }
 .isaacBio__column {
-    display: flex;
-    flex-direction: column;
-    margin-left: 3%;
-    margin-right: 5%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 3%;
+  margin-right: 5%;
 }
 .isaacBio__name {
-    font-size: 25px;
-    font-weight: 700;
-    margin-bottom: 10px;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 @media only screen and (max-width: 750px) {
-    .isaacBio {
-        flex-direction: column;
-    }
-    .isaacBio__image {
-        margin-top: 3%;
-        width: 90%;
-        margin-bottom: 5%;
-    }
-    .isaacBio__name {
-        text-align: center;
-    }
-    .isaacBio__text {
-        margin-bottom: 5%;
-    }
+  .isaacBio {
+    flex-direction: column;
+  }
+  .isaacBio__image {
+    margin-top: 3%;
+    width: 90%;
+    margin-bottom: 5%;
+  }
+  .isaacBio__name {
+    text-align: center;
+  }
+  .isaacBio__text {
+    margin-bottom: 5%;
+  }
 }
 @media only screen and (max-width: 500px) {
-    .isaacBio {
-        font-size: 20px;
-    }
-    .isaacBio__image {
-        margin-right: 5%;
-    }
-    .isaacBio__text {
-        margin-left: 5%;
-    }
+  .isaacBio {
+    font-size: 20px;
+  }
+  .isaacBio__image {
+    margin-right: 5%;
+  }
+  .isaacBio__text {
+    margin-left: 5%;
+  }
 }
 @media only screen and (max-height: 400px) {
-    .isaacBio {
-        flex-direction: column;
-    }
-    .isaacBio__image {
-        width: 86%;
-        margin-right: 7%;
-    }
+  .isaacBio {
+    flex-direction: column;
+  }
+  .isaacBio__image {
+    width: 86%;
+    margin-right: 7%;
+  }
 }

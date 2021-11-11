@@ -1,38 +1,36 @@
 .homePage {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
 }
 .homePage__header {
-    height: auto;
+  height: auto;
 }
 @media only screen and (max-width: 900px) {
-
 }
 @media only screen and (max-width: 1000px) {
-    
 }
 @media only screen and (max-width: 500px) {
-    .homePage__header {
-        margin-top: -10px;
-        margin-bottom: 1px;
-    }
-    .homePage__footer {
-        margin-top: 25px;
-        margin-bottom: 20px;
-        flex: 1;
-    }
+  .homePage__header {
+    margin-top: -10px;
+    margin-bottom: 1px;
+  }
+  .homePage__footer {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    flex: 1;
+  }
 }
 @media only screen and (max-height: 400px) {
-    .homePage__header {
-        margin-bottom: 1px;
-    }
-    .homePage__footer {
-        margin-top: 25px;
-        margin-bottom: 7px;
-    }
+  .homePage__header {
+    margin-bottom: 1px;
+  }
+  .homePage__footer {
+    margin-top: 25px;
+    margin-bottom: 7px;
+  }
 }
-@media only screen and (max-height: 750px) and (min-width: 1000px), (min-width: 1200px) {
-
+@media only screen and (max-height: 750px) and (min-width: 1000px),
+  (min-width: 1200px) {
 }

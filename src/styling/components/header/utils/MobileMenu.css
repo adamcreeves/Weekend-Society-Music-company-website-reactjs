@@ -1,29 +1,29 @@
 .mobileMenu {
-    display: none;
-    width: 100%;
+  display: none;
+  width: 100%;
 }
 .mobileMenu__link {
-    margin: 10px;
+  margin: 10px;
 }
 .mobileMenu__button {
-    color: white;
-    padding: 7px;
-    border: none;
-    cursor: pointer;
+  color: white;
+  padding: 7px;
+  border: none;
+  cursor: pointer;
 }
 .mobileMenu__buttonText {
-    color: whitesmoke;
-    font-size: 20px;
+  color: whitesmoke;
+  font-size: 20px;
 }
 @media only screen and (max-width: 950px) {
-    .mobileMenu {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-    }
-    .mobileMenu__buttonText {
-        font-size: 18px;
-        font-weight: 600;
-    }
+  .mobileMenu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .mobileMenu__buttonText {
+    font-size: 18px;
+    font-weight: 600;
+  }
 }

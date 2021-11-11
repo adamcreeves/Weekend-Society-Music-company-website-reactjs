@@ -1,18 +1,18 @@
-.sectionTitle { 
-    height: 35px;
-    margin-top: 8px;
-    margin-bottom: 8px;
+.sectionTitle {
+  height: 35px;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 .sectionTitle__text {
-    height: 100%;
-    width: 100%;
-    font-size: 30px;
-    color: white;
-    background: none;
-    text-decoration-line: underline;
+  height: 100%;
+  width: 100%;
+  font-size: 30px;
+  color: white;
+  background: none;
+  text-decoration-line: underline;
 }
 @media only screen and (max-width: 500px) {
-    .sectionTitle__text {
-        font-size: 23px;
-    }
+  .sectionTitle__text {
+    font-size: 23px;
+  }
 }

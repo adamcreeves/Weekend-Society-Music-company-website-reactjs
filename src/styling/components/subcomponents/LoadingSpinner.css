@@ -1,22 +1,22 @@
 .loadingSpinner {
-    display: flex;
-    justify-content: center;
-    margin-top: 175px;
-    margin-bottom: 300px;
+  display: flex;
+  justify-content: center;
+  margin-top: 175px;
+  margin-bottom: 300px;
 }
 @media only screen and (max-width: 800px) {
-    .loadingSpinner {
-        margin-top: 200px;
-        margin-bottom: 500px;
-    }
+  .loadingSpinner {
+    margin-top: 200px;
+    margin-bottom: 500px;
+  }
 }
 @media only screen and (max-width: 500px) {
-    .loadingSpinner {
-        margin-bottom: 400px;
-    }
+  .loadingSpinner {
+    margin-bottom: 400px;
+  }
 }
 @media only screen and (max-height: 400px) {
-    .loadingSpinner {
-        margin-top: 13px;
-    }
+  .loadingSpinner {
+    margin-top: 13px;
+  }
 }

@@ -1,37 +1,36 @@
 .footerButton {
-    height: 100px;
-    width: 20%;
-    color: whitesmoke;
-    background: none;
-    border-color: whitesmoke;
-    border-radius: 5px;
-    align-content: center;
-    justify-content: center;
-    margin-left: 3%;
-    margin-right: 3%;
-    cursor: pointer;
-    font-size: 20px;
-    font-weight: bold;
+  height: 100px;
+  width: 20%;
+  color: whitesmoke;
+  background: none;
+  border-color: whitesmoke;
+  border-radius: 5px;
+  align-content: center;
+  justify-content: center;
+  margin-left: 3%;
+  margin-right: 3%;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
 }
 .footerButton__text {
-    color: whitesmoke;
-    text-decoration: none;
+  color: whitesmoke;
+  text-decoration: none;
 }
 @media only screen and (max-width: 800px) {
-    .footerButton {
-      height: 60px;
-      width: 70%;
-      margin-top: 5px;
-      margin-bottom: 22px;
-    }
+  .footerButton {
+    height: 60px;
+    width: 70%;
+    margin-top: 5px;
+    margin-bottom: 22px;
+  }
 }
 @media only screen and (max-width: 720px) {
-    
 }
 @media only screen and (max-height: 400px) {
-    .footerButton {
-      height: 60px;
-      width: 55%;
-      margin: 12px;
-    }
+  .footerButton {
+    height: 60px;
+    width: 55%;
+    margin: 12px;
+  }
 }

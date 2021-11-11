@@ -1,27 +1,26 @@
-
 .videosBody {
-    width: 100%;
+  width: 100%;
 }
 .videosBody__row {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 @media only screen and (max-width: 1100px) {
-    .videosBody__row {
-        flex-direction: column;
-        width: 100%;
-    }
+  .videosBody__row {
+    flex-direction: column;
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 500px) {
-    .videosBody {
-        margin-bottom: 0px;
-    }
+  .videosBody {
+    margin-bottom: 0px;
+  }
 }
 @media only screen and (max-height: 400px) {
-    .videosBody__row {
-        flex-direction: column;
-    }
+  .videosBody__row {
+    flex-direction: column;
+  }
 }

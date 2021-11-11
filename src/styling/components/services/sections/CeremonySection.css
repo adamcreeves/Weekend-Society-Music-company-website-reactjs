@@ -1,14 +1,14 @@
 .ceremonySection {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 .ceremonySection__titleContainer {
-    text-align: center;
+  text-align: center;
 }
 .ceremonySection__details {
-    color: white;
-    margin-top: 4px;
-    margin-bottom: 4px;
-    font-size: 22px;
+  color: white;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  font-size: 22px;
 }

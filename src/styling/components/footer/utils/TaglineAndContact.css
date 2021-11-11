@@ -1,41 +1,40 @@
-
 .taglineAndContact {
-    font-size: 20px;
-    margin-left: 3%;
-    margin-right: 3%;
-    align-items: center;
-    display: flex;
-    width: 500px;
-    text-align: center;
-    flex-direction: column;
+  font-size: 20px;
+  margin-left: 3%;
+  margin-right: 3%;
+  align-items: center;
+  display: flex;
+  width: 500px;
+  text-align: center;
+  flex-direction: column;
 }
 .taglineAndContact__info {
-    margin: 5px;
+  margin: 5px;
 }
 .taglineAndContact__infoContact {
-    margin: 7px;
+  margin: 7px;
 }
 .taglineAndContact__infoClick {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 @media only screen and (max-width: 800px) {
-    .taglineAndContact {
-        font-size: 18px;
-        z-index: 200;
-        width: 100%;
-        margin-top: 10px;
-    }
-    .taglineAndContact__infoContact {
-        font-size: 19px
-    }
-    .taglineAndContact__info {
-        margin: 3px;
-    }
+  .taglineAndContact {
+    font-size: 18px;
+    z-index: 200;
+    width: 100%;
+    margin-top: 10px;
   }
+  .taglineAndContact__infoContact {
+    font-size: 19px;
+  }
+  .taglineAndContact__info {
+    margin: 3px;
+  }
+}
 @media only screen and (max-height: 400px) {
-    .taglineAndContact {
-        z-index: 100;
-        margin-top: 20px;
-    }
+  .taglineAndContact {
+    z-index: 100;
+    margin-top: 20px;
+  }
 }

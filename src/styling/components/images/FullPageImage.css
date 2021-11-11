@@ -1,10 +1,10 @@
 .fullPageImage {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
 }
 .fullPageImage__image {
-    width: 100%;
-    display: flex;
+  width: 100%;
+  display: flex;
 }

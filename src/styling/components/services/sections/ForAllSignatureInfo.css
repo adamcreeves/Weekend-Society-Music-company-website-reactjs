@@ -1,23 +1,23 @@
 .infoForAll {
-    width: 90%;
-    margin-left: 5%;
-    display: flex;
-    flex-direction: column;
+  width: 90%;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
 }
 .infoForAll__title {
-    font-size: 30px;
-    color: white;
-    /* text-align: center; */
-    text-decoration-line: underline;
+  font-size: 30px;
+  color: white;
+  /* text-align: center; */
+  text-decoration-line: underline;
 }
 .infoForAll__details {
-    color: white;
-    margin: 4px;
-    font-size: 22px;
+  color: white;
+  margin: 4px;
+  font-size: 22px;
 }
 @media only screen and (max-width: 500px) {
-    .infoForAll__title {
-        text-align: center;
-        font-size: 25px;
-    }
+  .infoForAll__title {
+    text-align: center;
+    font-size: 25px;
+  }
 }
