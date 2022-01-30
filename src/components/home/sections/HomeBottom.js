@@ -6,6 +6,7 @@ import WhatsOffered from "./WhatsOffered";
 import { c_0073 } from "../../../resources/ClassNames";
 import "../../../styling/components/home/sections/HomeBottom.css";
 import SongListButton from "./SongListButton";
+import ImageButton from "../utils/ImageButton";
 
 function HomeBottom() {
   return (
@@ -18,6 +19,7 @@ function HomeBottom() {
         alt2={alt_009}
       />
       <Pledge />
+      <ImageButton />
       <SongListButton />
     </div>
   );
