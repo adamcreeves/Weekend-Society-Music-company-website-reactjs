@@ -1,27 +1,26 @@
 import React from "react";
+import { int_03 } from "../../../resources/Integers";
+import { t_07, t_08 } from "../../../resources/Strings";
 
-function ImageButton() {
+function ImageButton({
+  href,
+  divStyle,
+  imgSrc,
+  imgWidth,
+  imgHeight,
+  imgAlt,
+  imgStyle,
+}) {
   return (
-    <a
-      target="_blank"
-      href="https://www.theknot.com/marketplace/redirect-2049269"
-      rel="noreferrer"
-    >
-      <div
-        style={{
-          display: "inline-block",
-          fontSize: "10px",
-          textAlign: "center",
-          margin: "20px",
-        }}
-      >
+    <a target={t_07} href={href} rel={t_08}>
+      <div style={divStyle}>
         <img
-          src="//s3.amazonaws.com/tkpro-assets/bow_2022/section_4_3.png"
-          width="90"
-          height="90"
-          alt="The Knot Best of Weddings - 2022 Pick"
-          border="0"
-          style={{ margin: 0, display: "block" }}
+          src={imgSrc}
+          width={imgWidth}
+          height={imgHeight}
+          alt={imgAlt}
+          border={int_03}
+          style={imgStyle}
         />
       </div>
     </a>

@@ -14,6 +14,8 @@ export const t_03 = "submit";
 export const t_04 = "large";
 export const t_05 = "TailSpin";
 export const t_06 = "#00BFFF";
+export const t_07 = "_blank";
+export const t_08 = "noreferrer";
 
 // links
 export const l_01 = "HOME";
@@ -52,6 +54,7 @@ export const alt_012 = "Bride and groom on dance floor";
 export const alt_013 = "The song list that the Weekend Society plays";
 export const alt_014 = "The Cocktail Groups page with prices";
 export const alt_015 = "Ceremony pricing page";
+export const alt_016 = "The Knot Best of Weddings - 2022 Pick";
 
 // sources
 export const src_001 = "/weekend_icon.png";
@@ -93,6 +96,9 @@ export const src_036 = "hello@weekendsocietymusic.com";
 export const src_037 = "/servicesReceptionImage2.png";
 export const src_038 = "/cocktailgroups2.png";
 export const src_039 = "/ceremonypricing.png";
+export const src_040 = "https://www.theknot.com/marketplace/redirect-2049269";
+export const src_041 =
+  "//s3.amazonaws.com/tkpro-assets/bow_2022/section_4_3.png";
 
 // strings
 export const s_001 = "";
