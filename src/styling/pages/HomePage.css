@@ -12,11 +12,16 @@
 @media only screen and (max-width: 1000px) {
 }
 @media only screen and (max-width: 500px) {
+  .homePage {
+    overflow-x: hidden;
+  }
   .homePage__header {
+    width: inherit;
     margin-top: -10px;
     margin-bottom: 1px;
   }
   .homePage__footer {
+    width: inherit;
     margin-top: 25px;
     margin-bottom: 20px;
     flex: 1;
