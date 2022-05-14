@@ -228,19 +228,20 @@ export const s_108 = `• Margarita - Keys, Upright Bass, Saxophone, Trumpet, & 
     Keys, Upright Bass, Saxophone, & Drums \n • Infante - Keys, Guitar, Upright Bass, Drums, & Male or 
     Female Vocalist \n • Night Crawler - Guitar, Upright Bass, Trumpet, Saxophone, & Drums`;
 export const s_109 = "Cocktail Hour (Blue Bossa)";
-export const s_110 = `The Weekend Society is a high energy dance band committed to making the best 
-    day of your life, the actual best day of your life, and will effortlessly take your event from 
-    dinner all the way through to the dance party. Based in Los Angeles, we offer not only a wealth 
-    of talent but also  a wide range of genres and band sizes to custom fit your special occasion. 
-    Our members bring their passion, joy, and love for live music, as well as years of experience 
-    sharing the stage with artists such as Gwen Stefani, Kanye West, John Legend, Jennifer Hudson, 
-    and Andy Grammer.`;
-export const s_111 = `To complement your reception, we bring along event lighting and a premium sound 
-    system in addition to MC services. A cocktail hour trio, quartet, or quintet can join your celebration 
+export const s_110 = `Congratulations! Not only are you a person of impeccable taste with a keen eye for 
+    quality, you’ve come to the right band! The Weekend Society is a high energy dance band who knows that 
+    you owe it to yourself to have the best day of your life, be the actual best day of your life. We are 
+    the band that will effortlessly take your event from dinner all the way through to the dance party. 
+    We offer not only a wealth of talent but also a wide range of genres and band sizes to custom fit your 
+    special occasion. Like us, you know that it’s live music that makes a great event, and our members 
+    bring passion, joy, and love for live music, as well as years of experience sharing the stage with 
+    artists such as Gwen Stefani, Kanye West, John Legend, Jennifer Hudson, and Andy Grammer.`;
+export const s_111 = `To rock your reception, we bring along event lighting and a premium sound system 
+    in addition to MC services. A cocktail hour trio, quartet, or quintet can join your epic celebration 
     and provide an ambient, jazzy background as you sip your favorite spirits. We also offer ceremony 
     musicians and love to travel. Book The Weekend today!`;
 export const s_112 = "Isaac Johnson, Owner";
 export const s_113 = `Born and raised in Los Angeles with a Bachelors in Music Performance, Isaac has 
     performed at countless weddings, private events, corporate and special celebrations. Isaac is an 
-    avid lover of cinema, enjoys making craft cocktails, and is absolutely in love with his 3 year 
+    avid lover of cinema, enjoys making craft cocktails, and is absolutely in love with his 4 year 
     old daughter.`;
