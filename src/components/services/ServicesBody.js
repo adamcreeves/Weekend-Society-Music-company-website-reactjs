@@ -14,8 +14,6 @@ import {
   c_0105,
   c_0106,
   c_0107,
-  c_0108,
-  c_0109,
   c_0110,
   c_0111,
   c_0112,
@@ -56,8 +54,6 @@ function ServicesBody() {
             mainSectionClass={c_0105}
             columnClass={c_0106}
             videoContainerClass={c_0107}
-            videoTitleClass={c_0108}
-            videoClass={c_0109}
           />
           <CeremonyBody
             sectionContainerClass={c_0099}

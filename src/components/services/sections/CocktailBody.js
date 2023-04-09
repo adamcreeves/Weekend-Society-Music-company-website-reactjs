@@ -1,5 +1,5 @@
 import React from "react";
-import ReactPlayer from "react-player";
+import { c_0032 } from "../../../resources/ClassNames";
 import {
   src_018,
   s_098,
@@ -10,7 +10,6 @@ import {
   s_106,
   s_107,
   s_108,
-  s_109,
 } from "../../../resources/Strings";
 import CocktailSection from "../subsections/CocktailSection";
 
@@ -21,8 +20,6 @@ function CocktailBody({
   mainSectionClass,
   columnClass,
   videoContainerClass,
-  videoTitleClass,
-  videoClass,
 }) {
   return (
     <div className={sectionContainerClass}>
@@ -35,8 +32,14 @@ function CocktailBody({
           <CocktailSection sectionTitle={s_107} details={s_108} />
         </div>
         <div className={videoContainerClass}>
-          <div className={videoTitleClass}>{s_109}</div>
-          <ReactPlayer className={videoClass} url={src_018} />
+          <iframe
+            className={c_0032}
+            src={src_018}
+            title="Cocktail video"
+            frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowfullscreen
+          />
         </div>
       </div>
     </div>
