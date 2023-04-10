@@ -10,6 +10,9 @@ import {
   s_106,
   s_107,
   s_108,
+  s_115,
+  s_116,
+  s_117,
 } from "../../../resources/Strings";
 import CocktailSection from "../subsections/CocktailSection";
 
@@ -35,9 +38,9 @@ function CocktailBody({
           <iframe
             className={c_0032}
             src={src_018}
-            title="Cocktail video"
-            frameborder="0"
-            allow="autoplay; fullscreen; picture-in-picture"
+            title={s_117}
+            frameborder={s_115}
+            allow={s_116}
             allowfullscreen
           />
         </div>

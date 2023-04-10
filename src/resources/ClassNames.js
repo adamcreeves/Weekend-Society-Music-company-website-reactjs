@@ -119,3 +119,5 @@ export const c_0118 = "contactBody__info2";
 export const c_0119 = "songListButton";
 export const c_0120 = "songListButton__text";
 export const c_0121 = "servicesBody__container2";
+export const c_0122 = "videosBody__row";
+export const c_0123 = "homeVideo__player";

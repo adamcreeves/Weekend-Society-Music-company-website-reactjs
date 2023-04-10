@@ -34,7 +34,7 @@ import {
   s_051,
 } from "../../resources/Strings";
 import Video from "./Video";
-import { c_0021 } from "../../resources/ClassNames";
+import { c_0021, c_0122 } from "../../resources/ClassNames";
 import "../../styling/components/videos/VideosBody.css";
 import LoadingSpinner from "../subcomponents/LoadingSpinner";
 import { int_02 } from "../../resources/Integers";
@@ -55,35 +55,35 @@ function VideosBody() {
         <LoadingSpinner isVisible={loaderVisible} />
       ) : (
         <div className={c_0021}>
-          <div className="videosBody__row">
+          <div className={c_0122}>
             <Video title={s_036} url={src_019} />
             <Video title={s_037} url={src_020} />
           </div>
-          <div className="videosBody__row">
+          <div className={c_0122}>
             <Video title={s_038} url={src_021} />
             <Video title={s_039} url={src_022} />
           </div>
-          <div className="videosBody__row">
+          <div className={c_0122}>
             <Video title={s_040} url={src_023} />
             <Video title={s_041} url={src_024} />
           </div>
-          <div className="videosBody__row">
+          <div className={c_0122}>
             <Video title={s_042} url={src_025} />
             <Video title={s_043} url={src_026} />
           </div>
-          <div className="videosBody__row">
+          <div className={c_0122}>
             <Video title={s_044} url={src_027} />
             <Video title={s_045} url={src_028} />
           </div>
-          <div className="videosBody__row">
+          <div className={c_0122}>
             <Video title={s_046} url={src_029} />
             <Video title={s_047} url={src_030} />
           </div>
-          <div className="videosBody__row">
+          <div className={c_0122}>
             <Video title={s_048} url={src_031} />
             <Video title={s_049} url={src_032} />
           </div>
-          <div className="videosBody__row">
+          <div className={c_0122}>
             <Video title={s_050} url={src_033} />
             <Video title={s_051} url={src_034} />
           </div>

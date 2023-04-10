@@ -245,3 +245,8 @@ export const s_113 = `Born and raised in Los Angeles with a Bachelors in Music P
     performed at countless weddings, private events, corporate and special celebrations. Isaac is an 
     avid lover of cinema, enjoys making craft cocktails, and is absolutely in love with his 4 year 
     old daughter.`;
+export const s_114 = "Our Song List";
+export const s_115 = "0";
+export const s_116 = "autoplay; fullscreen; picture-in-picture";
+export const s_117 = "Cocktail video";
+export const s_118 = "Default video title";
